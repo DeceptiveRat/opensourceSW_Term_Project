@@ -1,0 +1,1451 @@
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.67.15.14	Dest: 192.168.0.23 )
+	( Type: 6	ID: 27795	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 56210 }
+		{ Seq #: 1243365366	Ack #: 1774203426 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 89 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 89 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 172 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 210.220.163.82	Dest: 192.168.0.23 )
+	( Type: 17	ID: 400	Length: 158 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 53	Dest Port: 50878 }
+		{ Length: 138	Checksum: 49600 }
+			130 bytes of packet data
+9d 4b 81 80 00 01 00 03 00 00 00 01 07 70 6c  | ,K ,,,,,,,,,,,p l 
+75 67 69 6e 73 06 6e 65 73 73 75 73 03 6f 72  | u g i n s ,n e s s u s ,o r 
+67 00 00 01 00 01 c0 0c 00 05 00 01 00 00 01  | g ,,,,,,,,,,,,,,
+2c 00 27 07 70 6c 75 67 69 6e 73 06 6e 65 73  | , ,' ,p l u g i n s ,n e s 
+73 75 73 03 6f 72 67 03 63 64 6e 0a 63 6c 6f  | s u s ,o r g ,c d n ,c l o 
+75 64 66 6c 61 72 65 03 6e 65 74 00 c0 30 00  | u d f l a r e ,n e t ,,0 ,
+01 00 01 00 00 01 2c 00 04 68 12 25 fb c0 30  | ,,,,,,, ,,h ,% ,,0 
+00 01 00 01 00 00 01 2c 00 04 ac 40 96 05 00  | ,,,,,,,, ,,,@ ,,,
+00 29 10 00 00 00 00 00 00 00 00              | ,) ,,,,,,,,,
+
+==== Got a 196 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 210.220.163.82	Dest: 192.168.0.23 )
+	( Type: 17	ID: 6480	Length: 182 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 53	Dest Port: 43238 }
+		{ Length: 162	Checksum: 49239 }
+			154 bytes of packet data
+60 df 81 80 00 01 00 03 00 00 00 01 07 70 6c  | ` ,,,,,,,,,,,,p l 
+75 67 69 6e 73 06 6e 65 73 73 75 73 03 6f 72  | u g i n s ,n e s s u s ,o r 
+67 00 00 1c 00 01 c0 0c 00 05 00 01 00 00 01  | g ,,,,,,,,,,,,,,
+2c 00 27 07 70 6c 75 67 69 6e 73 06 6e 65 73  | , ,' ,p l u g i n s ,n e s 
+73 75 73 03 6f 72 67 03 63 64 6e 0a 63 6c 6f  | s u s ,o r g ,c d n ,c l o 
+75 64 66 6c 61 72 65 03 6e 65 74 00 c0 30 00  | u d f l a r e ,n e t ,,0 ,
+1c 00 01 00 00 01 2c 00 10 26 06 47 00 44 00  | ,,,,,,, ,,& ,G ,D ,
+00 00 00 00 00 00 ac 40 96 05 c0 30 00 1c 00  | ,,,,,,,@ ,,,0 ,,,
+01 00 00 01 2c 00 10 26 06 47 00 44 00 00 00  | ,,,,, ,,& ,G ,D ,,,
+00 00 00 00 68 12 25 fb 00 00 29 10 00 00 00  | ,,,,h ,% ,,,) ,,,,
+00 00 00 00 00                                | ,,,,,
+
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 74 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 0	Length: 60 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27913617	Ack #: 620418658 }
+		{ Header Size: 40	Flags: SYN ACK  }
+			No Packet Data
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 583 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 91 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8729	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27913618	Ack #: 620419175 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 141 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 210.220.163.82	Dest: 192.168.0.23 )
+	( Type: 17	ID: 29803	Length: 127 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 53	Dest Port: 40938 }
+		{ Length: 107	Checksum: 28097 }
+			99 bytes of packet data
+35 b8 81 80 00 01 00 00 00 01 00 01 07 63 6c  | 5 ,,,,,,,,,,,,c l 
+69 65 6e 74 73 01 6c 06 67 6f 6f 67 6c 65 03  | i e n t s ,l ,g o o g l e ,
+63 6f 6d 00 00 41 00 01 c0 14 00 06 00 01 00  | c o m ,,A ,,,,,,,,,
+00 00 3c 00 26 03 6e 73 31 c0 16 09 64 6e 73  | ,,< ,& ,n s 1 ,,,d n s 
+2d 61 64 6d 69 6e c0 16 29 6a 15 d5 00 00 03  | - a d m i n ,,) j ,,,,,
+84 00 00 03 84 00 00 07 08 00 00 00 3c 00 00  | ,,,,,,,,,,,,< ,,
+29 10 00 00 00 00 00 00 00 00                 | ) ,,,,,,,,,
+
+==== Got a 1292 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1292 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 122 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1514 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8730	Length: 1500 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27913618	Ack #: 620419175 }
+		{ Header Size: 32	Flags: ACK  }
+			1448 bytes of packet data
+16 03 03 00 7a 02 00 00 76 03 03 5f 06 54 c3  | ,,,,z ,,,v ,,_ ,T ,
+4e b8 4a 52 ee 99 0b a5 e3 1f aa fc 29 ee 9f  | N ,J R ,,,,,,,,) ,,
+bb 5d 1b f2 68 f6 46 14 3a b1 ad 27 37 20 f7  | ,] ,,h ,F ,: ,,' 7   ,
+2c 00 0d fe 5e df 54 b8 0b 0d 67 7a 88 3a f3  | , ,,,^ ,T ,,,g z ,: ,
+bf 05 3c 5a 00 31 b0 4d b7 ba fc 97 1e 6d 88  | ,,< Z ,1 ,M ,,,,,m ,
+8c 13 02 00 00 2e 00 33 00 24 00 1d 00 20 9a  | ,,,,,. ,3 ,$ ,,,  ,
+cf df 09 88 3b 7c c9 05 e9 52 82 b1 e4 ba bc  | ,,,,; | ,,,R ,,,,,
+e7 fa a2 2d 2a 5b 64 a1 db 27 14 5f f4 d4 e2  | ,,,- * [ d ,,' ,_ ,,,
+5c 00 2b 00 02 03 04 14 03 03 00 01 01 17 03  | \ ,+ ,,,,,,,,,,,,
+03 0b 38 51 6d 07 60 25 b2 18 d5 1d e3 96 34  | ,,8 Q m ,` % ,,,,,,4 
+d4 e9 c1 47 c4 04 a5 d7 e8 1a 6d 8b ad 6d b3  | ,,,G ,,,,,,m ,,m ,
+9b 31 a1 2d 3d 43 f5 b5 80 3f 2a b4 6e 0d cb  | ,1 ,- = C ,,,? * ,n ,,
+5e e8 a3 99 c9 e5 1c cc 75 e3 86 91 63 81 7a  | ^ ,,,,,,,u ,,,c ,z 
+de 44 2e 19 3c d7 3c 95 6e 8f 5d a4 0b 0d b5  | ,D . ,< ,< ,n ,] ,,,,
+ca 7e 83 89 6d 7e 17 3d ff 53 94 35 3c 8f 37  | ,~ ,,m ~ ,= ,S ,5 < ,7 
+5a 5e cf 2b ac da e1 b3 18 13 22 06 1e b9 07  | Z ^ ,+ ,,,,,," ,,,,
+ff d5 02 5f ec 29 ea 20 f7 57 ad 4e 27 b4 9e  | ,,,_ ,) ,  ,W ,N ' ,,
+b6 d1 35 7e 5e ea 35 35 db a3 18 cb 8a dd fd  | ,,5 ~ ^ ,5 5 ,,,,,,,
+46 5e 74 a6 33 1d da 28 6b 66 9d e5 00 82 6c  | F ^ t ,3 ,,( k f ,,,,l 
+61 eb e0 8e 35 d2 c2 03 b9 b9 7d 4a 08 83 09  | a ,,,5 ,,,,,} J ,,,
+39 f8 b0 7e 87 09 11 08 b1 0e ee 56 56 5e 63  | 9 ,,~ ,,,,,,,V V ^ c 
+60 d4 f3 4b e0 85 9c 7f 60 f6 b6 39 8e 74 98  | ` ,,K ,,,,` ,,9 ,t ,
+4e c8 07 d6 d2 a2 85 80 c3 a3 de 6e f2 25 ff  | N ,,,,,,,,,,n ,% ,
+c2 24 94 b1 e0 97 34 cf 24 bb f2 71 03 87 95  | ,$ ,,,,4 ,$ ,,q ,,,
+29 aa b4 0e d9 97 f6 82 b2 8c f2 16 5e b0 51  | ) ,,,,,,,,,,,^ ,Q 
+34 eb ee d3 8c 32 1d b7 30 2b db f3 6f 8b 88  | 4 ,,,,2 ,,0 + ,,o ,,
+9c b6 c3 03 22 61 80 20 52 6d f9 54 4f d9 0d  | ,,,," a ,  R m ,T O ,,
+02 b0 b6 aa 4f d9 1d c6 a1 c9 b4 e5 e3 ef 7a  | ,,,,O ,,,,,,,,,z 
+27 67 ed 0d 22 d1 bd 05 e8 d4 61 ce 28 2a 31  | ' g ,," ,,,,,a ,( * 1 
+af be d1 ea 3e f6 92 80 ee 83 31 a4 79 bb d9  | ,,,,> ,,,,,1 ,y ,,
+ee 7b 49 18 60 94 71 82 64 bf f2 82 3b f0 1e  | ,{ I ,` ,q ,d ,,,; ,,
+64 4c 80 be b1 50 a8 12 fd e9 0e 22 53 7b 03  | d L ,,,P ,,,,," S { ,
+c5 8c 27 72 78 a6 7b 03 0d 4b e6 c3 01 5e c5  | ,,' r x ,{ ,,K ,,,^ ,
+d2 32 67 03 66 98 e2 65 98 76 68 96 b4 1d 53  | ,2 g ,f ,,e ,v h ,,,S 
+d7 88 64 00 95 2c bd 38 b9 57 c3 58 7f 27 44  | ,,d ,,, ,8 ,W ,X ,' D 
+ec 75 88 d4 23 64 51 22 34 51 e5 20 df e2 7c  | ,u ,,# d Q " 4 Q ,  ,,| 
+73 1c 81 51 fc 78 53 c7 4d 18 57 19 fe 3b 4e  | s ,,Q ,x S ,M ,W ,,; N 
+a9 ce 11 96 29 b2 b5 30 17 7b b8 5d 91 e5 d6  | ,,,,) ,,0 ,{ ,] ,,,
+0d 6c 54 6f da f3 12 cf 83 be 26 91 d2 cd a0  | ,l T o ,,,,,,& ,,,,
+24 07 c2 3c 30 e2 d7 c8 33 ab d9 d4 68 c8 7c  | $ ,,< 0 ,,,3 ,,,h ,| 
+fe 2c e7 18 89 77 d3 35 dd 10 b4 89 ef 6b 42  | ,, ,,,w ,5 ,,,,,k B 
+33 22 03 44 ed ed 09 e7 77 1c 11 7b 8a bb bd  | 3 " ,D ,,,,w ,,{ ,,,
+31 e3 61 e9 35 5e 5a 2a 56 33 da c2 47 a8 a2  | 1 ,a ,5 ^ Z * V 3 ,,G ,,
+43 ae 32 8c 12 1d 32 77 7f 65 b8 a9 97 d5 df  | C ,2 ,,,2 w ,e ,,,,,
+f4 21 3a 62 33 05 da b3 2d 32 64 03 29 0e e2  | ,! : b 3 ,,,- 2 d ,) ,,
+c5 ce 7b e2 aa 45 32 53 40 0e 99 fe 51 29 fd  | ,,{ ,,E 2 S @ ,,,Q ) ,
+c6 a7 04 2e 8d eb c5 60 f5 9e 84 5b 33 2c bd  | ,,,. ,,,` ,,,[ 3 , ,
+79 25 66 04 ae a2 d3 51 98 0a 2f 1e 7e 13 0f  | y % f ,,,,Q ,,/ ,~ ,,
+08 df 09 8e 51 dd 04 86 18 77 2f af 9e cb 00  | ,,,,Q ,,,,w / ,,,,
+a2 46 21 5a dc 32 6d 07 7d b5 a3 5e 53 43 f4  | ,F ! Z ,2 m ,} ,,^ S C ,
+7f 79 a0 a4 10 f6 40 05 4f f1 ff ab 90 0e f4  | ,y ,,,,@ ,O ,,,,,,
+c7 fc 1c 6e 44 12 f3 2d 3a 44 06 95 50 85 28  | ,,,n D ,,- : D ,,P ,( 
+3f d7 37 13 99 07 bf e2 ba 7e 84 4b dc 6e 3f  | ? ,7 ,,,,,,~ ,K ,n ? 
+ca 45 b0 dc c7 1d be ac 1b 93 de 2e b3 51 9a  | ,E ,,,,,,,,,. ,Q ,
+8c 27 77 7e 66 d7 88 ad 5e 84 1e da f2 f9 f4  | ,' w ~ f ,,,^ ,,,,,,
+82 d3 c6 49 30 fc f6 fb 25 90 d1 c5 68 4b 05  | ,,,I 0 ,,,% ,,,h K ,
+71 64 99 14 8b b7 cb f8 56 4a 10 2c ed bd d0  | q d ,,,,,,V J ,, ,,,
+42 8f 06 4c df cc 6a 99 3f d0 c1 69 a3 dc 82  | B ,,L ,,j ,? ,,i ,,,
+63 7b c4 b1 40 31 fb ea ef 31 64 69 2f 08 17  | c { ,,@ 1 ,,,1 d i / ,,
+9f 4c d4 ee 9d f3 b2 74 55 73 e1 68 ef 07 4b  | ,L ,,,,,t U s ,h ,,K 
+09 b3 c0 0e 6e 94 66 97 47 3d b8 aa 7d d8 fb  | ,,,,n ,f ,G = ,,} ,,
+f5 12 78 a3 71 76 ea 61 dc 23 49 9b b5 a9 82  | ,,x ,q v ,a ,# I ,,,,
+39 5d 3d 3b a1 78 29 49 fd 2f 33 07 95 28 51  | 9 ] = ; ,x ) I ,/ 3 ,,( Q 
+fd b6 50 4f 17 00 7d 39 d5 71 ef 85 d6 b8 62  | ,,P O ,,} 9 ,q ,,,,b 
+03 be d0 11 1a 82 38 47 55 19 05 d3 c8 22 bb  | ,,,,,,8 G U ,,,," ,
+75 d8 d8 be ee 26 69 4c 3f 53 ec ee bb ec 1b  | u ,,,,& i L ? S ,,,,,
+e8 05 9d 96 2b 7c f6 92 e3 99 53 79 29 8d c7  | ,,,,+ | ,,,,S y ) ,,
+13 ad f3 8d 56 21 8e 77 f8 6e 5f 21 13 f7 55  | ,,,,V ! ,w ,n _ ! ,,U 
+00 4b 2d 66 45 cd f7 87 6b df 7a 64 5d 91 e9  | ,K - f E ,,,k ,z d ] ,,
+41 a3 bc 96 2b 01 bd a5 9b 88 e4 66 05 6f 19  | A ,,,+ ,,,,,,f ,o ,
+4c f7 85 d2 0d 43 cd 28 7a c8 1d c1 1a c1 60  | L ,,,,C ,( z ,,,,,` 
+88 dc 28 7f 86 e8 d2 3c 0c 88 6c fd 60 b4 9a  | ,,( ,,,,< ,,l ,` ,,
+e5 4f be 58 9e 6c a0 d7 b4 a4 eb 2d 90 36 aa  | ,O ,X ,l ,,,,,- ,6 ,
+0f 18 d6 28 fe 0b 14 b9 0a 31 79 ec ed 3d 4d  | ,,,( ,,,,,1 y ,,= M 
+02 3c 9f c5 26 ba 53 97 e6 eb 34 6a a9 a0 71  | ,< ,,& ,S ,,,4 j ,,q 
+72 85 9d 5f 3b af 53 ac 20 ef 7c 33 d1 3e d1  | r ,,_ ; ,S ,  ,| 3 ,> ,
+be cf 11 e6 80 b0 16 07 41 e3 4e 62 1f c1 77  | ,,,,,,,,A ,N b ,,w 
+6a f7 38 cd cb 60 a1 cd b4 f7 9d 34 a2 ec c0  | j ,8 ,,` ,,,,,4 ,,,
+60 bb 15 c6 19 fd 8b e8 c4 5d 92 0b 7a e5 7c  | ` ,,,,,,,,] ,,z ,| 
+37 bb 2c 4c c4 31 e2 4e 4c 4d cc aa 03 fc 04  | 7 ,, L ,1 ,N L M ,,,,,
+a2 d9 b7 b5 b9 4b e5 d0 c6 be 9f 33 af ea b2  | ,,,,,K ,,,,,3 ,,,
+7a c7 78 99 b9 64 ee bc b6 ad 33 47 64 4a 95  | z ,x ,,d ,,,,3 G d J ,
+ae 6d ab 41 b9 68 33 78 66 3c db 2a dd b9 c3  | ,m ,A ,h 3 x f < ,* ,,,
+e8 24 c9 9e 37 1d 77 c6 57 5f 19 94 a4 06 f9  | ,$ ,,7 ,w ,W _ ,,,,,
+13 38 0e 3f 80 dd 84 6d 8e d3 0c f3 d9 50 07  | ,8 ,? ,,,m ,,,,,P ,
+1e de 0b 27 de ab 16 ba a2 0c c5 e8 a7 72 95  | ,,,' ,,,,,,,,,r ,
+4e f2 4c b7 f1 b3 b4 73 fc da 6f 26 84 48 e2  | N ,L ,,,,s ,,o & ,H ,
+cd f7 57 84 c0 e4 4e 76 54 81 a7 0d d2 eb c6  | ,,W ,,,N v T ,,,,,,
+47 ef 64 9a e6 04 c5 e8 6d f8 b7 ed 0c d3 52  | G ,d ,,,,,m ,,,,,R 
+e5 41 03 32 2c d9 55 88 23 f3 20 a6 6c b6 8e  | ,A ,2 , ,U ,# ,  ,l ,,
+2f c4 be c5 a2 2e 32 30 0e 9e fe 46 9c e8 1f  | / ,,,,. 2 0 ,,,F ,,,
+29 96 6b 6b 26 75 ec 96 cc 7a 7c 31 e6 2c 63  | ) ,k k & u ,,,z | 1 ,, c 
+6d 66 20 8f 54 a8 33 6d 6e c3 c7 e9 25 65 4a  | m f   ,T ,3 m n ,,,% e J 
+2f b0 13 3c 6a e1 76 4a 18 3d 35 c7 9f a1 74  | / ,,< j ,v J ,= 5 ,,,t 
+22 7c e4 ef 47 ba 27 27 b2 9c 21 ad 50 8a 4f  | " | ,,G ,' ' ,,! ,P ,O 
+2b 1c b2 d9 8d 1b ca be 71 b5 c6 21 d8 ea 3b  | + ,,,,,,,q ,,! ,,; 
+3c c5 78 20 b2 92 9b 2a 98                    | < ,x   ,,,* ,
+
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 1628 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 146 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 82 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 68 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 48	Checksum: 65138 }
+			40 bytes of packet data
+cf 00 00 00 01 00 08 ed c2 7d dd 6a 9a 79 e2  | ,,,,,,,,,} ,j ,y ,
+00 40 16 ba 87 f1 d6 4c e1 35 dd c8 28 c8 80  | ,@ ,,,,,L ,5 ,,( ,,
+78 4c 39 a2 b3 e3 22 4e 6c f9 00              | x L 9 ,,," N l ,,
+
+==== Got a 1292 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 1258	Checksum: 40710 }
+			1250 bytes of packet data
+cb 00 00 00 01 00 08 ed c2 7d dd 6a 9a 79 e2  | ,,,,,,,,,} ,j ,y ,
+00 44 d0 01 7a 72 c6 bf 53 74 cf f1 74 c9 26  | ,D ,,z r ,,S t ,,t ,& 
+58 9c 52 07 27 c4 23 e2 f0 41 9c a1 5a 6e bd  | X ,R ,' ,# ,,A ,,Z n ,
+37 ad 59 83 ae c5 cd 3b 2c a6 c1 0c a1 28 85  | 7 ,Y ,,,,; , ,,,,( ,
+79 ee af 3c 94 e1 df e7 0b 9d a1 30 50 ae 82  | y ,,< ,,,,,,,0 P ,,
+20 fc 2a d5 c7 f0 1f 5c 69 f8 62 f5 9c b6 08  |   ,* ,,,,\ i ,b ,,,,
+9a 4b 38 50 9d 3f 2e 7b 13 6f 2a ca 0a 07 6b  | ,K 8 P ,? . { ,o * ,,,k 
+83 1b 93 97 37 72 11 01 8a 6d d2 54 79 fc 61  | ,,,,7 r ,,,m ,T y ,a 
+4f 76 87 e2 1b 88 f5 61 16 ec 12 be ef 32 f8  | O v ,,,,,a ,,,,,2 ,
+9c fb 41 9f 3c 80 ad 18 e2 fa 9e 7e e6 97 6f  | ,,A ,< ,,,,,,~ ,,o 
+86 d6 23 d2 f1 b1 d0 ff bb ad df 00 0a a7 58  | ,,# ,,,,,,,,,,,X 
+58 e3 4d 84 6a 11 b2 15 a4 57 31 8e 06 ba 25  | X ,M ,j ,,,,W 1 ,,,% 
+41 1c c8 af b8 54 c4 34 54 6a 3c cf b2 c2 2e  | A ,,,,T ,4 T j < ,,,. 
+c8 9f 96 19 8a 11 f3 e5 39 5f 8d d2 54 45 59  | ,,,,,,,,9 _ ,,T E Y 
+4b ac 2b 70 ef f6 2e 83 ce 37 50 b8 75 48 8e  | K ,+ p ,,. ,,7 P ,u H ,
+f0 e7 be a2 70 4b 92 df 56 e5 d4 93 73 bd 18  | ,,,,p K ,,V ,,,s ,,
+5e 63 06 03 ce 45 91 9c 14 ad 16 3c 9e 98 67  | ^ c ,,,E ,,,,,< ,,g 
+46 c6 97 15 f0 1f 12 7f c6 3e 90 cb da 4b 7b  | F ,,,,,,,,> ,,,K { 
+bc d7 0a e8 4d 9a 9a a9 22 3c 0e 4e 8c 34 ba  | ,,,,M ,,," < ,N ,4 ,
+fc e4 f4 45 f2 61 43 45 b3 e0 2d 90 01 f5 78  | ,,,E ,a C E ,,- ,,,x 
+92 30 75 14 90 01 88 68 5d 4b 7b f1 a3 69 94  | ,0 u ,,,,h ] K { ,,i ,
+60 e7 b9 dd f4 54 0f f1 67 d9 6e b1 cb a9 7a  | ` ,,,,T ,,g ,n ,,,z 
+49 56 2e 91 cc 05 f7 9b c7 c5 bc e5 75 12 03  | I V . ,,,,,,,,,u ,,
+48 24 92 42 f5 ac 76 f5 ac 1d 88 4c 72 f8 cb  | H $ ,B ,,v ,,,,L r ,,
+3b 23 ce 51 cf 64 35 1f 14 8c ff d7 0b 9d 0a  | ; # ,Q ,d 5 ,,,,,,,,
+b9 c1 eb cd ef 34 08 4d 0f 94 1e ed d6 49 82  | ,,,,,4 ,M ,,,,,I ,
+53 c1 0c e2 a6 4c a4 c9 9f bb 74 23 1d 5b 6f  | S ,,,,L ,,,,t # ,[ o 
+ae b4 74 47 2a cc cd e6 20 d8 bd d4 4c 53 19  | ,,t G * ,,,  ,,,L S ,
+16 94 89 03 08 36 69 9f 35 a9 81 86 c5 e2 7f  | ,,,,,6 i ,5 ,,,,,,
+a8 b6 96 8e 2e cb ca cf 0c d0 10 6c 5b 18 7a  | ,,,,. ,,,,,,l [ ,z 
+dc 75 1f 77 f0 97 4a ec d8 4a c6 8b 68 89 50  | ,u ,w ,,J ,,J ,,h ,P 
+93 11 5b 36 7d 28 1a 50 ca a1 df 8b 30 62 56  | ,,[ 6 } ( ,P ,,,,0 b V 
+03 c7 25 8a d1 c6 05 fa 16 7b 42 18 0d 96 6e  | ,,% ,,,,,,{ B ,,,n 
+91 bc b5 9a ba 33 d0 b8 b4 d5 7e 0c 2d 11 c3  | ,,,,,3 ,,,,~ ,- ,,
+e5 48 8d 50 06 50 ad 14 ee 80 58 fd cf ec 07  | ,H ,P ,P ,,,,X ,,,,
+60 81 28 8c 4e 82 79 7a 30 f6 b7 f0 bd a8 ee  | ` ,( ,N ,y z 0 ,,,,,,
+8a 63 76 ba f8 1a 84 da 7f e9 c3 57 ea b6 35  | ,c v ,,,,,,,,W ,,5 
+04 ae 73 4f d6 7a e7 ae 81 6b 5f 91 5f 06 1c  | ,,s O ,z ,,,k _ ,_ ,,
+86 b1 a1 03 3d 95 d9 71 5e 69 22 ff c3 82 c8  | ,,,,= ,,q ^ i " ,,,,
+95 f0 b9 52 69 8e 57 42 80 3d 56 0e ac c2 ef  | ,,,R i ,W B ,= V ,,,,
+84 cd 87 8b 13 4e ae e9 b5 bd 7f 56 a6 d8 7b  | ,,,,,N ,,,,,V ,,{ 
+02 74 53 70 a2 91 de 81 83 60 e8 1d 92 e9 15  | ,t S p ,,,,,` ,,,,,
+38 95 16 d6 04 d4 91 d4 25 3b ec ef 02 1e 0a  | 8 ,,,,,,,% ; ,,,,,
+69 55 bd 79 5e 4f b9 5a 56 c2 75 cc 0d 14 dc  | i U ,y ^ O ,Z V ,u ,,,,
+41 33 bb 41 7d e6 3a df 83 2a 53 55 5a e7 c8  | A 3 ,A } ,: ,,* S U Z ,,
+73 87 d1 5e fb 5f 37 cf 47 b5 8b a4 72 70 9a  | s ,,^ ,_ 7 ,G ,,,r p ,
+6c e2 a3 2f 40 d0 bb 6d 31 d2 94 a8 e9 a7 4f  | l ,,/ @ ,,m 1 ,,,,,O 
+6a b3 57 36 80 4b 7c 0e 57 f9 29 34 f0 b3 8a  | j ,W 6 ,K | ,W ,) 4 ,,,
+f2 d7 b1 39 94 53 e9 28 2e c1 29 e7 04 f2 2f  | ,,,9 ,S ,( . ,) ,,,/ 
+dc c8 71 54 5a d6 70 e5 2a 27 c6 8d 3a 59 46  | ,,q T Z ,p ,* ' ,,: Y F 
+96 38 10 97 2c ae 1a 86 99 ec 4d 12 95 fd f7  | ,8 ,,, ,,,,,M ,,,,
+da 17 ea 36 02 76 30 e3 47 cc c0 e2 4e d9 77  | ,,,6 ,v 0 ,G ,,,N ,w 
+ec d3 da ee a5 3b 01 1f 8a 3b 54 86 8f ae 13  | ,,,,,; ,,,; T ,,,,
+7a 5d 68 67 18 8d 70 4f 84 69 4a 11 24 5c a5  | z ] h g ,,p O ,i J ,$ \ ,
+a4 38 86 52 29 f0 38 12 d1 1e 8b b6 04 fa af  | ,8 ,R ) ,8 ,,,,,,,,
+7e d6 ea 93 ff 0e 14 33 70 4d fc 24 a6 71 cb  | ~ ,,,,,,3 p M ,$ ,q ,
+71 18 a1 83 af db b6 d6 fc 28 5b 93 11 2c 45  | q ,,,,,,,,( [ ,,, E 
+36 82 18 af 64 3e 8e 21 d8 be 62 c9 e3 5e 39  | 6 ,,,d > ,! ,,b ,,^ 9 
+f9 bd c6 40 ff a1 50 ff 65 f6 37 b9 8b 53 45  | ,,,@ ,,P ,e ,7 ,,S E 
+cf 28 1c 1c c0 af f9 75 88 3d f4 d8 a4 c1 9a  | ,( ,,,,,u ,= ,,,,,
+40 1a 6f b6 fb 4b b1 18 6a 9b 2c 5d f4 03 c4  | @ ,o ,,K ,,j ,, ] ,,,
+b7 98 42 0a 5f c7 02 47 20 da 46 d1 c8 c7 c8  | ,,B ,_ ,,G   ,F ,,,,
+a2 a6 6f 43 2c 11 6c 9b a4 5a 34 4b 48 40 67  | ,,o C , ,l ,,Z 4 K H @ g 
+e2 51 dd f5 86 ac ef c2 3d 99 8a 78 ae 50 09  | ,Q ,,,,,,= ,,x ,P ,
+70 08 5f 34 8d d7 8a 50 90 2c 33 c6 fb 5a a7  | p ,_ 4 ,,,P ,, 3 ,,Z ,
+a5 43 99 52 f2 d2 a6 01 1c f4 9f 91 00 cd 02  | ,C ,R ,,,,,,,,,,,
+96 c3 2d 8c 2e 6b 3c de da 6b 3f f7 a1 b7 2d  | ,,- ,. k < ,,k ? ,,,- 
+fb 67 fa cf 3b dc 77 d9 a2 e5 b5 a7 1d 8d 30  | ,g ,,; ,w ,,,,,,,0 
+e9 61 f6 1c b3 dc 2f 1d 80 1a 56 27 cd cc 54  | ,a ,,,,/ ,,,V ' ,,T 
+7b 75 ad 75 07 c6 6c 30 16 30 b4 2c bd a5 b1  | { u ,u ,,l 0 ,0 ,, ,,,
+ab 92 f8 ec de bb ae 18 44 56 09 6a 71 46 f6  | ,,,,,,,,D V ,j q F ,
+be f1 f0 b3 4a 8c c5 7b a4 a1 5e 70 f0 d5 2f  | ,,,,J ,,{ ,,^ p ,,/ 
+6a be 6a 83 c5 68 b5 0c 2b 91 5f 87 14 f6 9a  | j ,j ,,h ,,+ ,_ ,,,,
+e6 80 ba 0f 71 cb 2c 80 e5 07 b2 f5 2b c1 fb  | ,,,,q ,, ,,,,,+ ,,
+33 25 13 90 bc a1 ae cd 2b 52 d2 2f 3b 46 d2  | 3 % ,,,,,,+ R ,/ ; F ,
+58 f8 2c 0b ba 86 88 7a d4 59 e2 b0 31 e4 dc  | X ,, ,,,,z ,Y ,,1 ,,
+f5 2d dc 06 05 95 3b 09 23 bb a1 42 62 f8 ba  | ,- ,,,,; ,# ,,B b ,,
+34 b7 7f a9 33 32 02 46 1e 75 78 4e 8e 2d 15  | 4 ,,,3 2 ,F ,u x N ,- ,
+f8 ac 35 09 be b7 e4 a6 cb 66 bf 56 27 c0 22  | ,,5 ,,,,,,f ,V ' ," 
+16 7c c2 61 2f d5 7d 99 73 2f f0 e7 53 16 6a  | ,| ,a / ,} ,s / ,,S ,j 
+b6 6a 65 24 ef 7e 82 ad e7 ce 40 d1 58 b1 01  | ,j e $ ,~ ,,,,@ ,X ,,
+4e 9e 6b f4 a1 82 e8 15 b2 13 55 ab 8d 33 57  | N ,k ,,,,,,,U ,,3 W 
+ce 48 8e 5d b3 fd 84 84 51 61 dd 7c 41 e1 49  | ,H ,] ,,,,Q a ,| A ,I 
+43 59 3b fb c4 00                             | C Y ; ,,,
+
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8733	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27916628	Ack #: 620419255 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 341 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8734	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27916628	Ack #: 620419530 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 1292 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 1258	Checksum: 64560 }
+			1250 bytes of packet data
+cf 00 00 00 01 00 08 ed c2 7d dd 6a 9a 79 e2  | ,,,,,,,,,} ,j ,y ,
+00 44 d0 f9 14 77 1b a3 89 67 65 5c 20 8f 9b  | ,D ,,,w ,,,g e \   ,,
+2e 43 12 08 aa c6 aa 5c 21 70 93 1a 52 97 61  | . C ,,,,,\ ! p ,,R ,a 
+0d d6 43 a3 3e 7a be 27 a1 59 d2 e0 09 e7 a8  | ,,C ,> z ,' ,Y ,,,,,
+2e a3 80 8b 6c 8a 4c 84 8e ef 80 9b ae 70 88  | . ,,,l ,L ,,,,,,p ,
+b0 b3 51 b6 72 0c d3 ce 0e ca 69 1a 1a 4f 4a  | ,,Q ,r ,,,,,i ,,O J 
+a6 ad 07 56 61 dc 53 eb 38 37 1e 55 74 4b 3a  | ,,,V a ,S ,8 7 ,U t K : 
+86 ea 62 9b ab 5c d6 82 88 a1 ed 46 b2 18 51  | ,,b ,,\ ,,,,,F ,,Q 
+06 bb b1 d1 03 51 08 42 46 cd 5d 3f df 96 44  | ,,,,,Q ,B F ,] ? ,,D 
+7d c8 61 af f5 3d 95 0f dc f8 42 4c 17 24 8c  | } ,a ,,= ,,,,B L ,$ ,
+e1 cb e1 e2 00 e1 c0 30 00 57 66 f3 72 96 c7  | ,,,,,,,0 ,W f ,r ,,
+53 2b 88 ee 0c 74 ec b1 59 7a 31 a1 24 63 16  | S + ,,,t ,,Y z 1 ,$ c ,
+e1 32 67 fb 5a 5f e7 73 10 88 b6 cd 1c da 0d  | ,2 g ,Z _ ,s ,,,,,,,
+2d 9c ed bf 5a 8a 1f c4 84 13 51 17 2d da 7e  | - ,,,Z ,,,,,Q ,- ,~ 
+4e 1c bf f1 db 5f a8 7f cc 97 12 9b ad 21 50  | N ,,,,_ ,,,,,,,! P 
+87 a9 f5 17 3e 06 9a 7b f6 44 8a e8 f4 b4 fb  | ,,,,> ,,{ ,D ,,,,,
+c9 c2 1b 50 68 75 b6 15 88 82 ff f0 4e 58 75  | ,,,P h u ,,,,,,N X u 
+fd 04 94 ac e2 ee 05 cb 42 75 e4 4f 75 d5 18  | ,,,,,,,,B u ,O u ,,
+ce 0e 02 7e 18 4d cb 3f b9 e5 14 81 45 a4 d4  | ,,,~ ,M ,? ,,,,E ,,
+79 35 20 ad b0 2d 24 f6 fe b6 68 bf 9c 48 f2  | y 5   ,,- $ ,,,h ,,H ,
+9f d2 8e 07 ec 24 38 e2 62 e5 37 3b 1e d5 ae  | ,,,,,$ 8 ,b ,7 ; ,,,
+45 6f ba cc 91 f6 61 a1 8e b6 05 89 ed 98 14  | E o ,,,,a ,,,,,,,,
+10 3a eb 52 ba a1 4e 84 e8 e9 53 23 b0 3c 24  | ,: ,R ,,N ,,,S # ,< $ 
+40 6a 6b d9 89 9f e6 f7 07 df c8 dd 16 b8 39  | @ j k ,,,,,,,,,,,9 
+81 fc 2f cb a1 75 3f 14 e5 7e ff be 2e 19 3b  | ,,/ ,,u ? ,,~ ,,. ,; 
+0b 5d db 60 9e 8c ef d2 70 13 77 1e 4f 62 8a  | ,] ,` ,,,,p ,w ,O b ,
+1b 58 01 29 5c f5 34 16 6b 1d 94 cf fa 9c b0  | ,X ,) \ ,4 ,k ,,,,,,
+da 12 50 cd f7 38 02 fb fa 35 b3 b9 56 87 0a  | ,,P ,,8 ,,,5 ,,V ,,
+8c f8 3e 87 90 7c d3 1b 34 41 5c c9 c9 de 21  | ,,> ,,| ,,4 A \ ,,,! 
+f4 82 9e 0c db 2d 91 76 19 25 eb 6e d0 d4 98  | ,,,,,- ,v ,% ,n ,,,
+23 c7 b2 fb 71 da b9 05 1e a8 a3 3a 3c 20 a8  | # ,,,q ,,,,,,: <   ,
+c5 97 aa 40 75 f9 31 c5 aa f7 33 87 b6 c7 bd  | ,,,@ u ,1 ,,,3 ,,,,
+3e a2 b2 b9 b3 bb 35 a6 92 fc 46 67 d2 96 19  | > ,,,,,5 ,,,F g ,,,
+05 ae dc e7 b9 ac d9 4c 75 b0 97 66 72 50 56  | ,,,,,,,L u ,,f r P V 
+44 09 7d 6f a9 d5 a9 49 a1 44 73 2c 5f c9 3e  | D ,} o ,,,I ,D s , _ ,> 
+53 f6 1b 05 5d fa bf e0 af 45 4a ad b5 03 a0  | S ,,,] ,,,,E J ,,,,
+3a 11 02 b5 1d 49 6f a6 d4 a0 88 59 64 e0 22  | : ,,,,I o ,,,,Y d ," 
+7f e4 eb b8 5f 42 e0 dc 87 df 0a 79 2c ac f7  | ,,,,_ B ,,,,,y , ,,
+4d ad b3 13 fa 03 b3 44 36 43 21 e8 f9 3b 78  | M ,,,,,,D 6 C ! ,,; x 
+30 38 14 a1 bc c3 a7 b6 4f ed b3 f0 a5 b6 4f  | 0 8 ,,,,,,O ,,,,,O 
+46 04 af 54 1c 46 04 64 75 a9 b9 d4 b8 da 07  | F ,,T ,F ,d u ,,,,,,
+3a 8b 3e 2a 31 2b 39 8f a6 fb e0 5a c9 df 83  | : ,> * 1 + 9 ,,,,Z ,,,
+d7 b9 11 0a 47 4f 45 17 25 77 b6 fe b8 7b cd  | ,,,,G O E ,% w ,,,{ ,
+f5 a7 ca 67 80 13 82 36 43 a4 4b a6 f7 2d 11  | ,,,g ,,,6 C ,K ,,- ,
+59 8a 13 49 90 61 3b 48 e1 11 20 91 62 c6 6e  | Y ,,I ,a ; H ,,  ,b ,n 
+64 b2 c0 f5 75 81 71 a2 54 d8 ba 5c 67 94 4b  | d ,,,u ,q ,T ,,\ g ,K 
+b5 52 a4 8f bc f2 59 96 6e cd 6a 93 0d 72 d6  | ,R ,,,,Y ,n ,j ,,r ,
+bc 02 65 b1 17 d6 09 a7 43 71 da f0 05 bc 54  | ,,e ,,,,,C q ,,,,T 
+b7 1e 58 e2 64 24 c3 9e 88 d9 bf 18 9b 52 3e  | ,,X ,d $ ,,,,,,,R > 
+f7 4b 3c db 33 a2 72 2f 8a 37 cc 8e c4 32 af  | ,K < ,3 ,r / ,7 ,,,2 ,
+d0 3b 51 a8 b9 9d 68 19 1e 5c 00 b4 61 2f b1  | ,; Q ,,,h ,,\ ,,a / ,
+d3 20 98 e3 bd ee c2 f8 6f c7 20 a0 53 7e 84  | ,  ,,,,,,o ,  ,S ~ ,
+ee 5e 27 3d 31 f5 68 ba 9b 40 10 ff e3 ce ef  | ,^ ' = 1 ,h ,,@ ,,,,,
+d2 02 6b 25 92 b3 a9 be a9 58 0f ab 55 13 9c  | ,,k % ,,,,,X ,,U ,,
+88 35 1e 01 cc c7 b1 46 83 1c 05 91 43 6b c7  | ,5 ,,,,,F ,,,,C k ,
+be e9 14 37 8f 99 32 10 53 4d 53 21 7e 1d 48  | ,,,7 ,,2 ,S M S ! ~ ,H 
+05 b8 06 d9 b1 1b 3b 9e 0b f7 bd 7f e6 59 ff  | ,,,,,,; ,,,,,,Y ,
+bc 8f 19 c8 a5 4a be f0 66 fa 0a ee 7d 49 1a  | ,,,,,J ,,f ,,,} I ,
+50 b2 99 f4 87 e2 95 eb 7b 5c da ae 16 0c 7c  | P ,,,,,,,{ \ ,,,,| 
+4a 61 5e 0d d1 a1 be c7 ef 65 b9 e1 e0 50 ba  | J a ^ ,,,,,,e ,,,P ,
+b4 a9 e0 93 7b 98 05 a3 01 54 72 ea 7c f8 ab  | ,,,,{ ,,,,T r ,| ,,
+5a c9 aa 08 8e e3 0f 0d b2 f8 6b e8 7d 04 73  | Z ,,,,,,,,,k ,} ,s 
+cd 27 cb 25 f0 52 54 66 55 f3 e1 c6 16 18 80  | ,' ,% ,R T f U ,,,,,,
+7d 94 c5 e2 ee b4 07 25 89 d5 92 a0 19 3b 3c  | } ,,,,,,% ,,,,,; < 
+fc e5 7a 97 c0 f0 69 85 25 bb be e2 8e 95 e2  | ,,z ,,,i ,% ,,,,,,
+f8 fb 3f 83 cf ed 70 2f 1f cf 33 7f e3 45 82  | ,,? ,,,p / ,,3 ,,E ,
+11 2f 03 c1 7f 53 91 78 67 95 14 93 84 2d 72  | ,/ ,,,S ,x g ,,,,- r 
+d7 bc 4b 22 b2 81 9b b5 2e 78 33 e9 a4 78 d9  | ,,K " ,,,,. x 3 ,,x ,
+29 1a 1f 1d 00 38 c4 54 b1 c7 c8 71 0b b4 a3  | ) ,,,,8 ,T ,,,q ,,,
+a0 b5 19 1e 6a 0c aa b5 46 48 17 fc 4d 32 10  | ,,,,j ,,,F H ,,M 2 ,
+0c 75 57 85 75 6c c9 c6 57 ad 24 10 54 85 cc  | ,u W ,u l ,,W ,$ ,T ,,
+03 83 45 95 93 51 e6 b3 77 97 a5 06 6f f5 ee  | ,,E ,,Q ,,w ,,,o ,,
+e7 f9 0c 52 ed 08 e7 17 ff 70 60 ff c5 0d 40  | ,,,R ,,,,,p ` ,,,@ 
+c9 7f 39 7c 50 91 37 1b 7e 75 f0 a3 fa d2 48  | ,,9 | P ,7 ,~ u ,,,,H 
+84 08 ce ce f2 6c b3 68 f7 9f 20 84 ea 9f 7c  | ,,,,,l ,h ,,  ,,,| 
+ff 79 98 e0 fb b6 ef 15 de 31 0b d5 c9 98 f3  | ,y ,,,,,,,1 ,,,,,
+18 c6 18 37 e4 d4 c6 4d 8e 96 bf b8 2a ad 76  | ,,,7 ,,,M ,,,,* ,v 
+0c 33 69 d4 89 12 f9 29 a7 6b 91 5c 2d ad bc  | ,3 i ,,,,) ,k ,\ - ,,
+43 fb e1 f7 43 03 4c 70 cc 4f 2e 8c 11 66 d6  | C ,,,C ,L p ,O . ,,f ,
+d4 e1 d6 61 e0 2d 54 6b 3c fc ec f9 c5 d6 d0  | ,,,a ,- T k < ,,,,,,
+07 a5 61 e0 fb 46 cb 91 84 04 92 2f 5c 97 47  | ,,a ,,F ,,,,,/ \ ,G 
+24 b4 7e d1 d1 b0 21 c9 d2 a1 7d 8d 0e 80 42  | $ ,~ ,,,! ,,,} ,,,B 
+5e 02 3d 35 ef 22 8d 88 f5 56 87 2e 9b bf 60  | ^ ,= 5 ," ,,,V ,. ,,` 
+a8 fd 9e 45 8c 00                             | ,,,E ,,
+
+==== Got a 1292 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 350 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 336 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 316	Checksum: 17128 }
+			308 bytes of packet data
+e3 00 00 00 01 00 08 ed c2 7d dd 6a 9a 79 e2  | ,,,,,,,,,} ,j ,y ,
+40 e3 56 ba eb 71 36 eb 13 1b b9 b8 8a ba 88  | @ ,V ,,q 6 ,,,,,,,,
+c5 0f 8d 3c 35 b7 51 ff 82 72 11 58 c8 2d a2  | ,,,< 5 ,Q ,,r ,X ,- ,
+49 95 73 8c 11 79 91 b7 0a 2a 50 c1 c3 e0 79  | I ,s ,,y ,,,* P ,,,y 
+c4 0a cd 92 dd 79 e8 b2 94 40 c6 e8 95 8a a5  | ,,,,,y ,,,@ ,,,,,
+0d a1 36 f8 d0 5f dc 6f ab 17 6e ca fd 38 d5  | ,,6 ,,_ ,o ,,n ,,8 ,
+a5 d0 3d 20 5f 9a 48 2c cb 5e 6f fa 28 91 37  | ,,=   _ ,H , ,^ o ,( ,7 
+29 4e cc 8c 56 5e d9 9b 22 e3 6f 04 2e 1b 0b  | ) N ,,V ^ ,," ,o ,. ,,
+04 2f ac 01 db 4b a7 a1 3a cc ec cf 52 fb 28  | ,/ ,,,K ,,: ,,,R ,( 
+6e 49 8c 1b 13 1c d9 4a f4 56 b5 70 04 74 49  | n I ,,,,,J ,V ,p ,t I 
+07 64 92 6e 29 65 c0 eb 78 6a 73 a7 00 0f d3  | ,d ,n ) e ,,x j s ,,,,
+80 6a d3 03 29 87 ff 0b cd 51 08 9d 66 d7 3d  | ,j ,,) ,,,,Q ,,f ,= 
+41 90 a5 76 0b 33 28 1e 97 8a cf ba a9 3a 63  | A ,,v ,3 ( ,,,,,,: c 
+00 c4 35 ea b7 5e d6 10 e2 21 05 63 ce e5 46  | ,,5 ,,^ ,,,! ,c ,,F 
+e2 56 63 b9 b2 43 78 a4 37 fc fa 4d eb cb 78  | ,V c ,,C x ,7 ,,M ,,x 
+58 f6 65 56 db 84 0a 8f 54 10 87 cc b7 90 62  | X ,e V ,,,,T ,,,,,b 
+48 e6 9f cf 48 66 30 cb 2b e9 46 b3 c7 99 ef  | H ,,,H f 0 ,+ ,F ,,,,
+0c 10 50 60 2b e7 3a b6 1d 09 12 92 34 a2 87  | ,,P ` + ,: ,,,,,4 ,,
+9c 03 9d 93 df 4d c9 34 eb ca 5f 70 40 d1 3f  | ,,,,,M ,4 ,,_ p @ ,? 
+88 6e 11 ed 96 58 ab b7 99 98 5d ea 31 27 ce  | ,n ,,,X ,,,,] ,1 ' ,
+12 47 83 bf 0d b2 96 5c 00                    | ,G ,,,,,\ ,
+
+==== Got a 984 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 970 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 950	Checksum: 54778 }
+			942 bytes of packet data
+49 9c b2 33 8a d0 00 2e 03 69 23 8a 81 38 41  | I ,,3 ,,,. ,i # ,,8 A 
+b3 6d ad b9 8c 60 3b 0b 7c 87 72 7b 41 dc f8  | ,m ,,,` ; ,| ,r { A ,,
+6c e0 54 8c db 55 21 dd 88 44 48 c9 be 5d b7  | l ,T ,,U ! ,,D H ,,] ,
+0e a6 95 b0 4b ef 85 82 f9 5b 5f 20 c6 d5 da  | ,,,,K ,,,,[ _   ,,,
+69 ea 3b fe 8d 9b b9 82 c4 0b ee 2a 55 2b ea  | i ,; ,,,,,,,,* U + ,
+d7 42 b9 27 23 3d 07 cd c5 76 1b f3 ac e5 e8  | ,B ,' # = ,,,v ,,,,,
+cf 5b e3 18 1d 16 5d ac ef 2f c2 40 59 f9 35  | ,[ ,,,,] ,,/ ,@ Y ,5 
+d5 70 3e 17 46 a7 73 c9 74 5a 25 b7 7e a9 3f  | ,p > ,F ,s ,t Z % ,~ ,? 
+ef e7 43 1e 2d fe 89 53 43 4c f6 56 e9 8f 14  | ,,C ,- ,,S C L ,V ,,,
+b8 7a 11 f7 26 a6 ed 9e 6f 20 3f b6 61 df ed  | ,z ,,& ,,,o   ? ,a ,,
+4d 06 a2 d3 34 e2 1f de ad 02 74 37 76 de dd  | M ,,,4 ,,,,,t 7 v ,,
+d0 cb ba 8a ea d4 eb b1 61 92 de ff 15 18 82  | ,,,,,,,,a ,,,,,,
+88 6a 80 d0 ad 78 5b 65 86 b0 2f 33 3b 8a 77  | ,j ,,,x [ e ,,/ 3 ; ,w 
+70 3a 40 3f 27 21 08 58 5a b4 75 a2 f6 f5 82  | p : @ ? ' ! ,X Z ,u ,,,,
+5a 5a 64 c0 4d c5 7d 21 35 18 5d 7c 8b 5d 43  | Z Z d ,M ,} ! 5 ,] | ,] C 
+5f 9c 4a b1 66 bc 79 50 9a 48 f7 a5 69 4f b0  | _ ,J ,f ,y P ,H ,,i O ,
+1e 91 57 df ce fa 87 27 d0 19 dd c6 3d 0f 59  | ,,W ,,,,' ,,,,= ,Y 
+bd 46 f4 a8 c8 83 df 9d 3e 68 3e ab f1 52 a8  | ,F ,,,,,,> h > ,,R ,
+38 a9 42 49 6f 4c 4e a9 20 9f 07 8c 6e 30 2f  | 8 ,B I o L N ,  ,,,n 0 / 
+df 77 3b d2 68 02 cf 84 2c 66 c7 b2 68 9b 7f  | ,w ; ,h ,,,, f ,,h ,,
+06 e4 3f 23 7b 48 e8 d2 0f 34 3c c5 e5 98 0b  | ,,? # { H ,,,4 < ,,,,
+bd 5d 69 33 9c bc aa c5 5b 9b bb 0e 5d 8e 21  | ,] i 3 ,,,,[ ,,,] ,! 
+19 28 1d 52 2d f5 38 f7 97 7c 3f 61 0c b7 a4  | ,( ,R - ,8 ,,| ? a ,,,
+39 fd 08 00 24 23 39 10 45 d8 75 38 f0 a5 bf  | 9 ,,,$ # 9 ,E ,u 8 ,,,
+46 25 80 67 84 3c 76 e6 d1 9c 88 c4 88 50 bf  | F % ,g ,< v ,,,,,,P ,
+e8 e8 d5 9b 66 1d 19 fc f5 f8 a2 d3 de 5d df  | ,,,,f ,,,,,,,,] ,
+21 1d 0b 91 ec f5 7a 6c ca 95 22 73 bd 77 23  | ! ,,,,,z l ,," s ,w # 
+3b 24 0d 66 47 dd 7c e4 d0 36 4d ac a7 e3 4f  | ; $ ,f G ,| ,,6 M ,,,O 
+25 55 da a0 cc 92 2c 8c 64 b1 d6 a9 f4 8d 01  | % U ,,,,, ,d ,,,,,,
+bc 93 af 72 e2 66 70 7b 0c 5f 96 85 50 42 fe  | ,,,r ,f p { ,_ ,,P B ,
+8c 5f 83 9e 32 5e 4f 47 1d 95 f6 52 e8 b9 16  | ,_ ,,2 ^ O G ,,,R ,,,
+ae 15 c3 f0 c0 2a 0a d5 b0 aa e4 95 d9 3d fb  | ,,,,,* ,,,,,,,= ,
+ba 1b 3d ec 82 42 68 06 c3 ff 8e a3 9c be 0b  | ,,= ,,B h ,,,,,,,,
+56 97 13 85 b5 c9 ab 91 cd be 4f 3d be be 30  | V ,,,,,,,,,O = ,,0 
+5b 62 58 92 b7 48 6f e4 99 bb 74 84 c7 11 a9  | [ b X ,,H o ,,,t ,,,,
+c0 bc 7b 12 fe da ce 6b c2 3c 5a ef 94 da d7  | ,,{ ,,,,k ,< Z ,,,,
+ed ba ef 57 09 ce 93 16 c7 bd 3f 49 98 de af  | ,,,W ,,,,,,? I ,,,
+58 d0 bf 91 4a dd cf bc 57 af 73 b6 31 75 d3  | X ,,,J ,,,W ,s ,1 u ,
+19 2c f0 84 af c8 70 ac 5e 0e b5 89 53 08 ee  | ,, ,,,,p ,^ ,,,S ,,
+b8 60 14 91 ec 7a c9 d6 1b ba d7 0f 7b fb 2c  | ,` ,,,z ,,,,,,{ ,, 
+fa b1 4f 35 23 a8 69 a1 e3 29 f3 e7 48 fa 7f  | ,,O 5 # ,i ,,) ,,H ,,
+d8 9c c4 d1 81 df 43 90 73 a6 ed d1 cd e9 a8  | ,,,,,,C ,s ,,,,,,
+0b 40 6c 06 5e 6f b3 8a 85 0f bb ab 9c 6c ba  | ,@ l ,^ o ,,,,,,,l ,
+d0 fb 39 16 a4 1f 66 cd 4a 5c 9b 49 24 71 47  | ,,9 ,,,f ,J \ ,I $ q G 
+83 91 05 c5 c7 a5 30 9c c5 c0 70 16 0a 47 89  | ,,,,,,0 ,,,p ,,G ,
+68 92 e3 b9 4c 42 a5 59 d8 27 09 87 bf f8 45  | h ,,,L B ,Y ,' ,,,,E 
+8e 8f 4b f3 19 c9 34 be 8a 93 ff bb 80 05 f3  | ,,K ,,,4 ,,,,,,,,
+79 d5 71 f6 f4 e8 a4 33 51 38 ef 69 77 fa 58  | y ,q ,,,,3 Q 8 ,i w ,X 
+dc 43 b4 14 79 09 f9 34 ce 39 8e 58 e7 e0 16  | ,C ,,y ,,4 ,9 ,X ,,,
+4c 78 eb c8 19 9a 48 7d 78 56 1c 31 8d 29 53  | L x ,,,,H } x V ,1 ,) S 
+0f 51 13 4f 0d 52 13 ce fe 9c 2c c8 2d 9b 99  | ,Q ,O ,R ,,,,, ,- ,,
+84 cf 3c c8 1e b3 1d 1f 17 03 d0 5f 05 a7 3d  | ,,< ,,,,,,,,_ ,,= 
+0c 1e 48 45 13 bd 0c 37 7b e0 61 f8 eb a7 6f  | ,,H E ,,,7 { ,a ,,,o 
+a5 14 f7 68 4c 9f 28 a1 01 8b 01 7b d9 ed 15  | ,,,h L ,( ,,,,{ ,,,
+dd 92 cd 99 ae 2a 61 70 7d 57 56 fa 7e 9a b0  | ,,,,,* a p } W V ,~ ,,
+6c ef 4e bf 5c fc d4 7a 26 b2 4a 30 77 fc 1a  | l ,N ,\ ,,z & ,J 0 w ,,
+9f aa a7 e1 60 64 36 35 d6 b2 55 f6 13 93 58  | ,,,,` d 6 5 ,,U ,,,X 
+d9 78 f5 11 ec dc 2d 3b 5b 6a f1 88 ef 8e bc  | ,x ,,,,- ; [ j ,,,,,
+81 72 83 18 92 50 d1 3a 2c a3 30 f3 17 89 bb  | ,r ,,,P ,: , ,0 ,,,,
+54 c5 ca 54 26 f8 22 54 50 2d ae ce d7 db bf  | T ,,T & ," T P - ,,,,,
+c0 f1 c2 4f 83 60 ce 9c 14 81 f1 1a c0 b3 e6  | ,,,O ,` ,,,,,,,,,
+c8 f7 16 ef 09 22 c8 07 b5 b4 06 36 69 40 d2  | ,,,,," ,,,,,6 i @ ,
+bd f6 20 f2 7c 59 88 d7 1d 7c 54 b9 00        | ,,  ,| Y ,,,| T ,,
+
+==== Got a 75 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 61 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 41	Checksum: 36015 }
+			33 bytes of packet data
+43 81 e0 27 c7 53 0a 5b f2 5f 48 db 88 26 19  | C ,,' ,S ,[ ,_ H ,,& ,
+d3 f2 94 24 86 d4 2c 16 e6 6f a0 19 5c d7 d6  | ,,,$ ,,, ,,o ,,\ ,,
+a1 8a 85 00                                   | ,,,,
+
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 52 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 32	Checksum: 19508 }
+			24 bytes of packet data
+50 df 9f 56 82 cd 24 fe fa 2e 8c da 79 01 ea  | P ,,V ,,$ ,,. ,,y ,,
+42 90 74 2f fb e0 36 79 b0 d0                 | B ,t / ,,6 y ,,
+
+==== Got a 120 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 73 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1288 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1292 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 75 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 162 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 148 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 128	Checksum: 53571 }
+			120 bytes of packet data
+5b 50 a2 d0 99 16 48 67 95 63 1b a1 3e 78 c2  | [ P ,,,,H g ,c ,,> x ,
+4a 49 60 93 ad e1 9b 2e 9d 1c 61 58 b4 23 c6  | J I ` ,,,,. ,,a X ,# ,
+5a 96 9d 22 36 7a 7b 51 92 ef c6 31 70 d3 3e  | Z ,," 6 z { Q ,,,1 p ,> 
+86 c7 b4 1d 1b ee 03 eb 3b 0a 04 5d 43 bf eb  | ,,,,,,,,; ,,] C ,,
+cc 43 9f 70 1b 03 78 e9 37 d3 0d 99 f6 7d af  | ,C ,p ,,x ,7 ,,,,} ,
+7d e4 1a ba d6 d9 2b f7 01 00 80 b9 b6 40 db  | } ,,,,,+ ,,,,,,@ ,
+1e de ad ba bf 92 ad 97 71 e8 4d 25 55 4a 38  | ,,,,,,,,q ,M % U J 8 
+3a 91 bd 67 e8 bd a0 a4 73 12 53 f4 49 2a 24  | : ,,g ,,,,s ,S ,I * $ 
+a0                                            | ,
+
+==== Got a 71 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 57 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 37	Checksum: 59814 }
+			29 bytes of packet data
+41 15 1c 60 e6 e5 01 d5 4f 6a be 6a c9 e4 b1  | A ,,` ,,,,O j ,j ,,,
+7a ba 35 3c e8 a9 e9 17 a8 05 bd b6 57 bb 00  | z ,5 < ,,,,,,,,W ,,
+==== Got a 73 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 67 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 53 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 33	Checksum: 60373 }
+			25 bytes of packet data
+4b 85 4e 60 18 43 7d 75 b5 df 98 70 23 6b f0  | K ,N ` ,C } u ,,,p # k ,
+63 da 88 c8 99 9d 05 03 1d 28 00              | c ,,,,,,,,( ,
+
+==== Got a 707 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 693 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 673	Checksum: 13396 }
+			665 bytes of packet data
+56 d4 7c 46 2e ef d5 21 5b c1 1d 47 56 98 8b  | V ,| F . ,,! [ ,,G V ,,
+0d f0 25 a1 14 f5 e0 34 7a f0 85 6a 60 d6 b0  | ,,% ,,,,4 z ,,j ` ,,
+e8 7d 98 1f 3b b7 c4 d7 cd 01 cc e1 5f d8 d9  | ,} ,,; ,,,,,,,_ ,,
+8a 58 19 1c 09 a2 9c 5a f6 04 5b 26 5c 8a 57  | ,X ,,,,,Z ,,[ & \ ,W 
+b4 cb bd f9 c4 5c 54 0c 8f a5 10 bb 2d d7 99  | ,,,,,\ T ,,,,,- ,,
+04 83 9f c9 92 f3 fb 2e dc 18 ad 16 43 3d ec  | ,,,,,,,. ,,,,C = ,
+a6 ac 83 96 65 97 9c a2 04 e7 5e 3f f6 94 ad  | ,,,,e ,,,,,^ ? ,,,
+f9 72 aa 58 9f 1f e6 7d 3f 89 ab 15 9b de d1  | ,r ,X ,,,} ? ,,,,,,
+23 60 08 92 16 5d de 65 79 aa 84 60 5b 9f 72  | # ` ,,,] ,e y ,,` [ ,r 
+61 cb e6 8f 20 16 d3 a3 2f d2 2c 75 c1 f1 31  | a ,,,  ,,,/ ,, u ,,1 
+00 36 81 9f c4 25 41 6d d5 6e 41 c7 b9 24 82  | ,6 ,,,% A m ,n A ,,$ ,
+0d e9 7e 43 54 cc 8e 50 24 08 f5 b4 ed 07 96  | ,,~ C T ,,P $ ,,,,,,
+05 32 60 6a de 05 8b 97 d4 8b 44 99 7e 33 40  | ,2 ` j ,,,,,,D ,~ 3 @ 
+48 ed 7b 26 96 db 5c 07 3f 9e 28 3b 10 3f 9f  | H ,{ & ,,\ ,? ,( ; ,? ,
+2c 1b 1e f1 23 a5 19 0e 9e 6b 3a 0b 67 cb b0  | , ,,,# ,,,,k : ,g ,,
+1c 85 65 c5 ee db ac 66 02 59 0f 16 c5 d6 21  | ,,e ,,,,f ,Y ,,,,! 
+32 45 e8 23 01 ad a0 48 22 ce a6 b0 6d 83 ec  | 2 E ,# ,,,H " ,,,m ,,
+a5 72 7a e6 b9 fd 2b 3a 6a 62 3e 16 19 fa e6  | ,r z ,,,+ : j b > ,,,,
+ff 41 10 f7 52 52 64 e7 82 b0 11 94 f2 a3 75  | ,A ,,R R d ,,,,,,,u 
+76 1c 21 9d bc b2 d4 67 8d 1c 0c ae 32 34 b7  | v ,! ,,,,g ,,,,2 4 ,
+09 9b ef 28 f6 5a 2f 05 4e 17 d5 ae 19 13 67  | ,,,( ,Z / ,N ,,,,,g 
+4c 97 95 17 e4 95 2e 12 62 42 ac 87 70 1b 40  | L ,,,,,. ,b B ,,p ,@ 
+05 d2 92 33 15 69 9f 98 71 c6 aa 0d 58 b2 bd  | ,,,3 ,i ,,q ,,,X ,,
+d2 51 26 f4 2e db 44 0f b5 67 f7 e0 02 82 d1  | ,Q & ,. ,D ,,g ,,,,,
+ca 70 01 23 ca 7e 90 e3 0e 99 e4 58 7e 6d dd  | ,p ,# ,~ ,,,,,X ~ m ,
+7d cf b6 f9 6c dc 60 c7 bc 83 cc ac f3 a8 02  | } ,,,l ,` ,,,,,,,,
+27 58 4d eb 59 68 20 b9 20 7c 46 b9 e5 7f 0e  | ' X M ,Y h   ,  | F ,,,,
+fc 48 c7 3e ee 3c 20 fb ac fc be cf 93 13 fd  | ,H ,> ,<   ,,,,,,,,
+a2 4d 73 26 72 e4 ce 98 21 0c 7b 4e 1f 27 a8  | ,M s & r ,,,! ,{ N ,' ,
+0e 99 47 c0 6a ef 45 b7 47 ba c4 11 70 d1 63  | ,,G ,j ,E ,G ,,,p ,c 
+58 fe e0 58 0c ce a6 c5 5a 40 34 5e 92 0e 15  | X ,,X ,,,,Z @ 4 ^ ,,,
+40 db e3 2e a2 9b 0c 26 a7 e0 0b 6e 5e c4 c7  | @ ,,. ,,,& ,,,n ^ ,,
+4a 32 20 75 8d 80 5d 08 73 5a 78 03 fd a6 ae  | J 2   u ,,] ,s Z x ,,,,
+cb 61 7e 2f c0 1f ed 69 ec fc a5 fb b4 9d 66  | ,a ~ / ,,,i ,,,,,,f 
+35 41 a2 04 24 91 98 12 25 84 e2 57 77 78 cb  | 5 A ,,$ ,,,% ,,W w x ,
+ef f1 b0 73 8b 23 d8 47 5f 4b 7c c2 6f ab e3  | ,,,s ,# ,G _ K | ,o ,,
+52 8d 9c 34 fb 88 e7 50 93 4b f2 10 c3 ae d6  | R ,,4 ,,,P ,K ,,,,,
+0c 75 78 1f b7 76 b3 79 f4 f4 ed 2b ea 52 96  | ,u x ,,v ,y ,,,+ ,R ,
+3a 5b b1 9b 31 cd bb 66 13 ba 1f 14 f8 7e 9f  | : [ ,,1 ,,f ,,,,,~ ,
+6c d1 26 6a 15 38 d8 fa c3 6e fb b4 bf 42 09  | l ,& j ,8 ,,,n ,,,B ,
+57 be e1 15 9e 64 3f a1 43 4c d6 20 9a d0 df  | W ,,,,d ? ,C L ,  ,,,
+e7 6a 53 86 81 cf 17 ef ea 09 ed af 42 76 c4  | ,j S ,,,,,,,,,B v ,
+f6 4b 09 54 38 6e d6 86 aa 4b 6e bc 34 4e f3  | ,K ,T 8 n ,,,K n ,4 N ,
+9d c8 68 9f 27 56 8b b5 9b ec 63 38 68 cc 2b  | ,,h ,' V ,,,,c 8 h ,+ 
+84 72 d9 24 0a 00                             | ,r ,$ ,,
+
+==== Got a 76 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 62 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 42	Checksum: 33179 }
+			34 bytes of packet data
+41 71 13 73 b0 0b 93 aa 48 75 a6 82 6d 15 40  | A q ,s ,,,,H u ,,m ,@ 
+f5 30 03 72 57 7f 5c 4b 43 5f 94 0c 13 9f 47  | ,0 ,r W ,\ K C _ ,,,,G 
+7d 07 3c 9d 00                                | } ,< ,,
+
+==== Got a 77 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 290 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 276 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 256	Checksum: 22464 }
+			248 bytes of packet data
+47 fe 14 92 35 32 21 f1 c2 bb 34 a3 5d 81 f8  | G ,,,5 2 ! ,,,4 ,] ,,
+70 25 8f b0 65 dd d2 ca 85 18 64 d7 bb af 10  | p % ,,e ,,,,,d ,,,,
+66 36 29 cb df 70 3b e4 6e 0e b3 43 15 17 b2  | f 6 ) ,,p ; ,n ,,C ,,,
+d2 dd 68 d2 14 83 ae 4d 6a b6 0e 0d 53 17 7b  | ,,h ,,,,M j ,,,S ,{ 
+de 6c d9 fe b1 34 9b 17 79 b8 23 18 be 6a e7  | ,l ,,,4 ,,y ,# ,,j ,
+b5 7b b5 49 52 c8 57 23 6c f2 92 3c 81 80 fe  | ,{ ,I R ,W # l ,,< ,,,
+9c 81 87 60 89 ef 9b 5b af 55 c7 6a 78 31 22  | ,,,` ,,,[ ,U ,j x 1 " 
+50 f5 12 49 4f fc 05 02 c1 9d 19 d6 9c ec ff  | P ,,I O ,,,,,,,,,,
+13 5d 25 a2 aa 18 5c 3b a9 b4 fa f6 f4 95 e2  | ,] % ,,,\ ; ,,,,,,,
+cd 5e b1 20 3c 72 a5 34 fa f3 af fd 9d 78 17  | ,^ ,  < r ,4 ,,,,,x ,
+09 9b 69 26 da 05 2d b7 30 ab e2 95 13 07 88  | ,,i & ,,- ,0 ,,,,,,
+34 e9 e2 ec 5d 57 1c f2 b9 62 1a d3 26 c4 eb  | 4 ,,,] W ,,,b ,,& ,,
+92 1a 2d 2d 46 83 c0 6c 8a 9a ce ff 3c d2 1b  | ,,- - F ,,l ,,,,< ,,
+17 08 14 b4 1a ad ae 3d f2 64 31 d4 5d 37 eb  | ,,,,,,,= ,d 1 ,] 7 ,
+06 5f 83 bd 95 28 de 3a 87 da b1 26 4e d0 8b  | ,_ ,,,( ,: ,,,& N ,,
+51 61 47 ce 5b 55 b7 c3 11 7c 2e 24 7f 8b 89  | Q a G ,[ U ,,,| . $ ,,,
+82 b3 0f b6 7e 46 2b 6a 00                    | ,,,,~ F + j ,
+
+==== Got a 74 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1385 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8735	Length: 1371 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27916628	Ack #: 620419530 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			1319 bytes of packet data
+17 03 03 01 ed d1 c7 b8 71 33 a2 78 ca d4 ba  | ,,,,,,,,q 3 ,x ,,,
+2e b9 31 16 1f 32 4e 52 4b 91 de 4f 88 72 d2  | . ,1 ,,2 N R K ,,O ,r ,
+60 bc bd 4d 49 39 c8 72 15 a5 a8 85 06 91 72  | ` ,,M I 9 ,r ,,,,,,r 
+ce 99 2e 5e 0e 3d 7d ac 2d 60 c6 41 d8 cb 3c  | ,,. ^ ,= } ,- ` ,A ,,< 
+eb 9c dd 02 68 78 f5 76 90 33 16 59 97 28 67  | ,,,,h x ,v ,3 ,Y ,( g 
+59 e0 dd 8d 1b 6d fd 54 10 4e fb 8f 50 f2 5b  | Y ,,,,m ,T ,N ,,P ,[ 
+71 83 ab 11 0c 74 f8 6f f4 84 6d 7f 6e 46 92  | q ,,,,t ,o ,,m ,n F ,
+0e 9c d6 79 cc 58 22 77 22 f5 ab a3 a6 a2 42  | ,,,y ,X " w " ,,,,,B 
+7b 16 78 96 70 c3 ee 77 0e ed a2 4c 1a 45 6a  | { ,x ,p ,,w ,,,L ,E j 
+8c 93 22 e1 33 5a 83 2c 13 44 d5 32 d4 39 40  | ,," ,3 Z ,, ,D ,2 ,9 @ 
+d1 11 ba 3e bb a9 4e b4 96 30 3a b1 6d 40 32  | ,,,> ,,N ,,0 : ,m @ 2 
+3e 17 a6 88 90 d3 c1 a3 1a 7f 0c e3 73 c7 49  | > ,,,,,,,,,,,s ,I 
+fd 38 db 9a 2b b9 9d ec 43 1a d2 58 fc e2 01  | ,8 ,,+ ,,,C ,,X ,,,
+0f e9 62 1e 52 a4 9c fc 74 1b 34 6f dc 19 32  | ,,b ,R ,,,t ,4 o ,,2 
+cd 48 03 9a b1 fd b0 c0 06 af f7 07 7c e5 7c  | ,H ,,,,,,,,,,| ,| 
+dc 16 ec 4d 3f 4f 44 34 6e a1 db 78 e0 44 dc  | ,,,M ? O D 4 n ,,x ,D ,
+91 c7 20 ed d2 ec 52 38 b6 5b df 34 d6 39 57  | ,,  ,,,R 8 ,[ ,4 ,9 W 
+2a 6b 56 d4 60 fc b5 b0 40 a4 76 bd 93 c9 d5  | * k V ,` ,,,@ ,v ,,,,
+dd 1f 33 09 c9 d5 da ef 64 7c 06 28 a4 6a fc  | ,,3 ,,,,,d | ,( ,j ,
+e3 aa b5 b6 45 4a 55 4e 91 a2 c5 02 f8 5a f7  | ,,,,E J U N ,,,,,Z ,
+39 40 36 cf 5a 40 e6 60 ba cf 86 10 f1 6a 01  | 9 @ 6 ,Z @ ,` ,,,,,j ,
+07 f9 d9 59 40 7d ad 9b 6b c5 24 ed ca f2 19  | ,,,Y @ } ,,k ,$ ,,,,
+7c 47 e7 3f 76 c0 b7 98 e1 59 6a aa 0d 53 9c  | | G ,? v ,,,,Y j ,,S ,
+67 0b cb bb c7 38 24 37 7b 28 46 18 35 d0 1b  | g ,,,,8 $ 7 { ( F ,5 ,,
+e7 92 ff c8 6f 49 3e 3f 9d c6 a2 18 41 07 6e  | ,,,,o I > ? ,,,,A ,n 
+0c 7e 66 55 13 0e 70 90 94 2a 97 c3 32 77 2c  | ,~ f U ,,p ,,* ,,2 w , 
+06 88 5c 1a 46 c1 c4 63 5b fa 43 73 06 0d b5  | ,,\ ,F ,,c [ ,C s ,,,
+72 cb 99 5b f8 6a a4 c2 3b 5a c5 82 fc 0d 49  | r ,,[ ,j ,,; Z ,,,,I 
+a3 6d bb e6 f4 cd 8d 4b ef 8f ec 7c 36 90 8f  | ,m ,,,,,K ,,,| 6 ,,
+62 77 a4 3d 04 9d 8a 8f c8 76 8d 1f d9 3d 12  | b w ,= ,,,,,v ,,,= ,
+ea a0 50 af dd ed bd ea 1b f9 96 66 53 64 27  | ,,P ,,,,,,,,f S d ' 
+66 c0 05 ab d4 2e 2b 7d 68 3b a3 d1 3f 74 74  | f ,,,,. + } h ; ,,? t t 
+21 41 55 35 bc 31 c8 35 3b 69 4d b4 e4 0a c3  | ! A U 5 ,1 ,5 ; i M ,,,,
+50 15 95 17 03 03 03 30 af 0b 5e 02 c7 a0 8d  | P ,,,,,,0 ,,^ ,,,,
+82 cf 2b f6 0f d0 90 d9 4b 32 cc e0 74 de 1b  | ,,+ ,,,,,K 2 ,,t ,,
+fa 42 00 6d 7b b0 65 57 b0 5b 0e b7 ee a1 d6  | ,B ,m { ,e W ,[ ,,,,,
+0d 7c 2a b5 1a f4 74 a6 25 0b 24 ff b5 da 31  | ,| * ,,,t ,% ,$ ,,,1 
+6c 6a f3 8f 54 c7 6b db 1b ef 49 f8 36 1d f0  | l j ,,T ,k ,,,I ,6 ,,
+6c 29 c5 77 21 1d 19 cd 0a 3d 42 be a4 d8 a2  | l ) ,w ! ,,,,= B ,,,,
+96 48 d5 11 f0 59 70 89 e7 61 a6 74 f8 50 e2  | ,H ,,,Y p ,,a ,t ,P ,
+48 08 fc 4f 8b 06 17 14 87 29 1f 6d fa 90 92  | H ,,O ,,,,,) ,m ,,,
+10 a5 ee 25 52 9c dd 83 7d bf 7d ab 6b c1 73  | ,,,% R ,,,} ,} ,k ,s 
+d2 a0 62 4a ab c1 29 bc a6 81 f7 95 dc d0 5c  | ,,b J ,,) ,,,,,,,\ 
+db 88 54 b5 4c 2c 18 c2 15 33 cd 8c b8 94 36  | ,,T ,L , ,,,3 ,,,,6 
+5a 11 2e 09 d0 b3 8b 74 cc 42 33 d4 45 71 bd  | Z ,. ,,,,t ,B 3 ,E q ,
+61 b3 ff ac 79 1e bd 0f 73 9d 38 ee c0 5d d7  | a ,,,y ,,,s ,8 ,,] ,
+aa c1 d6 30 5a d0 85 77 c7 83 2f b5 c7 9d 65  | ,,,0 Z ,,w ,,/ ,,,e 
+52 a7 d8 c7 8e 44 62 88 39 a1 c0 00 05 02 f8  | R ,,,,D b ,9 ,,,,,,
+52 cf cf 89 a7 c4 f5 3b 2b 2b c7 7c ea 86 89  | R ,,,,,,; + + ,| ,,,
+1a 8c 5f 29 05 28 7c 66 81 53 40 21 b7 9b 71  | ,,_ ) ,( | f ,S @ ! ,,q 
+24 f0 2d 2c 6a 54 ed 84 be 05 44 ab 92 4e eb  | $ ,- , j T ,,,,D ,,N ,
+bb a6 e8 b3 b3 84 67 40 5d fc 86 f1 96 98 77  | ,,,,,,g @ ] ,,,,,w 
+4a 7b d0 f9 2f 81 b4 b3 e5 94 4f d7 56 e2 42  | J { ,,/ ,,,,,O ,V ,B 
+7d f8 ea 31 a6 c3 14 dc d4 3d 92 8c aa 66 59  | } ,,1 ,,,,,= ,,,f Y 
+2a 5d ae 4d 4c 2c 4a 91 e6 71 cb 9c 60 47 91  | * ] ,M L , J ,,q ,,` G ,
+fa bd 3b 47 2f e8 50 65 e7 e1 49 44 cf 9d 61  | ,,; G / ,P e ,,I D ,,a 
+c9 26 d6 db a8 28 40 13 df a4 fa 21 39 26 5c  | ,& ,,,( @ ,,,,! 9 & \ 
+27 0a 73 eb 73 6b 16 cf 55 a4 e1 91 5d d6 df  | ' ,s ,s k ,,U ,,,] ,,
+b7 85 e2 62 a6 02 9a 3f 40 89 24 92 a4 4e 4e  | ,,,b ,,,? @ ,$ ,,N N 
+96 91 3b 67 a4 b1 f8 44 d2 96 4d f5 68 75 4a  | ,,; g ,,,D ,,M ,h u J 
+6f 88 7b fc 32 2b b1 6e 00 75 bf c7 09 0e 04  | o ,{ ,2 + ,n ,u ,,,,,
+0f 76 e5 23 37 ed 53 c5 6d f0 2a 0f 0f a7 32  | ,v ,# 7 ,S ,m ,* ,,,2 
+fe 6a 6b ab a8 f1 2d c8 c1 22 d1 2e c1 aa de  | ,j k ,,,- ,," ,. ,,,
+ff 85 de f1 dc c0 e7 3a 08 10 e9 53 92 56 d4  | ,,,,,,,: ,,,S ,V ,
+2e f4 61 ed 36 85 10 e0 c7 62 8c 3d 9e f6 af  | . ,a ,6 ,,,,b ,= ,,,
+63 16 cc 94 42 6f fb 34 8c c2 16 02 0f 43 d1  | c ,,,B o ,4 ,,,,,C ,
+d2 bf 6a 43 b1 4a 2c d8 73 dd 6a cf 31 93 72  | ,,j C ,J , ,s ,j ,1 ,r 
+5f 11 b5 a5 e5 e3 74 06 c5 30 63 a0 cb 18 2e  | _ ,,,,,t ,,0 c ,,,. 
+52 9e 05 24 a1 b1 8e a2 3e 5c 01 82 d9 50 89  | R ,,$ ,,,,> \ ,,,P ,
+50 c5 7b eb 4b cc 8b bc 14 63 c4 bd 74 14 2c  | P ,{ ,K ,,,,c ,,t ,, 
+13 b1 38 43 2f 8b b4 62 0b 96 b9 fe 24 d7 22  | ,,8 C / ,,b ,,,,$ ," 
+1f 6d 7c 36 16 05 70 e0 86 78 54 e9 94 1e 01  | ,m | 6 ,,p ,,x T ,,,,
+13 f4 7f da 84 b7 4a 2b 9d 75 f9 06 d1 84 4c  | ,,,,,,J + ,u ,,,,L 
+f7 aa 65 a7 85 28 5d c5 cb 95 9a 0b be 4c cd  | ,,e ,,( ] ,,,,,,L ,
+65 7e b1 0c e6 93 f6 80 77 4a 5f c5 7e 9b ac  | e ~ ,,,,,,w J _ ,~ ,,
+e6 40 c6 b4 65 2f 79 18 ad 23 99 79 23 2e b6  | ,@ ,,e / y ,,# ,y # . ,
+d9 da a7 14 c0 ab b1 a7 36 8b 14 b2 f0 73 7a  | ,,,,,,,,6 ,,,,s z 
+26 69 64 f4 d4 97 a6 6d f5 cb 4c 0c 8b 9e 9e  | & i d ,,,,m ,,L ,,,,
+d1 f2 cf c8 f4 1a 9f 7c d1 d6 ae ec 3d 0c 08  | ,,,,,,,| ,,,,= ,,
+4f 20 57 50 fb 95 89 1f 68 f8 04 59 40 2a da  | O   W P ,,,,h ,,Y @ * ,
+f3 68 ca d7 5d 79 2d 89 ad e5 04 ce e0 e4 4b  | ,h ,,] y - ,,,,,,,K 
+71 5b e6 cc c3 e3 4c 94 4f 94 6f 4f b5 11 2b  | q [ ,,,,L ,O ,o O ,,+ 
+4b c3 3e ca 26 8b 5f 49 8f d7 dc c1 12 65 9a  | K ,> ,& ,_ I ,,,,,e ,
+a1 d9 6d 51 bd e5 49 c9 7d b0 fc 31 e1 71 ee  | ,,m Q ,,I ,} ,,1 ,q ,
+7f e4 e7 a4 57 b4 fd 46 a5 c6 0b f0 31 f3 dd  | ,,,,W ,,F ,,,,1 ,,
+86 bd 21 de 40 0d b2 7e 79 35 47 1d f5 87 db  | ,,! ,@ ,,~ y 5 G ,,,,
+d2 77 83 a8 1a ee 52 a4 d6 e1 66 f4 26 88 4a  | ,w ,,,,R ,,,f ,& ,J 
+88 7f da ec dd 60 4d 70 f7 32 67 2d 61 b4 00  | ,,,,,` M p ,2 g - a ,,
+==== Got a 93 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8736	Length: 79 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27917947	Ack #: 620419530 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			27 bytes of packet data
+17 03 03 00 16 a9 a0 cc 71 c8 1f 09 ea fd 08  | ,,,,,,,,q ,,,,,,
+33 09 00 26 fe cf f1 48 b4 2d 52 6b 00        | 3 ,,& ,,,H ,- R k ,
+
+==== Got a 90 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8737	Length: 76 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27917974	Ack #: 620419530 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			24 bytes of packet data
+17 03 03 00 13 fc 19 f0 08 d7 46 7a 46 27 26  | ,,,,,,,,,,F z F ' & 
+ad 52 7a 76 36 cd 58 38 c9 98                 | ,R z v 6 ,X 8 ,,
+
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 104.18.37.251	Dest: 192.168.0.23 )
+	( Type: 6	ID: 8738	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 33682 }
+		{ Seq #: 27917998	Ack #: 620419530 }
+		{ Header Size: 32	Flags: FIN ACK  }
+			No Packet Data
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.26.238	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 52 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 35985 }
+		{ Length: 32	Checksum: 5019 }
+			24 bytes of packet data
+50 2f 07 b3 cb d2 8e 54 56 c1 80 06 a3 5d 9f  | P / ,,,,,T V ,,,,] ,
+70 3d bf 10 12 cf 95 ec 38 00                 | p = ,,,,,,8 ,
+
+==== Got a 74 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 35.244.0.250	Dest: 192.168.0.23 )
+	( Type: 6	ID: 2264	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 53692 }
+		{ Seq #: 875518494	Ack #: 475236296 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 142.250.157.188	Dest: 192.168.0.23 )
+	( Type: 6	ID: 30742	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 5228	Dest Port: 33058 }
+		{ Seq #: 3581743755	Ack #: 4208274072 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 105 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 169 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 210.220.163.82	Dest: 192.168.0.23 )
+	( Type: 17	ID: 28348	Length: 155 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 53	Dest Port: 48593 }
+		{ Length: 135	Checksum: 42832 }
+			127 bytes of packet data
+72 1a 81 80 00 01 00 04 00 00 00 01 08 70 32  | r ,,,,,,,,,,,,p 2 
+70 2d 73 65 6f 31 09 64 69 73 63 6f 76 65 72  | p - s e o 1 ,d i s c o v e r 
+79 0b 73 74 65 61 6d 73 65 72 76 65 72 03 6e  | y ,s t e a m s e r v e r ,n 
+65 74 00 00 01 00 01 c0 0c 00 01 00 01 00 00  | e t ,,,,,,,,,,,,,
+00 35 00 04 92 42 98 2b c0 0c 00 01 00 01 00  | ,5 ,,,B ,+ ,,,,,,,
+00 00 35 00 04 92 42 98 27 c0 0c 00 01 00 01  | ,,5 ,,,B ,' ,,,,,,
+00 00 00 35 00 04 92 42 98 26 c0 0c 00 01 00  | ,,,5 ,,,B ,& ,,,,,
+01 00 00 00 35 00 04 92 42 98 2c 00 00 29 10  | ,,,,5 ,,,B ,, ,,) ,
+00 00 00 00 00 00 00 00                       | ,,,,,,,,
+
+==== Got a 1285 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 663 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 72 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 58 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 38	Checksum: 59290 }
+			30 bytes of packet data
+48 f5 62 02 4c 72 d2 67 e9 70 a8 2e f3 b0 78  | H ,b ,L r ,g ,p ,. ,,x 
+99 0b 6e ab 50 db b7 f0 6a a3 2f 5d ff a5 7e  | ,,n ,P ,,,j ,/ ] ,,~ 
+30                                            | 0 
+
+==== Got a 75 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 630 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 616 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 596	Checksum: 48942 }
+			588 bytes of packet data
+57 20 da a0 35 3c 79 25 07 49 1f 61 a5 9d 25  | W   ,,5 < y % ,I ,a ,,% 
+10 ca 56 85 ca 42 42 c4 c8 48 71 20 5f 4c 6c  | ,,V ,,B B ,,H q   _ L l 
+08 d1 46 84 b5 c5 47 a9 0b aa c0 40 6f 6b 42  | ,,F ,,,G ,,,,@ o k B 
+1e 0a 91 89 2b 22 23 04 aa 97 3e cc 0e a9 fc  | ,,,,+ " # ,,,> ,,,,
+36 ac d9 ba 3d 71 97 3c b6 ff 10 5f 05 2c 80  | 6 ,,,= q ,< ,,,_ ,, ,
+5d 2d db 77 16 49 d2 96 42 ff cf cd bf 5e 76  | ] - ,w ,I ,,B ,,,,^ v 
+08 b4 ac 56 b4 2c c3 be c9 bc 11 9f ac 2c 65  | ,,,V ,, ,,,,,,,, e 
+2c 7d 7b 8a c7 80 07 0e e0 6f 05 46 06 43 9a  | , } { ,,,,,,o ,F ,C ,
+e7 46 f9 7f 2b 68 4c 17 48 db c8 96 aa cc 49  | ,F ,,+ h L ,H ,,,,,I 
+72 31 10 60 6f ac 98 ea 18 5d 7e 02 80 02 4f  | r 1 ,` o ,,,,] ~ ,,,O 
+f2 c4 60 9d 3d 28 8a 90 27 ae 3c 3e d7 8e 70  | ,,` ,= ( ,,' ,< > ,,p 
+f9 9d 92 2a 3c 18 e0 67 72 10 98 00 9b e4 6a  | ,,,* < ,,g r ,,,,,j 
+e0 71 d4 b6 8b 6b 1d 1f 0e b3 bc 20 bf 0b 04  | ,q ,,,k ,,,,,  ,,,
+c5 bf bd 1e 23 54 4b c8 c3 00 3f a3 e9 b7 f8  | ,,,,# T K ,,,? ,,,,
+fb fe 59 15 50 76 2a 37 0e 08 41 f9 72 27 78  | ,,Y ,P v * 7 ,,A ,r ' x 
+4e c6 6d d5 30 df b7 9d 52 ae 3e 63 57 44 90  | N ,m ,0 ,,,R ,> c W D ,
+1e 75 d0 3e 3a 19 2b 26 59 5e 15 d0 75 d0 b7  | ,u ,> : ,+ & Y ^ ,,u ,,
+45 10 2b fd ae 1f 5c c1 d2 b0 f6 e1 ab 67 40  | E ,+ ,,,\ ,,,,,,g @ 
+7b 84 63 72 37 b5 0f 63 f2 97 6c 19 d3 57 b4  | { ,c r 7 ,,c ,,l ,,W ,
+f4 d1 c8 ea e9 39 a9 97 7b bb 28 e8 32 56 a8  | ,,,,,9 ,,{ ,( ,2 V ,
+18 2e 0c e3 1a 27 e1 e3 cc ec 01 02 f3 61 7d  | ,. ,,,' ,,,,,,,a } 
+5f 80 9e 20 be 2a 86 a1 bf a1 82 70 ca fc b9  | _ ,,  ,* ,,,,,p ,,,
+72 98 cb ec 92 ad cf 29 25 9c fd 7b c2 59 c8  | r ,,,,,,) % ,,{ ,Y ,
+c1 5b 22 7e 37 ba de 86 29 04 b7 12 1d 4b 1f  | ,[ " ~ 7 ,,,) ,,,,K ,
+88 19 b0 e6 3c 6b ee 5b 6a 22 1c 9c e6 3a 70  | ,,,,< k ,[ j " ,,,: p 
+f0 7e f5 56 65 11 fd 3c a8 c9 eb 86 c6 87 47  | ,~ ,V e ,,< ,,,,,,G 
+f1 79 38 77 5d 2e 2e 3a f1 4d fb 3b a8 0d 13  | ,y 8 w ] . . : ,M ,; ,,,
+4f 11 fb 73 a5 d4 99 e3 f7 8f 79 58 a6 0c 9f  | O ,,s ,,,,,,y X ,,,
+b2 f6 ba f4 e2 26 0a e7 c4 23 1e e8 7c 8d e9  | ,,,,,& ,,,# ,,| ,,
+db c2 ad 08 ca 72 4b 60 cb b2 ee a5 de 72 d7  | ,,,,,r K ` ,,,,,r ,
+64 cc 04 4d a8 ca 50 3d cf b8 9c c7 57 ad 02  | d ,,M ,,P = ,,,,W ,,
+73 5d 32 57 41 21 dd 20 2f b1 17 68 2c 1a a2  | s ] 2 W A ! ,  / ,,h , ,,
+d8 e5 12 62 f0 8b b3 02 60 1b d3 a4 58 48 92  | ,,,b ,,,,` ,,,X H ,
+12 6d ad 04 98 dd 32 ff 74 b9 e6 ed e3 08 42  | ,m ,,,,2 ,t ,,,,,B 
+e2 dc ff 7b ae 48 a1 65 43 62 a5 55 72 de 40  | ,,,{ ,H ,e C b ,U r ,@ 
+0b 16 66 93 da 1f 72 0f f7 16 ab be 79 2b b8  | ,,f ,,,r ,,,,,y + ,
+01 02 17 a4 4f 7a 99 a4 20 e7 ae 0d d8 a2 fd  | ,,,,O z ,,  ,,,,,,
+7d 4b f4 bb 26 65 36 c8 2c 04 58 29 c0 77 0c  | } K ,,& e 6 ,, ,X ) ,w ,
+be 9b cc 1f 61 7c 17 23 e4 db b0 53 68 22 a3  | ,,,,a | ,# ,,,S h " ,
+74 b0 e4 e1                                   | t ,,,
+
+==== Got a 71 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 57 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 37	Checksum: 41487 }
+			29 bytes of packet data
+52 fb 9a a5 12 f3 19 4b 40 00 5b 26 94 dc 0f  | R ,,,,,,K @ ,[ & ,,,
+58 db f4 e4 fc 49 66 13 c8 bc 1f 23 5d e0 23  | X ,,,,I f ,,,,# ] ,# 
+==== Got a 80 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 67 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 53 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 33	Checksum: 20001 }
+			25 bytes of packet data
+5a 0f 26 12 ac 05 71 4d 1f a9 e0 2b 45 3e 8e  | Z ,& ,,,q M ,,,+ E > ,
+55 ce b4 f9 b7 c4 94 58 ef 34 85              | U ,,,,,,X ,4 ,
+
+==== Got a 125 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 146.66.152.52	Dest: 192.168.0.23 )
+	( Type: 6	ID: 13669	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 54167 }
+		{ Seq #: 1886363679	Ack #: 3279404394 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 1285 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1292 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1114 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 73 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 59 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 39	Checksum: 10268 }
+			31 bytes of packet data
+40 bb 2d 3a 54 83 ff 90 bd bb 02 69 b1 e2 79  | @ ,- : T ,,,,,,i ,,y 
+00 10 58 01 3f a1 d0 8f f3 f9 97 a6 1c 18 a6  | ,,X ,? ,,,,,,,,,,
+08 67                                         | ,g 
+
+==== Got a 75 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1287 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1273 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 1253	Checksum: 6660 }
+			1245 bytes of packet data
+5b b8 ec f7 e1 a6 17 bb f7 cf 9f c3 45 c3 87  | [ ,,,,,,,,,,,E ,,
+8f d2 de 3b 65 8c 3b ea cc 89 ea a7 7e 18 97  | ,,,; e ,; ,,,,,~ ,,
+72 6f 3d 5d 5d 42 84 bc 0b f3 64 3a 46 99 d1  | r o = ] ] B ,,,,d : F ,,
+5c 87 2d c0 e2 8a b5 7b 6f 13 bd c8 2b 10 ad  | \ ,- ,,,,{ o ,,,+ ,,
+8d 35 fe 50 fd 2f 32 8a 41 89 6a f1 38 c1 7f  | ,5 ,P ,/ 2 ,A ,j ,8 ,,
+28 a8 f4 55 00 2d 09 cc d3 f9 5d 3b ac aa 4a  | ( ,,U ,- ,,,,] ; ,,J 
+91 65 06 1c 82 95 e3 ca 47 d8 9c 93 1d 26 57  | ,e ,,,,,,G ,,,,& W 
+c3 c9 81 08 8b 2e 25 bf e5 61 d1 c7 51 59 f5  | ,,,,,. % ,,a ,,Q Y ,
+fc ed aa af 33 3c ea 8d d6 ea 4e fc 1f ea 0d  | ,,,,3 < ,,,,N ,,,,
+f4 d4 81 32 ed 88 14 7f 0d af 7e 59 7c 6f ae  | ,,,2 ,,,,,,~ Y | o ,
+5b 8b 4f 3e 90 5e 93 31 71 76 ad 83 70 d5 cd  | [ ,O > ,^ ,1 q v ,,p ,,
+2f ef 2b 46 7b 8a e8 8e 51 17 be 50 0e 39 94  | / ,+ F { ,,,Q ,,P ,9 ,
+78 45 48 00 8f 8b 57 dc be 8d 6c 29 45 77 fe  | x E H ,,,W ,,,l ) E w ,
+31 ee 9e eb 95 0c a8 ee dc 34 27 8b 67 7a 17  | 1 ,,,,,,,,4 ' ,g z ,
+de 98 bc e1 66 20 be 57 f0 35 cf d3 6d f9 29  | ,,,,f   ,W ,5 ,,m ,) 
+e5 a0 27 63 ce f4 ad 6b 59 48 e3 23 84 f5 4b  | ,,' c ,,,k Y H ,# ,,K 
+d1 07 e6 b7 b1 be 3c da 7c 35 c9 6e 49 d9 9e  | ,,,,,,< ,| 5 ,n I ,,
+83 bf 2c dc 5e db 2d ec a1 b5 46 d2 3a e7 c7  | ,,, ,^ ,- ,,,F ,: ,,
+bd 97 93 3f 98 4d 12 38 fc c9 ca 96 9a ca e2  | ,,,? ,M ,8 ,,,,,,,
+43 30 a1 b9 43 23 f6 bd 53 e2 09 06 d9 a7 63  | C 0 ,,C # ,,S ,,,,,c 
+ee fe f7 05 5c 0c 4b 8a c3 40 26 09 5e 25 64  | ,,,,\ ,K ,,@ & ,^ % d 
+7d 93 92 70 83 43 53 53 78 56 e1 c8 c1 1f 6c  | } ,,p ,C S S x V ,,,,l 
+79 4f 26 cb 2d 6a 39 06 40 04 1e fd a5 12 21  | y O & ,- j 9 ,@ ,,,,,! 
+bd 23 bb 69 32 d8 69 61 aa 37 e1 65 00 13 9d  | ,# ,i 2 ,i a ,7 ,e ,,,
+d3 55 35 a4 1c 02 04 52 92 2e eb 4a aa 12 53  | ,U 5 ,,,,R ,. ,J ,,S 
+15 a3 7e 55 8c d9 d8 dc cd 9c b0 06 e0 3a c2  | ,,~ U ,,,,,,,,,: ,
+ee 8e ec ff f2 2e 1a 49 48 0d 39 a5 e6 61 96  | ,,,,,. ,I H ,9 ,,a ,
+b1 84 50 79 42 e2 5c ba a6 9b 36 b1 c2 8a 5c  | ,,P y B ,\ ,,,6 ,,,\ 
+57 9a 75 be c1 b7 55 94 5d e5 a2 12 be 49 f3  | W ,u ,,,U ,] ,,,,I ,
+11 67 b3 bd d3 24 58 16 6e aa 99 f3 09 24 cf  | ,g ,,,$ X ,n ,,,,$ ,
+c2 c3 ac 12 37 87 94 4d 7e 56 90 9f b3 ea a3  | ,,,,7 ,,M ~ V ,,,,,
+7b d7 99 28 d5 92 4a 46 b6 ef 52 ef 58 71 1f  | { ,,( ,,J F ,,R ,X q ,
+fe 79 0f 93 14 f9 88 2b e9 bc c8 8a 11 7b 49  | ,y ,,,,,+ ,,,,,{ I 
+0c 62 11 02 05 10 b8 4a b3 1a 38 0e a5 a3 43  | ,b ,,,,,J ,,8 ,,,C 
+66 01 a6 36 43 f6 3b 58 e7 bf 2e 53 18 05 79  | f ,,6 C ,; X ,,. S ,,y 
+df df 2a 88 7b b7 0e 96 e2 22 89 71 a9 a6 76  | ,,* ,{ ,,,," ,q ,,v 
+ee 13 31 7a a6 e1 3a 18 63 4f 23 c4 14 ff 7b  | ,,1 z ,,: ,c O # ,,,{ 
+fa 56 a2 b1 95 1c 24 0b a6 26 0b 91 f0 34 fd  | ,V ,,,,$ ,,& ,,,4 ,
+ae 87 c8 db da 9d fd 7d af 17 05 00 62 d0 67  | ,,,,,,,} ,,,,b ,g 
+4a 19 9f 5e ee 1d 65 c3 e0 cb 7e 6c fa 77 b5  | J ,,^ ,,e ,,,~ l ,w ,
+0a ef 7f ff 43 31 69 cf cd 8a 38 7a e7 40 a8  | ,,,,C 1 i ,,,8 z ,@ ,
+c7 3c b5 a8 d5 a9 ea 42 cc d1 5e fb c1 0b 89  | ,< ,,,,,B ,,^ ,,,,
+dd cc 31 3d c7 34 ea 45 4c bb 73 cf 91 92 f5  | ,,1 = ,4 ,E L ,s ,,,,
+65 20 07 c3 da 9b 5b bf a7 d8 5c 7c 4a 27 e8  | e   ,,,,[ ,,,\ | J ' ,
+ba 76 9f 0c 36 21 61 e3 f4 41 d4 d0 26 42 36  | ,v ,,6 ! a ,,A ,,& B 6 
+56 76 56 38 56 3d 0d 9f e7 34 4a 4f 84 5d 1d  | V v V 8 V = ,,,4 J O ,] ,
+50 9d 18 27 fc bc 23 86 80 d6 02 cc 3f 36 d0  | P ,,' ,,# ,,,,,? 6 ,
+41 9a c7 f4 fe 23 b9 b1 9a 63 65 aa b3 97 e1  | A ,,,,# ,,,c e ,,,,
+56 e9 9b 4c f6 ce 29 73 81 fd 0d 4e 9b a5 51  | V ,,L ,,) s ,,,N ,,Q 
+ac 7c 13 99 6a 05 a1 f9 0d e8 e0 81 db d5 a1  | ,| ,,j ,,,,,,,,,,
+20 4d 0d 9a 9c 18 eb 6d 6e 3e 06 7f 60 b2 ba  |   M ,,,,,m n > ,,` ,,
+93 05 a5 56 da 66 38 bd d6 d7 59 f3 17 ca 82  | ,,,V ,f 8 ,,,Y ,,,,
+06 98 fe 98 6a a8 f4 16 37 72 2a 50 9e f6 43  | ,,,,j ,,,7 r * P ,,C 
+d8 a3 81 ea 77 a9 98 9c 33 02 d7 75 6f 2e e3  | ,,,,w ,,,3 ,,u o . ,
+a2 45 31 c6 ce 1a 74 f4 7c 4c 17 40 f1 3f d5  | ,E 1 ,,,t ,| L ,@ ,? ,
+1f de 13 1d 62 c6 4e b3 63 98 6d f3 05 d1 1c  | ,,,,b ,N ,c ,m ,,,,
+3f de cb 13 0f b8 58 f1 c1 92 91 57 8d 79 f0  | ? ,,,,,X ,,,,W ,y ,
+bd 7a 66 ed 8b 5d 14 ce 11 2c 1d 20 f8 32 f8  | ,z f ,,] ,,,, ,  ,2 ,
+83 07 9e 77 10 fb 46 da 6b 72 63 f2 86 68 f8  | ,,,w ,,F ,k r c ,,h ,
+74 e0 f4 8c e2 be 61 eb 44 31 66 bb d0 a5 c7  | t ,,,,,a ,D 1 f ,,,,
+a6 c4 86 a7 b2 10 3d dd 57 78 a6 5e 64 3e cf  | ,,,,,,= ,W x ,^ d > ,
+f3 44 aa 45 68 72 b0 20 85 26 99 fd e9 b5 86  | ,D ,E h r ,  ,& ,,,,,
+03 c3 85 68 13 a1 23 42 7f 04 82 33 ff 58 9c  | ,,,h ,,# B ,,,3 ,X ,
+36 1f 65 c2 88 d3 1c 6b 0b 5e 48 c7 f9 d2 d7  | 6 ,e ,,,,k ,^ H ,,,,
+34 92 93 91 ed 87 a4 bc 17 ea 73 aa 11 da 23  | 4 ,,,,,,,,,s ,,,# 
+5b ff 6e 24 a8 17 67 6c 12 14 1a 3f e9 10 ec  | [ ,n $ ,,g l ,,,? ,,,
+6f e4 a6 23 7d 4c 56 18 15 cc 78 07 b1 16 7a  | o ,,# } L V ,,,x ,,,z 
+58 af d4 4c e0 20 d3 9c 01 9a 06 ba cc 36 72  | X ,,L ,  ,,,,,,,6 r 
+b1 5d 36 b9 b0 9e e4 aa ae e9 e3 1e 71 97 c4  | ,] 6 ,,,,,,,,,q ,,
+92 cf 6e 9c 27 3a d8 6d ee 81 f8 5a da f3 f8  | ,,n ,' : ,m ,,,Z ,,,
+64 e8 1d 7a 7d 39 c1 32 19 de 4c e9 11 61 28  | d ,,z } 9 ,2 ,,L ,,a ( 
+14 72 9b 36 3f e6 4e c0 f4 a3 9d 87 63 3a 52  | ,r ,6 ? ,N ,,,,,c : R 
+e5 10 94 91 d2 08 cf a1 5e 0f 1e 6a 04 d2 5e  | ,,,,,,,,^ ,,j ,,^ 
+52 94 fa e7 27 82 67 7c 73 93 f0 4c 0f a3 4e  | R ,,,' ,g | s ,,L ,,N 
+fe 52 03 09 33 56 f4 c5 a5 ac 15 33 fd bf 00  | ,R ,,3 V ,,,,,3 ,,,
+fa f7 1d 9c d1 7b 55 93 5e b4 23 00 7e 4c df  | ,,,,,{ U ,^ ,# ,~ L ,
+b7 73 56 6b 1f 34 38 d1 ef cd 0d c1 76 7d d0  | ,s V k ,4 8 ,,,,,v } ,
+64 37 b1 a8 b4 10 4d ec 5d 12 c1 ad f8 56 d9  | d 7 ,,,,M ,] ,,,,V ,
+4c 60 62 33 93 37 1e d1 de 30 cb b7 b5 c8 8d  | L ` b 3 ,7 ,,,0 ,,,,,
+04 f8 0e 61 57 30 29 57 98 92 85 79 54 2b f6  | ,,,a W 0 ) W ,,,y T + ,
+e1 14 3f 85 ac e9 8b 69 6f 43 c4 8a d4 fc 8f  | ,,? ,,,,i o C ,,,,,
+53 4f 83 40 04 ab 70 c1 ea cd 77 90 4f b7 26  | S O ,@ ,,p ,,,w ,O ,& 
+00 12 bf a9 9e d7 2b ee 30 1a ef 4d 0b 95 7d  | ,,,,,,+ ,0 ,,M ,,} 
+00                                            | ,
+
+==== Got a 574 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 560 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 540	Checksum: 25494 }
+			532 bytes of packet data
+4d a3 f3 0b 9e af fb 02 e0 f1 57 f1 47 99 12  | M ,,,,,,,,,W ,G ,,
+8a d0 d3 20 3a 8d 86 78 3b ae 09 e8 5c cd b9  | ,,,  : ,,x ; ,,,\ ,,
+34 fa 5d 32 2e a0 ef c4 ea 64 4b ba 40 8a a7  | 4 ,] 2 . ,,,,d K ,@ ,,
+3c c1 66 63 1a 8e b3 23 98 51 26 4f f9 39 f1  | < ,f c ,,,# ,Q & O ,9 ,
+e2 16 7b ae df 2b b9 28 1e 21 a1 05 ca 69 99  | ,,{ ,,+ ,( ,! ,,,i ,
+d0 c9 97 58 65 36 66 5a 4c f8 bc ec 4a 14 fb  | ,,,X e 6 f Z L ,,,J ,,
+9b f5 0f af 4a f3 1e c7 99 ec 2e 43 dd 81 69  | ,,,,J ,,,,,. C ,,i 
+62 90 8e 57 94 96 72 83 f8 07 84 54 bd 9e db  | b ,,W ,,r ,,,,T ,,,
+4d 38 49 84 f1 8b 2d c9 e1 e2 26 94 ab d2 48  | M 8 I ,,,- ,,,& ,,,H 
+eb e8 84 33 58 72 66 73 b4 56 06 65 1d a9 b6  | ,,,3 X r f s ,V ,e ,,,
+95 f5 33 88 a9 f3 9a f2 e1 90 47 1b 5b ca 9d  | ,,3 ,,,,,,,G ,[ ,,
+9c cd e4 8e a0 46 04 81 50 c1 5d 88 a4 26 de  | ,,,,,F ,,P ,] ,,& ,
+5c 5e f8 cc b9 20 0a 1b 4b 2f fc 62 d6 b1 00  | \ ^ ,,,  ,,K / ,b ,,,
+76 85 cb 79 04 c5 ed 04 b0 a8 3f 19 f1 03 f2  | v ,,y ,,,,,,? ,,,,
+ea 2a 1b 45 7a 4d d6 91 43 3c c4 74 70 ae e7  | ,* ,E z M ,,C < ,t p ,,
+79 f7 ac a2 e1 c6 04 e0 5f bd 43 58 a1 1f bb  | y ,,,,,,,_ ,C X ,,,
+57 2e df a8 24 db 47 b9 3b 46 0c 70 cb 94 c1  | W . ,,$ ,G ,; F ,p ,,,
+e3 f4 24 03 98 d2 bc db 17 f3 a8 24 77 a0 95  | ,,$ ,,,,,,,,$ w ,,
+cc 9d 5b 86 7c d2 7c ac c0 af 91 ec 16 ae f8  | ,,[ ,| ,| ,,,,,,,,
+76 67 b7 e8 80 78 cc a3 34 ab e7 32 b9 cd a9  | v g ,,,x ,,4 ,,2 ,,,
+9b 80 a3 e4 af 37 24 6c 13 de d6 04 28 bd be  | ,,,,,7 $ l ,,,,( ,,
+fe f6 72 20 e7 d0 15 67 41 bf 07 04 41 b9 da  | ,,r   ,,,g A ,,,A ,,
+ad 23 4d 48 ab a3 0b fc db a9 49 7a d9 88 dd  | ,# M H ,,,,,,I z ,,,
+64 c8 33 a1 4a 6c 17 e1 24 e0 b3 69 f9 98 62  | d ,3 ,J l ,,$ ,,i ,,b 
+37 e8 6b f1 46 e0 24 bb e0 6c 8c da 80 7e a7  | 7 ,k ,F ,$ ,,l ,,,~ ,
+06 e1 6a e5 87 85 4a 6b 40 f5 d3 f2 90 60 5b  | ,,j ,,,J k @ ,,,,` [ 
+3d 65 ea 6a 17 88 0a 52 86 60 0b 7a 39 51 48  | = e ,j ,,,R ,` ,z 9 Q H 
+4b 7d 45 42 35 8b 5b a9 29 83 31 da 8b aa c4  | K } E B 5 ,[ ,) ,1 ,,,,
+0c 3c a3 ba 65 40 71 43 64 f7 51 c5 af b2 c2  | ,< ,,e @ q C d ,Q ,,,,
+6f 70 e7 3e 8c 86 dc 24 d2 1e 44 5b 88 4c 14  | o p ,> ,,,$ ,,D [ ,L ,
+a9 d1 d1 f6 fb 55 a8 e8 d3 89 c4 78 d2 56 dd  | ,,,,,U ,,,,,x ,V ,
+bd 7f e0 af a3 2a 29 86 6f 75 1e 51 2f a5 48  | ,,,,,* ) ,o u ,Q / ,H 
+62 e1 f7 c0 c6 bd 3b e5 7d 4d db 84 74 e7 16  | b ,,,,,; ,} M ,,t ,,
+64 7d b8 55 e8 6c bb 31 8a 2b 03 20 63 80 50  | d } ,U ,l ,1 ,+ ,  c ,P 
+30 8e 1e b9 db 34 1e 4b f2 d7 b9 95 60 4a 72  | 0 ,,,,4 ,K ,,,,` J r 
+a6 47 b7 5e c1 b2 90 00                       | ,G ,^ ,,,,
+
+==== Got a 240 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 226 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 206	Checksum: 46789 }
+			198 bytes of packet data
+4e 81 1e 5d 85 a1 9f 3c 0f ad 80 42 c4 dc 3a  | N ,,] ,,,< ,,,B ,,: 
+3d ac d7 3b 46 ae d5 67 23 73 18 b3 84 6f 2a  | = ,,; F ,,g # s ,,,o * 
+16 1f a0 bd 91 f4 cb 55 9f ed f5 79 d3 76 75  | ,,,,,,,U ,,,y ,v u 
+fa a2 c0 86 bc c5 9e 8f da bd 45 49 fa 84 6d  | ,,,,,,,,,,E I ,,m 
+66 7d fc ab 33 4e 45 1b e3 6a e1 42 6d eb f9  | f } ,,3 N E ,,j ,B m ,,
+a7 e9 bb 5d 47 b6 1b 71 3c 65 09 ce 2b d9 0a  | ,,,] G ,,q < e ,,+ ,,
+40 e6 aa de 4c 72 79 f7 6d b6 f3 3a ee b9 4e  | @ ,,,L r y ,m ,,: ,,N 
+69 63 30 7e d5 fe a6 6b 9a 74 9a 53 88 46 6d  | i c 0 ~ ,,,k ,t ,S ,F m 
+b5 eb 6e 8b d7 f2 e6 7d c1 7b 20 bb f3 42 74  | ,,n ,,,,} ,{   ,,B t 
+99 a0 c1 96 6b 16 9e 62 a9 da aa 5c df 81 a9  | ,,,,k ,,b ,,,\ ,,,
+b5 f0 ce 65 61 74 e0 9c 1f 3b 63 1e 4d 12 79  | ,,,e a t ,,,; c ,M ,y 
+c8 77 ff a2 4e 67 cf 71 28 d6 a5 77 ad a6 2d  | ,w ,,N g ,q ( ,,w ,,- 
+17 38 b4 b2 94 90 5a 3f 97 38 88 89 1f db ea  | ,8 ,,,,Z ? ,8 ,,,,,
+bd cd e0 00                                   | ,,,,
+
+==== Got a 97 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 80 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 66 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.67.15.14	Dest: 192.168.0.23 )
+	( Type: 6	ID: 27796	Length: 52 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 56210 }
+		{ Seq #: 1243365366	Ack #: 1774203457 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+==== Got a 68 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 54 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 34	Checksum: 20657 }
+			26 bytes of packet data
+48 74 d0 ff db 1b 9a 4d bd 5e c0 af ab 7d cd  | H t ,,,,,M ,^ ,,,} ,
+6c 62 df 60 a0 c6 80 dd 64 9b 00 08           | l b ,` ,,,,d ,,,
+
+==== Got a 91 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.67.15.14	Dest: 192.168.0.23 )
+	( Type: 6	ID: 27797	Length: 77 )
+		{{  Layer 4 :::: TCP Header  }}
+		{ Src Port: 443	Dest Port: 56210 }
+		{ Seq #: 1243365366	Ack #: 1774203457 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			25 bytes of packet data
+17 03 03 00 14 a4 f8 b1 73 69 9d de 6f c8 65  | ,,,,,,,,s i ,,o ,e 
+1f 51 ff 6e 4c 37 92 5b af de 01              | ,Q ,n L 7 ,[ ,,,
+
+==== Got a 66 byte packet ====
+checksum doesn't match
+TCP packet dropped.
+==== Got a 1185 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 73 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 59 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 39	Checksum: 5307 }
+			31 bytes of packet data
+45 fc 2a ba 3c 41 4c c9 ff 14 27 1c 07 9c 9e  | E ,* ,< A L ,,,' ,,,,
+3d 62 49 81 23 b0 59 20 23 77 b9 7e 27 02 92  | = b I ,# ,Y   # w ,~ ' ,,
+52 67                                         | R g 
+
+==== Got a 75 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 119 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 105 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 85	Checksum: 6602 }
+			77 bytes of packet data
+5c 54 b1 bc 60 53 cb 97 4d d5 51 d9 10 6c 9e  | \ T ,,` S ,,M ,Q ,,l ,
+2e bb 2b 1a 8c be 68 8e 10 63 c1 f5 a9 a1 87  | . ,+ ,,,h ,,c ,,,,,
+ad 65 f5 84 3b a1 98 0f 3d e5 8c e3 24 0b 02  | ,e ,,; ,,,= ,,,$ ,,
+6b c8 aa e4 dc b5 bb 08 a2 d9 2c ba a9 3e 3f  | k ,,,,,,,,,, ,,> ? 
+8e 24 bb bd 70 02 fb a1 ea d7 78 07 f4 1a f2  | ,$ ,,p ,,,,,x ,,,,
+fc 74 db                                      | ,t ,
+
+==== Got a 65 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 51 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 31	Checksum: 43755 }
+			23 bytes of packet data
+59 0d a1 60 95 2e 80 19 62 e8 2a 36 ed a9 ed  | Y ,,` ,. ,,b ,* 6 ,,,
+f7 66 9a 05 32 68 c4 e1 b7                    | ,f ,,2 h ,,,
+
+==== Got a 80 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 68 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 172.217.31.142	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 54 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 38874 }
+		{ Length: 34	Checksum: 64064 }
+			26 bytes of packet data
+59 b1 c2 c7 7e c5 53 28 c8 43 f5 c9 c0 5d c2  | Y ,,,~ ,S ( ,C ,,,] ,
+62 f0 2a c7 74 b6 05 2c 87 15 4b 6a           | b ,* ,t ,,, ,,K j 
+
+==== Got a 60 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 01:00:5e:00:00:01	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 192.168.0.1	Dest: 224.0.0.1 )
+	( Type: 2	ID: 36441	Length: 32 )
+unknown type
+			18 bytes of packet data
+00 00 00 00 ef ff ff fa 51 51 51 51 51 51 51  | ,,,,,,,,Q Q Q Q Q Q Q 
+51 51 51 89                                   | Q Q Q ,
+
+==== Got a 46 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 2c:f0:5d:5b:ef:ed	Dest: 01:00:5e:00:00:fb	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 192.168.0.23	Dest: 224.0.0.251 )
+	( Type: 2	ID: 0	Length: 32 )
+unknown type
+			4 bytes of packet data
+e0 00 00 fb b9                                | ,,,,,
+
