@@ -1,3 +1,6 @@
-decode to udp as well
-calculate checksum
 multithread
+IP length can vary as well
+deal with IP checksum
+deal with TCP extra options
+detect other protocols, i.e. HTTP, ICMP, SMTP, etc
+change "domain name" and "resource data" to be dynamically allocated if possible

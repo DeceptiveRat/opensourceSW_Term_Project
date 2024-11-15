@@ -4,7 +4,7 @@
 
 #include "hacking_my.h"
 
-#define CAPTURECOUNT 100
+#define CAPTURECOUNT 10
 
 void pcap_fatal(const char *, const char *);
 
@@ -36,6 +36,7 @@ int main()
 		if(interface == NULL)
 		{
 			printf("Choose a correct interface\n");
+			pcap_freealldevs(interface_list);
 			exit(0);
 		}
 
@@ -50,15 +51,21 @@ int main()
 	if(outputFilePtr == 0)
 	{
 		printf("Error while opening file!\n");
+		pcap_freealldevs(interface_list);
 		exit(-1);
 	}
 
 	pcap_handle = pcap_open_live(interface->name, 16384, 1, 100, errbuf);
 	if(pcap_handle == NULL)
+	{
+		pcap_freealldevs(interface_list);
+		fclose(outputFilePtr);
 		pcap_fatal("At handle", errbuf);
+	}
 	
-	pcap_loop(pcap_handle, CAPTURECOUNT, caught_packet, (u_char *)outputFilePtr);
+	pcap_loop(pcap_handle, CAPTURECOUNT, print_caught_packet, (u_char *)outputFilePtr);
 
+	printf("Successfully caught all packets\n");
 	pcap_freealldevs(interface_list);
 	fclose(outputFilePtr);
 	return 0;

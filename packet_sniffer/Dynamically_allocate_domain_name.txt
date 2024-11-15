@@ -1,0 +1,1 @@
+if I allocate memory for the domain name and data in the handler function, I won't have to pass a bunch of additional arguments to the DNS testing function. Also, there will be no need for worrying about deep copying from one structure to another since I just have to point the pointers to the data in the handler function
