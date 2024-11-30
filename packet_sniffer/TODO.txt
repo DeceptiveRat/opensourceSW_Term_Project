@@ -4,3 +4,5 @@ deal with IP checksum
 deal with TCP extra options
 detect other protocols, i.e. HTTP, ICMP, SMTP, etc
 change "domain name" and "resource data" to be dynamically allocated if possible
+deal with overflows for resource data
+should I save data in the structures as they are (big-endian) or little-endian?

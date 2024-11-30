@@ -1,84 +1,674 @@
-==== Got a 1285 byte packet ====
-checksum doesn't match
-UDP packet dropped.
-==== Got a 290 byte packet ====
-checksum doesn't match
-UDP packet dropped.
-==== Got a 75 byte packet ====
+==== Got a 1288 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
 [ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 172.217.31.142	Dest: 192.168.0.23 )
-	( Type: 17	ID: 0	Length: 61 )
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1274 )
 		{{  Layer 4 :::: UDP Header  }}
-		{ Src Port: 443	Dest Port: 42441 }
-		{ Length: 41	Checksum: 57929 }
-			33 bytes of packet data
-57 18 06 3e 7c 46 20 be 64 93 a8 23 34 b6 f5  | W ,,> | F   ,d ,,# 4 ,,
-5c 96 fe 6f 4f 93 f9 ec d7 57 a8 9a b8 8e 74  | \ ,,o O ,,,,W ,,,,t 
-9f 8c 10 00                                   | ,,,,
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1254	Checksum: 11111 }
+			1246 bytes of packet data
+5b e1 38 87 d9 bc ac 69 28 d7 21 fd 48 4b 6d  | [ ,8 ,,,,i ( ,! ,H K m 
+91 ed 5a 46 e2 09 30 a1 0c 38 c7 8e 48 18 dc  | ,,Z F ,,0 ,,8 ,,H ,,
+a0 aa 08 40 46 42 94 58 4c f3 bc 20 2c 25 45  | ,,,@ F B ,X L ,,  , % E 
+f9 2e 5c e7 4d 41 3f be 52 b8 c9 48 75 00 5a  | ,. \ ,M A ? ,R ,,H u ,Z 
+ac af 82 2c 75 0d bc 03 41 06 d7 8e 50 f9 cb  | ,,,, u ,,,A ,,,P ,,
+f5 f5 e8 45 60 f6 19 fd 3b fc 72 39 60 1e 8a  | ,,,E ` ,,,; ,r 9 ` ,,
+aa df c7 26 0e 40 d2 b0 f4 7b 4a 62 9c 7f ec  | ,,,& ,@ ,,,{ J b ,,,
+f7 98 82 e9 3b ef 2e 5d fa 1c b8 ea 41 5a 17  | ,,,,; ,. ] ,,,,A Z ,
+d3 8c 1f b4 9d e5 7e c8 4a f2 3b 66 1e c6 e9  | ,,,,,,~ ,J ,; f ,,,
+02 c7 77 e0 39 aa bd 8d 8d a4 4a 22 f8 d2 97  | ,,w ,9 ,,,,,J " ,,,
+c9 1d 13 b4 41 a8 46 e9 cc ad 5d f6 49 78 7c  | ,,,,A ,F ,,,] ,I x | 
+32 9c 98 3f 8d fd 7d 49 d8 4e ad 69 88 51 d0  | 2 ,,? ,,} I ,N ,i ,Q ,
+bf e3 da 45 4f d2 a7 31 4c f4 b2 33 dd 4f 48  | ,,,E O ,,1 L ,,3 ,O H 
+0f f2 ac 8b 30 77 f9 37 9f 8e 3c 76 59 5d 89  | ,,,,0 w ,7 ,,< v Y ] ,
+6c b0 25 f7 0b 36 5d 97 d0 92 25 45 09 41 67  | l ,% ,,6 ] ,,,% E ,A g 
+a5 21 04 28 69 56 41 62 48 fe 49 bf 33 98 4c  | ,! ,( i V A b H ,I ,3 ,L 
+04 f7 8a e8 08 d0 93 fb c9 68 00 bc c9 40 fe  | ,,,,,,,,,h ,,,@ ,
+4f 82 e6 1d 6c a0 96 db 25 ac 18 b0 ce 4d 3d  | O ,,,l ,,,% ,,,,M = 
+ae 6c 4b 10 0b 89 5f 47 6e 65 2a 65 f8 4c 26  | ,l K ,,,_ G n e * e ,L & 
+ba 5e 4e 0f a4 cb b5 dd 17 5e 20 8d 12 61 b6  | ,^ N ,,,,,,^   ,,a ,
+e4 80 cc 32 17 34 e4 bc 79 66 80 de ad d9 01  | ,,,2 ,4 ,,y f ,,,,,
+26 53 1e 40 d7 20 fd a0 60 21 3c 11 e2 d0 72  | & S ,@ ,  ,,` ! < ,,,r 
+f1 5b 4e 03 8c ab 8f f8 f4 de e1 1a dc 21 1f  | ,[ N ,,,,,,,,,,! ,
+1d 55 e3 03 08 25 2a 06 f6 da 9f 75 d9 68 8d  | ,U ,,,% * ,,,,u ,h ,
+64 74 bf e2 c8 f5 43 45 1c 69 da e5 39 4a 70  | d t ,,,,C E ,i ,,9 J p 
+15 8e b2 15 c4 cc ab ca e1 d6 5a e9 fa 82 c3  | ,,,,,,,,,,Z ,,,,
+f7 b1 37 30 cd c8 c6 8a 92 72 7b 34 c2 5b ce  | ,,7 0 ,,,,,r { 4 ,[ ,
+c2 fb 0f f9 fc 65 ae b0 3d 00 5a 82 18 89 5d  | ,,,,,e ,,= ,Z ,,,] 
+64 d3 64 07 5a 01 65 04 7e 3b 7b c6 1f 5d 48  | d ,d ,Z ,e ,~ ; { ,,] H 
+14 5c 10 d3 ed b1 9b b4 66 6e 86 ab cd 0b 2d  | ,\ ,,,,,,f n ,,,,- 
+2d ed c3 f1 8f 37 8e 30 16 a1 a0 8a 2d 75 21  | - ,,,,7 ,0 ,,,,- u ! 
+73 48 2d a9 3f 69 7f 6d 5c 87 8f ca ec e2 90  | s H - ,? i ,m \ ,,,,,,
+26 3a e4 44 6d 2f 33 ec c0 75 2f a8 76 dd e0  | & : ,D m / 3 ,,u / ,v ,,
+a0 b5 56 c3 58 fd 7b 3d 6a 46 e2 92 90 c2 3c  | ,,V ,X ,{ = j F ,,,,< 
+0b 9e 19 48 02 f8 94 a6 6a b5 bb 8c 47 3d 00  | ,,,H ,,,,j ,,,G = ,
+56 3d 6a 64 17 48 76 c4 e3 ca 5a db 5b 86 1e  | V = j d ,H v ,,,Z ,[ ,,
+32 8b e1 0d d3 54 79 5a bd 23 35 26 68 aa 4d  | 2 ,,,,T y Z ,# 5 & h ,M 
+ff 88 3c 49 44 a4 1c b9 0f 8f 54 84 e0 a2 03  | ,,< I D ,,,,,T ,,,,
+f1 24 ae d9 97 41 19 e9 00 5e 77 a9 d0 28 e5  | ,$ ,,,A ,,,^ w ,,( ,
+cb b1 84 42 fc c1 79 23 66 65 78 41 b4 cf f0  | ,,,B ,,y # f e x A ,,,
+b7 c2 2e 00 02 ed 72 3b 2e eb e3 45 66 9b fb  | ,,. ,,,r ; . ,,E f ,,
+2a 44 95 e3 2c 47 40 62 6a d4 71 12 d0 c5 c4  | * D ,,, G @ b j ,q ,,,,
+8c 54 79 3c e0 95 25 79 d8 18 be a7 87 5b e0  | ,T y < ,,% y ,,,,,[ ,
+30 2c 34 8f 2f 60 c9 99 44 33 cf 8e 22 60 65  | 0 , 4 ,/ ` ,,D 3 ,," ` e 
+d7 e4 ba f6 e4 6a f9 0e 96 8d a6 d7 31 6f f6  | ,,,,,j ,,,,,,1 o ,
+6c f4 ce a8 a7 04 d8 20 3e 28 74 c5 98 bc 01  | l ,,,,,,  > ( t ,,,,
+75 81 d3 7a b2 44 1c 05 09 00 74 89 12 5d a0  | u ,,z ,D ,,,,t ,,] ,
+4d fc b1 72 75 62 ef 0e 0d 09 ae 6e 1f 3d 9d  | M ,,r u b ,,,,,n ,= ,
+cc 7d 40 79 74 da 2b 13 b2 aa 11 43 0b f0 ea  | ,} @ y t ,+ ,,,,C ,,,
+55 de ac 1a de a1 e9 81 1d 09 9c 38 fb 08 ad  | U ,,,,,,,,,,8 ,,,
+cc e2 a2 8d d3 a3 a5 90 10 8c 32 ce 9a ea bc  | ,,,,,,,,,,2 ,,,,
+63 d6 f6 b9 7a df 6d c9 db 72 46 40 c7 66 cc  | c ,,,z ,m ,,r F @ ,f ,
+da 0b 25 61 e9 9f a2 da 83 ed 9e 0f bc cf 80  | ,,% a ,,,,,,,,,,,
+2c 30 6d 41 9e e6 9d 92 a6 ee 4d f3 3b 11 23  | , 0 m A ,,,,,,M ,; ,# 
+3a d7 93 c8 d7 82 9c a2 5f d0 a6 41 69 71 7a  | : ,,,,,,,_ ,,A i q z 
+8e 02 69 6e 3a ff d1 18 7f ad e7 ca a3 24 52  | ,,i n : ,,,,,,,,$ R 
+db 4d 1a ec 2d 97 4d 6c 52 0b fa ce 72 3e 5d  | ,M ,,- ,M l R ,,,r > ] 
+82 3b c1 b3 b1 8f c1 a7 95 4f 9d 23 0a bf ad  | ,; ,,,,,,,O ,# ,,,
+55 a8 16 fd 09 3b 7c be a4 6b 58 84 b8 e8 49  | U ,,,,; | ,,k X ,,,I 
+c6 d6 09 d4 ec 12 fd 44 8b 0a 38 ed f5 b3 7e  | ,,,,,,,D ,,8 ,,,~ 
+c0 ba 04 93 3d 77 8c 02 c7 1c e5 35 77 e2 6c  | ,,,,= w ,,,,,5 w ,l 
+b4 dc 13 d5 1a 0d 9f c8 b8 f2 dc 30 0a 62 72  | ,,,,,,,,,,,0 ,b r 
+27 4a 34 1b b6 b6 11 de c5 95 38 43 96 73 26  | ' J 4 ,,,,,,,8 C ,s & 
+8a cc 57 b3 f2 64 33 81 a6 88 c7 f1 f6 d8 b1  | ,,W ,,d 3 ,,,,,,,,
+c5 23 0d b6 8b dc 68 79 fa 0c 4d cd 74 3f 7a  | ,# ,,,,h y ,,M ,t ? z 
+c0 ea c9 81 7f ed 6c 59 e9 e6 0d 34 73 b7 90  | ,,,,,,l Y ,,,4 s ,,
+c3 95 4e 11 05 78 8a fd c6 a8 bf b2 c8 af 21  | ,,N ,,x ,,,,,,,,! 
+6a 25 2b 0a d4 ce e0 46 21 b6 77 a3 e7 c0 c6  | j % + ,,,,F ! ,w ,,,,
+c2 a5 94 77 de a7 b7 89 0c 0a 37 7b ac 0b 2b  | ,,,w ,,,,,,7 { ,,+ 
+90 ac 51 c4 ec e1 ce a5 6b ae ea 5b 19 c1 4b  | ,,Q ,,,,,k ,,[ ,,K 
+4e 4b f9 38 6f 24 75 59 26 1b 5c 82 78 d5 18  | N K ,8 o $ u Y & ,\ ,x ,,
+84 3c d2 b9 ae 0b ce 26 fe 4e 68 d9 35 8e 6a  | ,< ,,,,,& ,N h ,5 ,j 
+9d c5 e5 e9 42 f8 ba 3b f3 a5 a0 56 a4 2f e6  | ,,,,B ,,; ,,,V ,/ ,
+c0 f0 97 dc a3 8f f7 14 53 dc 49 0c 50 35 be  | ,,,,,,,,S ,I ,P 5 ,
+97 55 88 fd 0e 2d b0 14 98 18 2e 4e 3b 17 d8  | ,U ,,,- ,,,,. N ; ,,
+72 50 87 d4 7c db e0 79 48 d8 2a 69 20 fe ef  | r P ,,| ,,y H ,* i   ,,
+f1 9a f2 b8 03 5b e4 ef e7 43 48 cc a5 7d a8  | ,,,,,[ ,,,C H ,,} ,
+7a de 91 24 cf 02 9a d5 5a 1c d1 2b 75 a3 65  | z ,,$ ,,,,Z ,,+ u ,e 
+75 7e cb 63 ef d2 8b 27 fa fb 98 e4 d9 9b d9  | u ~ ,c ,,,' ,,,,,,,
+65 c7 6e 63 44 97 11 23 3a 52 a0 de a1 ae 77  | e ,n c D ,,# : R ,,,,w 
+9e 44 0f 21 7c 10 d7 9a 57 6e 3e c9 73 b2 43  | ,D ,! | ,,,W n > ,s ,C 
+32 17 76 7b 29 d9 fb ca 9f 20 09 02 7b ae c1  | 2 ,v { ) ,,,,  ,,{ ,,
+5c 84 e3 56 bc 30 8d f4 29 40 ab 2f d6 68 09  | \ ,,V ,0 ,,) @ ,/ ,h ,
+83 00                                         | ,,
 
-==== Got a 75 byte packet ====
+==== Got a 1292 byte packet ====
+[[  Layer 2 :: Ethernet Header  ]]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
+	((  Layer 3 ::: IP Header  ))
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 7186 }
+			1250 bytes of packet data
+4e ca 30 07 db 3f e0 05 01 92 dc 23 90 98 47  | N ,0 ,,? ,,,,,# ,,G 
+d6 8c 5b 4c 07 e1 78 dd 06 00 14 bd 12 67 b3  | ,,[ L ,,x ,,,,,,g ,
+11 ae 61 55 45 23 48 22 2d aa fb 22 f1 89 88  | ,,a U E # H " - ,," ,,,
+b3 1f 87 73 6f 7b 85 bb 6a 07 25 c6 03 91 3e  | ,,,s o { ,,j ,% ,,,> 
+45 8f bd 11 cd 6d ea 07 fc 08 25 36 10 7b 0f  | E ,,,,m ,,,,% 6 ,{ ,
+23 90 ca f1 4a dd 7c a6 11 ba 25 19 16 86 6a  | # ,,,J ,| ,,,% ,,,j 
+5b 75 ba 7a 94 ba ec 1e 81 85 8e ec e2 e3 95  | [ u ,z ,,,,,,,,,,,
+71 bf c9 82 c5 cb 15 3b 67 56 8e 26 cd e3 60  | q ,,,,,,; g V ,& ,,` 
+4b 8f 5d 11 4c 3e 55 d0 2d 7a 5c 4a f7 a7 a9  | K ,] ,L > U ,- z \ J ,,,
+85 68 33 99 1d df 3c 83 8b bf fb 62 68 d5 25  | ,h 3 ,,,< ,,,,b h ,% 
+5e e7 5a 57 39 e4 e1 69 98 ae 3b f8 11 ec f7  | ^ ,Z W 9 ,,i ,,; ,,,,
+a8 55 cf b4 3a fd 3f 64 1a a5 20 a8 df de 1f  | ,U ,,: ,? d ,,  ,,,,
+13 20 a1 79 38 62 65 c8 c9 80 53 9a 5d b1 1e  | ,  ,y 8 b e ,,,S ,] ,,
+db 34 0b de 84 ff fb b9 dc 7e d3 25 9b 15 5a  | ,4 ,,,,,,,~ ,% ,,Z 
+86 de 14 68 4e cb a0 8b 99 fb f6 95 03 fb 58  | ,,,h N ,,,,,,,,,X 
+9e 04 57 41 f4 72 80 ae 86 a4 c0 08 54 fe 64  | ,,W A ,r ,,,,,,T ,d 
+e4 9f e5 7e e2 c8 06 63 11 72 20 82 f3 9a 9c  | ,,,~ ,,,c ,r   ,,,,
+18 c2 e6 d3 77 86 5e a8 fa ca 12 24 41 fc 47  | ,,,,w ,^ ,,,,$ A ,G 
+3e d7 34 56 71 b7 85 72 9a 76 eb 80 ff 96 0c  | > ,4 V q ,,r ,v ,,,,,
+2b 2a 65 ba 96 e7 a5 9b 58 97 53 82 15 20 45  | + * e ,,,,,X ,S ,,  E 
+fb 99 67 61 8a c3 1b 25 ff 96 64 4d e8 82 fe  | ,,g a ,,,% ,,d M ,,,
+c7 eb 23 fe 93 af 05 92 b5 da 39 8a bf d7 31  | ,,# ,,,,,,,9 ,,,1 
+8c fa 4a ff 92 b0 ec 30 48 d8 9f 82 b7 3f ad  | ,,J ,,,,0 H ,,,,? ,
+fe 6e 55 5f 7a 57 8c f8 e6 fb b9 69 8a 86 bd  | ,n U _ z W ,,,,,i ,,,
+41 74 f4 8c e7 f9 95 2b 1a 26 f4 98 88 2f b9  | A t ,,,,,+ ,& ,,,/ ,
+c1 80 10 61 65 64 71 6b ad 9c 57 a2 67 35 7c  | ,,,a e d q k ,,W ,g 5 | 
+92 13 6c 7b 8a 67 6d 34 61 41 6a d6 97 75 31  | ,,l { ,g m 4 a A j ,,u 1 
+63 b9 2e f4 e4 c5 7e 46 70 c0 5d a6 b1 ad a8  | c ,. ,,,~ F p ,] ,,,,
+91 48 83 81 32 48 46 60 d1 55 0b 02 7b a0 c4  | ,H ,,2 H F ` ,U ,,{ ,,
+22 46 74 37 2d 47 8d 2d 7e 6c c2 1e 7c c6 50  | " F t 7 - G ,- ~ l ,,| ,P 
+74 43 8e ac 63 68 f5 7a 61 42 45 77 46 85 62  | t C ,,c h ,z a B E w F ,b 
+8b 62 e2 6f 2a bf b3 11 e7 c0 32 1c 7e f1 7e  | ,b ,o * ,,,,,2 ,~ ,~ 
+3c 75 37 44 bb 42 a9 72 66 b3 fc 2d 19 91 56  | < u 7 D ,B ,r f ,,- ,,V 
+54 30 7d a3 dc 96 2c 65 ab 66 99 79 a0 85 0e  | T 0 } ,,,, e ,f ,y ,,,
+24 0e fd a9 f8 82 1a 80 23 5b f5 66 ed d4 a0  | $ ,,,,,,,# [ ,f ,,,
+9b 9e 2f 0c 20 07 a0 db a1 9a fb 20 a0 fb 43  | ,,/ ,  ,,,,,,  ,,C 
+21 34 ec d1 4a cb 6e 74 27 7b 41 7a e7 c0 4b  | ! 4 ,,J ,n t ' { A z ,,K 
+d0 f8 4f 45 cd 62 f5 39 6c c2 0c 3d 83 10 b6  | ,,O E ,b ,9 l ,,= ,,,
+e0 0a 3e f4 9e 38 e8 15 32 2b b0 63 74 2e b5  | ,,> ,,8 ,,2 + ,c t . ,
+36 87 e3 e6 d1 af 90 3c 13 99 26 8b 81 39 a0  | 6 ,,,,,,< ,,& ,,9 ,
+5f dc 91 57 84 e2 85 fd 25 e8 ba c9 de 19 e8  | _ ,,W ,,,,% ,,,,,,
+1b 62 14 73 a6 eb 8f 7c fb a4 d1 c1 78 e1 24  | ,b ,s ,,,| ,,,,x ,$ 
+22 c6 8c ea df bb c1 70 67 d1 fb 9b c0 4a 5c  | " ,,,,,,p g ,,,,J \ 
+12 9a 7c 3e d3 c2 93 86 02 ed 66 0b 05 9d 0f  | ,,| > ,,,,,,f ,,,,
+7b 54 cd 77 cc a6 63 37 fa de 41 a3 40 92 e6  | { T ,w ,,c 7 ,,A ,@ ,,
+bf 33 a0 a2 cd 70 99 9f d0 1d 49 f2 24 2a a2  | ,3 ,,,p ,,,,I ,$ * ,
+6e 9a db db 20 d8 f0 b0 0f 09 65 40 fc fa b7  | n ,,,  ,,,,,e @ ,,,
+1c 57 2f ec 21 f6 9f 65 ae 74 49 2e 34 fc 39  | ,W / ,! ,,e ,t I . 4 ,9 
+b6 d8 b2 da a7 99 ae d0 c7 54 b1 ca dc 93 56  | ,,,,,,,,,T ,,,,V 
+bb c6 2a 2a 7d 2e 86 50 82 5d 06 14 25 bf 75  | ,,* * } . ,P ,] ,,% ,u 
+ee f7 61 84 34 df 1e b3 0b 38 5d 18 41 78 51  | ,,a ,4 ,,,,8 ] ,A x Q 
+4c dc 8a e0 d4 74 e7 8e 14 f7 75 16 e6 d1 76  | L ,,,,t ,,,,u ,,,v 
+0c 5a 07 55 30 73 19 71 25 4f cf 98 98 2e 27  | ,Z ,U 0 s ,q % O ,,,. ' 
+91 99 89 c3 04 6a 64 7f 58 64 48 6b 81 96 ad  | ,,,,,j d ,X d H k ,,,
+51 71 6e 97 04 67 f6 54 d6 0f 6f 55 41 5e f1  | Q q n ,,g ,T ,,o U A ^ ,
+3a 26 d9 ee c0 f6 0b 9e a8 29 fa 29 a6 29 ff  | : & ,,,,,,,) ,) ,) ,
+dd f5 0d 48 60 6e 46 82 d3 b9 23 88 0b 1f 68  | ,,,H ` n F ,,,# ,,,h 
+74 6a 35 88 c4 88 44 17 84 10 68 7c 46 b8 cd  | t j 5 ,,,D ,,,h | F ,,
+3c b1 5a 07 1b 6f db ae 89 0b 00 3e 5c 00 3f  | < ,Z ,,o ,,,,,> \ ,? 
+02 d9 12 83 4d c1 3f 8d d0 8a bb fd b4 72 89  | ,,,,M ,? ,,,,,,r ,
+87 3e 6a a1 31 de d6 49 87 a3 ec 78 c8 d5 74  | ,> j ,1 ,,I ,,,x ,,t 
+7c 37 e7 8d 0e 73 74 64 87 0b 4d 96 5f f6 9c  | | 7 ,,,s t d ,,M ,_ ,,
+a4 4b b1 66 22 ba 33 f1 87 5c 3d 18 eb 09 08  | ,K ,f " ,3 ,,\ = ,,,,
+f0 aa 1b dc dd 4e 7f 3e a5 2b a8 90 84 99 03  | ,,,,,N ,> ,+ ,,,,,
+e6 20 b1 e8 1c 89 c7 87 2b e0 ca a1 b8 6e ca  | ,  ,,,,,,+ ,,,,n ,
+29 a1 84 9e 38 17 c3 cf 07 96 b7 23 a0 ab 9f  | ) ,,,8 ,,,,,,# ,,,
+eb 43 14 79 ac c7 7f a7 d9 05 13 44 b2 37 fb  | ,C ,y ,,,,,,,D ,7 ,
+49 89 1f 70 66 5c d0 36 2f c4 4e 74 80 d0 48  | I ,,p f \ ,6 / ,N t ,,H 
+07 74 9a 42 07 34 57 80 2b 49 31 52 aa 24 f4  | ,t ,B ,4 W ,+ I 1 R ,$ ,
+71 71 b9 52 fb c4 c3 ff 04 86 6c 6b c8 8e 26  | q q ,R ,,,,,,l k ,,& 
+9d f7 08 4c 4b a6 f1 b4 5e 16 0c 82 e1 e7 13  | ,,,L K ,,,^ ,,,,,,
+c5 2f 76 01 24 11 dc 69 c5 f9 8e 8e 7c e4 36  | ,/ v ,$ ,,i ,,,,| ,6 
+50 39 e4 7e 11 7b 60 01 bd 9e 86 22 9a 06 b2  | P 9 ,~ ,{ ` ,,,," ,,,
+81 4d e5 08 6b bf c6 72 72 8b 2b a4 9d ed 2d  | ,M ,,k ,,r r ,+ ,,,- 
+95 38 4d 97 ef 28 67 94 55 99 4f 19 f3 1d b8  | ,8 M ,,( g ,U ,O ,,,,
+1d 79 7c cf 5f 56 2d d0 0c 9a f3 4c 0d 73 f4  | ,y | ,_ V - ,,,,L ,s ,
+60 ed 7c 2d 4d 3f c6 c2 69 43 b1 83 c5 e4 ef  | ` ,| - M ? ,,i C ,,,,,
+a9 8d d2 68 aa 7a 82 de 6e a9 f7 4b 1c 27 6c  | ,,,h ,z ,,n ,,K ,' l 
+cf fc 51 13 40 68 29 5d 8e 4a 0e 0f ff 95 70  | ,,Q ,@ h ) ] ,J ,,,,p 
+3b af 7f dc 65 3e d2 3a 81 2b 06 59 01 23 d6  | ; ,,,e > ,: ,+ ,Y ,# ,
+72 b8 f7 15 22 0b 34 3e dd b4 34 64 b3 05 fa  | r ,,," ,4 > ,,4 d ,,,
+24 44 42 68 86 b3 d7 c9 69 b5 b7 64 44 0e ba  | $ D B h ,,,,i ,,d D ,,
+53 b8 e3 3b 60 6a 1e ad 6c 0e 0d 08 60 07 81  | S ,,; ` j ,,l ,,,` ,,
+5d e3 2f 6d d2 00                             | ] ,/ m ,,
+
+==== Got a 78 byte packet ====
 checksum doesn't match
 UDP packet dropped.
-==== Got a 136 byte packet ====
+==== Got a 1292 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
 [ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 172.217.31.142	Dest: 192.168.0.23 )
-	( Type: 17	ID: 0	Length: 122 )
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
 		{{  Layer 4 :::: UDP Header  }}
-		{ Src Port: 443	Dest Port: 42441 }
-		{ Length: 102	Checksum: 20511 }
-			94 bytes of packet data
-47 e7 1b d7 0f 1a 1b df 13 60 71 de 58 ad a2  | G ,,,,,,,,` q ,X ,,
-86 0e 50 5b 25 12 5e 95 e1 e7 37 4e 80 1b eb  | ,,P [ % ,^ ,,,7 N ,,,
-e8 c7 e6 cc ef 05 b7 a2 70 39 ac a4 28 77 13  | ,,,,,,,,p 9 ,,( w ,
-c5 99 58 b6 42 9e ae 5a a9 13 5f 5b 71 fe f4  | ,,X ,B ,,Z ,,_ [ q ,,
-65 14 c8 00 0d fc 89 ae 0f 4c 1f b2 89 8d f3  | e ,,,,,,,,L ,,,,,
-82 b5 30 49 39 0e f5 74 a7 be 5d ae 8d 7f 36  | ,,0 I 9 ,,t ,,] ,,,6 
-4a a5 58 28 00                                | J ,X ( ,
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 23101 }
+			1250 bytes of packet data
+5a 51 11 b7 35 f5 18 1c 63 57 51 57 36 31 eb  | Z Q ,,5 ,,,c W Q W 6 1 ,
+dd 46 75 f9 f0 5d b4 d2 43 be 2f ce 79 bc 6f  | ,F u ,,] ,,C ,/ ,y ,o 
+24 7a 9a 6b 63 66 6f 42 86 9d 8e 40 16 4b 4a  | $ z ,k c f o B ,,,@ ,K J 
+61 bb 8b 1d f8 11 f2 c0 b2 75 32 00 a7 66 ad  | a ,,,,,,,,u 2 ,,f ,
+ab e0 ce 15 06 00 35 dd 1d 24 8f 4c d0 b1 0e  | ,,,,,,5 ,,$ ,L ,,,
+4e ca 1d 60 a7 89 f4 05 6d 68 be 23 56 6b f1  | N ,,` ,,,,m h ,# V k ,
+95 5b 42 d2 90 d6 c1 49 fc 0c 48 73 e8 20 3f  | ,[ B ,,,,I ,,H s ,  ? 
+75 3f ca f4 91 74 27 b7 0e e3 82 af 70 da 76  | u ? ,,,t ' ,,,,,p ,v 
+86 80 cd d3 f7 66 b3 85 f1 25 69 dc 42 60 1b  | ,,,,,f ,,,% i ,B ` ,
+cb ab 58 da 54 70 c0 f4 3f 65 d7 01 38 c7 e4  | ,,X ,T p ,,? e ,,8 ,,
+0b fd d7 20 78 c5 5a f8 02 0e 94 64 61 64 f6  | ,,,  x ,Z ,,,,d a d ,
+01 0b ba 92 76 a2 8f 4f 2f 6c 6a 89 67 5b f5  | ,,,,v ,,O / l j ,g [ ,
+0a 32 c6 d5 d7 f0 c6 18 75 3e ae e9 30 a3 a8  | ,2 ,,,,,,u > ,,0 ,,
+5a 21 12 70 30 83 bd 60 26 da 83 b1 d4 95 36  | Z ! ,p 0 ,,` & ,,,,,6 
+ba d3 1a 81 f8 8c 8f 55 c1 09 28 ea c2 7d bb  | ,,,,,,,U ,,( ,,} ,
+6c c4 02 54 cc 6e fa 3e f0 a4 c4 5f c8 f5 82  | l ,,T ,n ,> ,,,_ ,,,
+df ab c0 4b fc b1 5b 31 db 2b 12 4a 6a 06 31  | ,,,K ,,[ 1 ,+ ,J j ,1 
+25 c6 41 29 aa ae 8b d2 52 98 65 af 43 d1 bf  | % ,A ) ,,,,R ,e ,C ,,
+f9 f7 b3 ce 6c 47 a6 9f 28 6c 0f b5 6a cb 11  | ,,,,l G ,,( l ,,j ,,
+59 47 8d 96 36 8d b4 10 b2 f3 60 b6 49 d4 4c  | Y G ,,6 ,,,,,` ,I ,L 
+d7 eb 4f 87 2e e5 e5 f9 35 24 ab e4 8d a0 92  | ,,O ,. ,,,5 $ ,,,,,
+ff d4 85 6d c5 59 8f 1e 3b 48 28 bf 73 e1 04  | ,,,m ,Y ,,; H ( ,s ,,
+ee 30 3b 41 f2 64 0f 18 a1 75 1a 94 8a 45 9a  | ,0 ; A ,d ,,,u ,,,E ,
+42 55 fc 16 ac 29 0f d4 97 b6 9c 82 21 02 c4  | B U ,,,) ,,,,,,! ,,
+9d 27 81 44 5c ad 55 1a 06 70 3b 30 e2 1f 0a  | ,' ,D \ ,U ,,p ; 0 ,,,
+0e c0 03 92 aa e2 3e 2b 7d 76 f6 9a f5 34 05  | ,,,,,,> + } v ,,,4 ,
+0b a5 ad bc 0a d0 5f 6a d5 59 bd 8a 0c 97 24  | ,,,,,,_ j ,Y ,,,,$ 
+a1 06 7f f8 aa bf 27 0d ec db f9 dc f5 3a 2f  | ,,,,,,' ,,,,,,: / 
+45 51 41 62 e0 32 c0 3c d4 c3 b4 1b be 32 f5  | E Q A b ,2 ,< ,,,,,2 ,
+f0 09 55 f6 aa c8 9a 58 ce 92 09 56 21 54 03  | ,,U ,,,,X ,,,V ! T ,
+20 18 0a cb 9b b6 7b b0 ec ae 28 fd 79 64 a1  |   ,,,,,{ ,,,( ,y d ,
+af 08 c8 37 a0 69 b5 92 74 e0 9d 9a 00 3d f5  | ,,,7 ,i ,,t ,,,,= ,
+e3 d0 16 5d 9b b2 22 b5 df 71 fc 0f 71 77 e7  | ,,,] ,," ,,q ,,q w ,
+fc 6c cd e4 5a 86 cc 2b 96 c9 6b fc 2c eb ac  | ,l ,,Z ,,+ ,,k ,, ,,
+c5 b0 20 4b a8 33 b2 89 4e 08 42 e1 10 ad 15  | ,,  K ,3 ,,N ,B ,,,,
+5f 0b 09 d2 9f 95 c3 2b db 30 d4 61 a7 f4 a8  | _ ,,,,,,+ ,0 ,a ,,,
+82 56 d5 b2 00 d1 e1 77 1e 39 fd 01 ac 46 21  | ,V ,,,,,w ,9 ,,,F ! 
+d6 9b b3 d8 fe bc dd c2 a7 fe 2a fb 55 ec d1  | ,,,,,,,,,,* ,U ,,
+a6 b1 7a ed 98 ba 18 30 1a 4a 37 b7 7d 82 04  | ,,z ,,,,0 ,J 7 ,} ,,
+f8 97 8f a0 7b 29 28 14 58 2b 81 9d 84 3a e1  | ,,,,{ ) ( ,X + ,,,: ,
+6c 02 76 8b 95 dd f9 a4 ab 9c bf dc 99 f9 e2  | l ,v ,,,,,,,,,,,,
+f3 24 0e 73 59 8d 41 38 71 6d 4f 7a 19 4e 2a  | ,$ ,s Y ,A 8 q m O z ,N * 
+b5 c2 db 98 15 07 12 93 d0 6a ee 82 02 b6 be  | ,,,,,,,,,j ,,,,,
+7d e5 f1 3d b3 11 12 1f 5a 76 95 9b 21 75 cb  | } ,,= ,,,,Z v ,,! u ,
+86 17 4d 2b 89 91 60 1d 9e 73 0b f2 a9 2f b1  | ,,M + ,,` ,,s ,,,/ ,
+9a 29 4e e1 3f 29 3c 1b c5 df d2 eb 9c f9 3c  | ,) N ,? ) < ,,,,,,,< 
+03 5b 59 df c7 1d 76 88 73 26 70 4a 6a 61 73  | ,[ Y ,,,v ,s & p J j a s 
+66 3c 9d 00 bc 68 67 e2 fc 98 d3 47 64 a8 fe  | f < ,,,h g ,,,,G d ,,
+41 27 c5 f1 29 b8 3f 47 b3 16 ec d9 39 82 71  | A ' ,,) ,? G ,,,,9 ,q 
+27 f2 96 4c 19 7b 4e 73 ca e4 c3 0a f6 f7 26  | ' ,,L ,{ N s ,,,,,,& 
+c3 4a 85 60 15 60 bc 81 3b 8f ca 15 bd 3c 28  | ,J ,` ,` ,,; ,,,,< ( 
+09 29 7a 86 d7 9f 21 dd 6e a6 ae 6e e3 af f3  | ,) z ,,,! ,n ,,n ,,,
+b2 b4 45 2d 31 27 82 5b 3e a3 f9 20 dc 6e a4  | ,,E - 1 ' ,[ > ,,  ,n ,
+a0 ba 3e 83 04 d9 b0 d6 f5 fd 6f ba b9 f9 d8  | ,,> ,,,,,,,o ,,,,
+e6 1d d0 57 4b 1d af 0f 4e 25 7d 87 08 2b 93  | ,,,W K ,,,N % } ,,+ ,
+51 97 be 8b 45 49 48 22 62 94 d6 63 16 af fe  | Q ,,,E I H " b ,,c ,,,
+13 b9 a4 2e 64 18 71 d1 04 83 91 d5 a0 a1 6e  | ,,,. d ,q ,,,,,,,n 
+c6 83 e4 fa b4 94 07 23 02 45 bf e7 1c 44 22  | ,,,,,,,# ,E ,,,D " 
+9f 81 13 90 d4 53 af d0 6e 98 2b 9c fc 3f df  | ,,,,,S ,,n ,+ ,,? ,
+59 33 e7 50 12 be 72 1a 13 fe 51 58 94 a1 26  | Y 3 ,P ,,r ,,,Q X ,,& 
+b1 ec 7c d7 3a 61 0e f6 81 51 77 de 31 bc 59  | ,,| ,: a ,,,Q w ,1 ,Y 
+16 f3 a1 ea 12 47 e1 37 92 a9 8f e4 5b 6d 24  | ,,,,,G ,7 ,,,,[ m $ 
+ee 7c 4a 1f e7 7f 6f de 2f 9b bb 42 48 65 5a  | ,| J ,,,o ,/ ,,B H e Z 
+7f 60 8f 21 a4 e7 8b e0 2c ae 76 01 74 5a 85  | ,` ,! ,,,,, ,v ,t Z ,
+cc c2 ab bb 09 53 77 6e 4c 8c 6e b8 ce 3d 08  | ,,,,,S w n L ,n ,,= ,
+a6 50 90 ac bd 3b 2f 6d fe 5f a1 07 1b 26 a0  | ,P ,,,; / m ,_ ,,,& ,
+49 01 d6 c6 dc 4e 26 af 7d 84 bc 80 55 09 33  | I ,,,,N & ,} ,,,U ,3 
+50 01 4e 74 2e 20 0c a1 7b 16 96 da 14 31 be  | P ,N t .   ,,{ ,,,,1 ,
+f7 3a 92 bb 8f b7 70 f6 b7 c3 83 78 67 8e 1e  | ,: ,,,,p ,,,,x g ,,
+8b d8 ae 70 5f 42 e2 56 9c 1e 33 e8 4b 1d d3  | ,,,p _ B ,V ,,3 ,K ,,
+09 8d fa 1f 45 48 3b bd eb cd 84 58 01 94 e8  | ,,,,E H ; ,,,,X ,,,
+23 a2 85 ee 37 9e ea 76 f2 87 bc 7c ed 03 6c  | # ,,,7 ,,v ,,,| ,,l 
+a0 95 74 7b 58 24 fd 50 79 4a 64 c9 35 ad 93  | ,,t { X $ ,P y J d ,5 ,,
+83 ad 82 1e d2 a2 ea a8 17 e5 b7 e9 d1 17 64  | ,,,,,,,,,,,,,,d 
+dc d9 8a 64 fb f2 c8 97 ac 7b d7 ca 9b d5 21  | ,,,d ,,,,,{ ,,,,! 
+97 9a d9 78 54 bf 14 35 50 7e 6e d6 7b b3 bf  | ,,,x T ,,5 P ~ n ,{ ,,
+21 12 88 35 e9 b7 b2 4c dc 20 25 46 f4 21 6d  | ! ,,5 ,,,L ,  % F ,! m 
+02 21 bb aa 35 86 05 13 d4 38 70 4c c1 d9 23  | ,! ,,5 ,,,,8 p L ,,# 
+b6 4b 7f cf 51 68 ee bc 4b 0d d3 10 4d 0d 11  | ,K ,,Q h ,,K ,,,M ,,
+03 70 14 43 70 d5 11 ca e7 a7 14 ec 81 0d 2d  | ,p ,C p ,,,,,,,,,- 
+dd d9 2e 82 53 ad db d7 22 69 e6 01 f4 b3 52  | ,,. ,S ,,," i ,,,,R 
+e9 bd fe f4 b0 f4 97 bb 05 8e 85 c1 25 41 7c  | ,,,,,,,,,,,,% A | 
+59 82 c6 ff 9e 80 78 bc 55 2b 14 6b 6a 20 a2  | Y ,,,,,x ,U + ,k j   ,
+0c 6c 9d e4 f8 00                             | ,l ,,,,
 
-==== Got a 65 byte packet ====
+==== Got a 1292 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
 [ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 172.217.31.142	Dest: 192.168.0.23 )
-	( Type: 17	ID: 0	Length: 51 )
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
 		{{  Layer 4 :::: UDP Header  }}
-		{ Src Port: 443	Dest Port: 42441 }
-		{ Length: 31	Checksum: 29753 }
-			23 bytes of packet data
-5b 28 78 16 84 a5 4e 74 e0 a3 55 1c c4 d5 57  | [ ( x ,,,N t ,,U ,,,W 
-3c fc 4f 6b 4f 0e 00 e9 00                    | < ,O k O ,,,,
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 32353 }
+			1250 bytes of packet data
+50 ab 55 7f 5b 3b e1 63 6b d5 0f 7b 06 87 8e  | P ,U ,[ ; ,c k ,,{ ,,,
+3f 1e 9e f2 6a 07 df 60 9b 21 50 5c b3 bc 6f  | ? ,,,j ,,` ,! P \ ,,o 
+66 f9 e4 67 09 fd 71 28 f4 6e df 12 d2 b5 5e  | f ,,g ,,q ( ,n ,,,,^ 
+b4 c0 df a8 10 3a d8 31 d2 c1 f8 ea e3 96 35  | ,,,,,: ,1 ,,,,,,5 
+77 ee ea 6c 4e 45 9a e4 97 8f 81 13 25 9b cc  | w ,,l N E ,,,,,,% ,,
+f2 3e fd 6e ce a9 ff b8 87 ae 31 ea b5 44 0e  | ,> ,n ,,,,,,1 ,,D ,
+b8 17 23 b3 ce 72 f8 c7 83 38 a7 2d fa 22 eb  | ,,# ,,r ,,,8 ,- ," ,
+ae ae 26 b6 a5 d0 95 23 c6 a5 48 5d 55 d5 e6  | ,,& ,,,,# ,,H ] U ,,
+fa c9 89 fc 3c a1 28 59 c9 c9 c3 3e c5 24 46  | ,,,,< ,( Y ,,,> ,$ F 
+18 0b 6e 8c a8 dc d4 7a 63 48 e7 b6 c6 4d 19  | ,,n ,,,,z c H ,,,M ,
+df a0 09 47 92 7b 50 b7 80 19 43 cc 15 26 2c  | ,,,G ,{ P ,,,C ,,& , 
+b6 91 34 35 cb ba 80 66 8a 6f ff e5 9e 4d 63  | ,,4 5 ,,,f ,o ,,,M c 
+89 2a a4 00 f7 41 91 78 6a ca 35 21 59 a2 ec  | ,* ,,,A ,x j ,5 ! Y ,,
+6e 39 2e bb 9b 92 fe 80 31 47 27 ef 00 eb b0  | n 9 . ,,,,,1 G ' ,,,,
+49 33 fa aa f4 3a a1 71 99 b0 4f 3a 15 24 e4  | I 3 ,,,: ,q ,,O : ,$ ,
+4f 28 a2 e5 8b 83 2c 2b 42 ea ec be 8c 37 02  | O ( ,,,,, + B ,,,,7 ,
+4a 83 f4 c6 80 94 24 21 45 00 e9 eb 6c a3 55  | J ,,,,,$ ! E ,,,l ,U 
+71 e7 62 04 6f e4 34 6a 38 d2 08 a9 23 52 2e  | q ,b ,o ,4 j 8 ,,,# R . 
+53 42 f5 22 34 94 0e 20 20 12 38 5b 65 fa a8  | S B ," 4 ,,    ,8 [ e ,,
+b7 b1 d6 d0 20 82 95 8a 51 c2 6c 57 2b 6c d2  | ,,,,  ,,,Q ,l W + l ,
+46 ac 64 e8 fa e5 78 78 5c 9d 0b ee 07 98 b4  | F ,d ,,,x x \ ,,,,,,
+9d 7c 0f 1e 2b 72 45 71 0f 4e 77 55 5f d6 bf  | ,| ,,+ r E q ,N w U _ ,,
+a2 00 05 1c 82 cb 5a 71 ab 80 98 6f 1d 55 61  | ,,,,,,Z q ,,,o ,U a 
+d2 b7 dc 57 6a c6 78 3e b5 e4 1f db ce 32 c6  | ,,,W j ,x > ,,,,,2 ,
+c4 82 07 69 03 99 dc a8 b0 ec 0e e6 8d 9c db  | ,,,i ,,,,,,,,,,,
+39 f2 68 9e 25 3a 16 df 1b 8d 3e b3 c4 4e 77  | 9 ,h ,% : ,,,,> ,,N w 
+47 5f bc 44 be d0 86 83 06 83 e4 a9 db 18 77  | G _ ,D ,,,,,,,,,,w 
+1a 37 ec 9f e7 05 91 34 44 15 d0 9c 6d 7f a1  | ,7 ,,,,,4 D ,,,m ,,
+fe 66 a8 d7 8c 78 10 3d 22 81 9d bd 20 a5 2e  | ,f ,,,x ,= " ,,,  ,. 
+d3 9b a9 2c c2 f0 66 d4 3e b9 ba 59 f8 7f af  | ,,,, ,,f ,> ,,Y ,,,
+0f 3e 5c f2 c8 e8 fe f7 98 10 b4 10 55 f7 17  | ,> \ ,,,,,,,,,U ,,
+eb 65 a2 53 46 64 d4 8c ac 36 45 21 1c 07 cd  | ,e ,S F d ,,,6 E ! ,,,
+f0 12 96 bc 40 ce ff bf db f9 61 50 d6 29 47  | ,,,,@ ,,,,,a P ,) G 
+e2 2e 80 9b c9 11 0b bb f9 b6 fd ea 75 17 a7  | ,. ,,,,,,,,,,u ,,
+59 39 06 75 01 42 4f 94 43 dd 39 47 d2 93 f8  | Y 9 ,u ,B O ,C ,9 G ,,,
+48 b5 8e 81 d7 b3 ab d7 50 51 9e 26 d8 59 15  | H ,,,,,,,P Q ,& ,Y ,
+0c bc c0 a5 b8 82 c9 2b 61 61 0a 87 d9 d9 98  | ,,,,,,,+ a a ,,,,,
+f8 72 3b f3 8e d1 50 b1 5a 57 c9 94 24 73 b5  | ,r ; ,,,P ,Z W ,,$ s ,
+19 82 75 20 07 b1 6c 17 eb 46 c0 1c 1f e1 08  | ,,u   ,,l ,,F ,,,,,
+84 8e c4 93 b5 2d 9f c2 58 46 64 7c e5 26 88  | ,,,,,- ,,X F d | ,& ,
+f1 d0 26 a6 2a 47 17 54 67 72 1a 32 91 3e e5  | ,,& ,* G ,T g r ,2 ,> ,
+59 7e 14 d5 ad 35 99 e8 4a 10 66 32 eb 79 be  | Y ~ ,,,5 ,,J ,f 2 ,y ,
+9a 8a 39 81 70 e8 07 18 22 e0 fe a8 79 02 53  | ,,9 ,p ,,," ,,,y ,S 
+a7 48 09 6a 0d 76 26 06 47 59 9a b7 54 b6 a5  | ,H ,j ,v & ,G Y ,,T ,,
+c2 6b 66 c8 16 a7 b0 d0 b3 90 3b b0 02 ed cb  | ,k f ,,,,,,,; ,,,,
+dd cd 38 27 cf 36 ff 3b 93 61 c9 8a 58 06 8f  | ,,8 ' ,6 ,; ,a ,,X ,,
+af a5 4f c6 9b 6a e0 fe bd ac 58 12 b2 79 68  | ,,O ,,j ,,,,X ,,y h 
+37 1c b6 80 1b 9c 44 51 e9 fd b4 03 4a 8a cb  | 7 ,,,,,D Q ,,,,J ,,
+d3 8e fc dc 59 d8 ab 4b fe b8 32 20 f3 48 42  | ,,,,Y ,,K ,,2   ,H B 
+32 0c c7 7b 10 81 0b 81 1b 9d 92 1e 15 68 27  | 2 ,,{ ,,,,,,,,,h ' 
+75 9d 82 41 e0 d2 dd cb e9 dd 81 05 8e 29 ff  | u ,,A ,,,,,,,,,) ,
+6f 49 42 1d 58 bc 4d a8 90 66 c9 ae 08 3e 51  | o I B ,X ,M ,,f ,,,> Q 
+b5 ab f3 88 ea fb 93 0e 08 4b 33 16 4f e7 03  | ,,,,,,,,,K 3 ,O ,,
+94 50 3f e8 ce ee 15 23 77 ac 93 07 aa e6 37  | ,P ? ,,,,# w ,,,,,7 
+30 1d 10 ee e1 5f 23 9e c0 b5 f0 c2 b2 83 03  | 0 ,,,,_ # ,,,,,,,,
+be 98 45 71 bf e1 9f f6 33 77 9d 2b 75 29 82  | ,,E q ,,,,3 w ,+ u ) ,
+66 3a ba e1 fa bc 04 53 fd 33 6d ea 9f f7 86  | f : ,,,,,S ,3 m ,,,,
+a5 68 22 7b 0a c9 82 39 79 db 5b 09 fc 2f 0e  | ,h " { ,,,9 y ,[ ,,/ ,
+3f 57 28 2d 6f 46 ed 1c d7 dc 36 a6 a7 2e 0d  | ? W ( - o F ,,,,6 ,,. ,
+c1 15 2f 46 1e b7 6e 82 8d 50 a1 cd 7d 29 f2  | ,,/ F ,,n ,,P ,,} ) ,
+f2 59 17 79 f5 8d 33 ae e4 9c 47 b6 67 18 f0  | ,Y ,y ,,3 ,,,G ,g ,,
+65 1a 58 1e 37 8f 4a 9e 67 25 94 1f 2e ca 02  | e ,X ,7 ,J ,g % ,,. ,,
+03 f5 48 f1 c1 d9 3b 2c e1 de 4e 3b a6 16 cc  | ,,H ,,,; , ,,N ; ,,,
+cf 13 90 92 b4 01 af cd 9f 5e d3 ff d8 2e d9  | ,,,,,,,,,^ ,,,. ,
+ad 45 7b 60 85 77 f1 4c 94 bb 5b 18 ec 93 ae  | ,E { ` ,w ,L ,,[ ,,,,
+87 81 8b e1 80 7a 17 c9 be d2 08 28 02 b7 2e  | ,,,,,z ,,,,,( ,,. 
+d9 48 3c df af 92 7c 1c 5b b6 f3 4e 54 5c 05  | ,H < ,,,| ,[ ,,N T \ ,
+53 26 54 cb 74 80 f3 ab f6 17 59 df 2c 85 c1  | S & T ,t ,,,,,Y ,, ,,
+aa 16 00 48 af 52 17 8f 1b a5 e4 32 ec 37 73  | ,,,H ,R ,,,,,2 ,7 s 
+00 38 80 eb 2b 5a 43 d6 7c bf ba b9 4b f6 0c  | ,8 ,,+ Z C ,| ,,,K ,,
+52 00 f1 97 ba 32 b2 26 dd 7a f7 0d a7 dd 46  | R ,,,,2 ,& ,z ,,,,F 
+09 b0 c9 37 41 2b eb 37 26 ac 4d 10 3a 49 c9  | ,,,7 A + ,7 & ,M ,: I ,
+e7 c0 d7 24 c6 61 2b 1b 40 3c 12 bc 2b 0c c9  | ,,,$ ,a + ,@ < ,,+ ,,
+d0 8f 22 0e 33 ec 59 65 85 69 2e bd a4 f7 7c  | ,," ,3 ,Y e ,i . ,,,| 
+e4 0e 24 b4 e3 c3 32 bc 04 0b 84 d8 7f 76 c3  | ,,$ ,,,2 ,,,,,,v ,
+87 23 09 de 40 b2 58 08 d2 28 aa f4 a6 8e a9  | ,# ,,@ ,X ,,( ,,,,,
+2c dc 43 8a fa 32 ae 88 cf 30 ff 14 39 88 48  | , ,C ,,2 ,,,0 ,,9 ,H 
+06 04 f6 be 59 08 ca 3d 62 92 e7 79 ff 30 a6  | ,,,,Y ,,= b ,,y ,0 ,
+58 c8 8d c3 0e 19 79 6b c9 db ab 5d be 68 45  | X ,,,,,y k ,,,] ,h E 
+b7 5d e2 fa 54 e9 8a 16 89 94 00 11 9a 66 04  | ,] ,,T ,,,,,,,,f ,
+56 89 bc 51 e6 23 a2 5d f0 52 cf dc a6 e4 e2  | V ,,Q ,# ,] ,R ,,,,,
+db 44 dc fe bb c8 b7 cd 11 8b 27 98 17 83 d6  | ,D ,,,,,,,,' ,,,,
+a3 d7 b7 6e 03 1d 95 b0 3c ec cc b7 02 31 7a  | ,,,n ,,,,< ,,,,1 z 
+31 90 0e 28 2f 00                             | 1 ,,( / ,
 
-==== Got a 82 byte packet ====
+==== Got a 74 byte packet ====
 checksum doesn't match
 UDP packet dropped.
-==== Got a 68 byte packet ====
+==== Got a 1292 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
 [ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 172.217.31.142	Dest: 192.168.0.23 )
-	( Type: 17	ID: 0	Length: 54 )
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
 		{{  Layer 4 :::: UDP Header  }}
-		{ Src Port: 443	Dest Port: 42441 }
-		{ Length: 34	Checksum: 44596 }
-			26 bytes of packet data
-5f 88 07 fc 57 4a b6 ff 21 6f 2c 16 cb 3b fc  | _ ,,,W J ,,! o , ,,; ,
-a6 45 17 1a 84 22 66 e4 2c 2b 65 00           | ,E ,,," f ,, + e ,
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 46264 }
+			1250 bytes of packet data
+49 11 82 09 84 e7 76 f5 98 33 ee 1f d8 9f d2  | I ,,,,,v ,,3 ,,,,,
+ee 19 6e 9a 9c f5 3a 1b 3b c9 e7 86 9f dd 7b  | ,,n ,,,: ,; ,,,,,{ 
+94 77 3b ef ec 72 cc e1 35 a4 4c 49 ac 67 08  | ,w ; ,,r ,,5 ,L I ,g ,
+86 68 54 b4 fd 3b b1 f1 6f 68 f1 f7 3b 01 74  | ,h T ,,; ,,o h ,,; ,t 
+4b cd 73 a9 3c d3 5a cf d9 ba 05 3e 42 82 3c  | K ,s ,< ,Z ,,,,> B ,< 
+82 4e be 13 da 93 48 09 f0 7c 56 0b 67 e5 bc  | ,N ,,,,H ,,| V ,g ,,
+05 e5 ca e9 03 10 32 5b 04 90 67 75 fb 7b 81  | ,,,,,,2 [ ,,g u ,{ ,
+99 53 f9 0d c2 94 11 d3 fa 98 f1 81 e4 f2 03  | ,S ,,,,,,,,,,,,,
+8f 45 60 e3 d4 de 01 01 e1 d4 d7 33 54 62 00  | ,E ` ,,,,,,,,3 T b ,
+7a c8 95 cf 8c ce e4 4f 99 5a 05 67 a8 d4 b1  | z ,,,,,,O ,Z ,g ,,,
+6c 4f 14 6b 6e b6 bf 2e ca 6f 4f 6f a1 5c 40  | l O ,k n ,,. ,o O o ,\ @ 
+31 d7 ef b4 f8 bd aa 4c ed ef 51 e9 1b fe ff  | 1 ,,,,,,L ,,Q ,,,,
+d1 81 a8 05 7b a3 84 5e 52 89 fe 0b 9e e8 68  | ,,,,{ ,,^ R ,,,,,h 
+0c 5e 67 52 55 63 4f d5 71 b2 b5 6c dc f1 3c  | ,^ g R U c O ,q ,,l ,,< 
+b5 c6 73 47 72 cc 5f fb 05 eb ac 6e 55 ee 44  | ,,s G r ,_ ,,,,n U ,D 
+57 44 b1 3b 87 30 07 9e db e9 15 7b e0 7a da  | W D ,; ,0 ,,,,,{ ,z ,
+8e 1d 21 8a 1a 9f c1 d0 41 af 7b 73 0e 86 9f  | ,,! ,,,,,A ,{ s ,,,
+55 12 d9 8c e4 47 38 99 13 0c ed 25 5a 34 34  | U ,,,,G 8 ,,,,% Z 4 4 
+1d ef b9 05 85 64 30 11 88 0b 6a aa 16 fc da  | ,,,,,d 0 ,,,j ,,,,
+2e 06 8f 3b 22 4a 8b 6b 4b 50 f0 a3 d2 fd 06  | . ,,; " J ,k K P ,,,,,
+cc 33 b5 0b aa 29 a6 9b 49 ec a1 87 c9 39 bf  | ,3 ,,,) ,,I ,,,,9 ,
+be f5 dd 83 43 2e 30 7a a7 ee 38 65 21 5b b1  | ,,,,C . 0 z ,,8 e ! [ ,
+92 73 34 ca 58 1d ea d2 91 8f 8f 2f 07 ad b4  | ,s 4 ,X ,,,,,,/ ,,,
+91 e8 a9 26 37 39 e2 52 58 15 73 ee 8a e2 eb  | ,,,& 7 9 ,R X ,s ,,,,
+a3 9e 45 b7 51 e0 93 15 c3 de 28 94 16 f1 ea  | ,,E ,Q ,,,,,( ,,,,
+e3 f5 b6 61 30 01 57 9c ae ea 4a a2 38 b8 42  | ,,,a 0 ,W ,,,J ,8 ,B 
+b9 e5 69 31 fa 7a f0 8c 6e 42 df 72 bd 5c f7  | ,,i 1 ,z ,,n B ,r ,\ ,
+fb ef cf 50 dd fe 91 e2 cf 5f db bb 34 eb 50  | ,,,P ,,,,,_ ,,4 ,P 
+8b 4f 90 ac e4 9e 2f f7 86 9c 4f 3c 8d d4 f2  | ,O ,,,,/ ,,,O < ,,,
+3f ed a2 a5 1c 38 7e 9a 8e 9e c2 c7 8c 2c 07  | ? ,,,,8 ~ ,,,,,,, ,
+6f f4 c4 cd f2 e0 8a 59 26 cb 63 1d 03 1f da  | o ,,,,,,Y & ,c ,,,,
+bc 88 df 78 c9 59 a2 26 bd ba 92 0b fc b6 f9  | ,,,x ,Y ,& ,,,,,,,
+21 c4 fb 23 3e c5 62 48 bf 03 8d 2d 02 22 a0  | ! ,,# > ,b H ,,,- ," ,
+12 ae 65 e9 8a 8f 27 ca 39 a9 8f 0a c7 f4 5f  | ,,e ,,,' ,9 ,,,,,_ 
+80 04 ab 22 d5 a1 ee 9f c1 b7 2d 55 0d 9b b7  | ,,," ,,,,,,- U ,,,
+d9 69 0c 7a 97 71 66 91 24 12 c8 47 37 f2 3a  | ,i ,z ,q f ,$ ,,G 7 ,: 
+5a ab d6 ee 92 89 be 79 64 99 22 5a a1 ea 37  | Z ,,,,,,y d ," Z ,,7 
+79 ef 0d e8 f6 1b 6a a8 c0 1b bd ad fc 15 fa  | y ,,,,,j ,,,,,,,,
+ec a6 15 67 ce d9 60 52 31 a3 9c bc f5 e6 00  | ,,,g ,,` R 1 ,,,,,,
+0a 28 b8 90 d3 2c c4 42 5d 5a 05 7a 59 0b f8  | ,( ,,,, ,B ] Z ,z Y ,,
+9e 90 aa 59 e6 6f 8d 3b 22 02 6f e5 1f 97 32  | ,,,Y ,o ,; " ,o ,,,2 
+ca 53 ea b4 5c b3 bc 2d 73 94 11 dc 45 c9 84  | ,S ,,\ ,,- s ,,,E ,,
+c1 a4 2b 2b 54 37 dc 38 b1 ba 59 f4 06 4a 0d  | ,,+ + T 7 ,8 ,,Y ,,J ,
+39 2c 91 e8 a3 3a 8f 14 3a f2 96 a5 7d ed aa  | 9 , ,,,: ,,: ,,,} ,,
+70 74 6b 56 ae 4c 6b 14 9b 40 e2 e1 b7 34 29  | p t k V ,L k ,,@ ,,,4 ) 
+f7 da 81 40 56 48 15 77 a5 5b 34 69 b6 d1 10  | ,,,@ V H ,w ,[ 4 i ,,,
+64 91 59 5c 08 9e 3b cc 18 91 7f 92 2b c5 0e  | d ,Y \ ,,; ,,,,,+ ,,
+84 25 d9 f5 4b 4e 97 47 07 44 9f 17 98 88 9d  | ,% ,,K N ,G ,D ,,,,,
+ac 3a 34 b6 13 b8 64 0c 60 c4 4b 95 c9 7b 9f  | ,: 4 ,,,d ,` ,K ,,{ ,
+53 4d 23 c1 e9 dd 47 56 b7 82 1e 1b 1a c3 a9  | S M # ,,,G V ,,,,,,,
+39 a0 b2 30 12 5e 06 86 45 49 7d 6e 09 67 5f  | 9 ,,0 ,^ ,,E I } n ,g _ 
+15 90 a1 2e a8 61 d4 bc 74 3f af 49 e7 58 56  | ,,,. ,a ,,t ? ,I ,X V 
+e2 e0 39 0e cb ce 87 80 f6 7b 23 eb ec 28 f0  | ,,9 ,,,,,,{ # ,,( ,
+ae d7 31 7e 6f 58 64 d4 f5 60 b3 b8 4a 9a 4f  | ,,1 ~ o X d ,,` ,,J ,O 
+86 ac 43 0e 35 c7 0f b7 9d 8c 7e 87 35 d1 7e  | ,,C ,5 ,,,,,~ ,5 ,~ 
+9e 83 c7 40 3f 92 81 68 f1 e6 32 c6 96 c3 15  | ,,,@ ? ,,h ,,2 ,,,,
+d8 1f e4 12 96 de 46 4c 2e a5 af b7 ce 22 04  | ,,,,,,F L . ,,,," ,
+49 0e 92 e8 81 95 c3 54 60 bb 98 67 16 7d 00  | I ,,,,,,T ` ,,g ,} ,
+fd a3 f4 99 6f 16 47 8c 6e 3c 61 b7 91 88 2a  | ,,,,o ,G ,n < a ,,,* 
+44 aa 6e bb f6 af ba 68 7c 90 e2 fe ba 14 e0  | D ,n ,,,,h | ,,,,,,
+0d 5c 36 8a d0 ea 73 b0 70 76 06 ad e0 93 4e  | ,\ 6 ,,,s ,p v ,,,,N 
+3a 8f 97 a0 3a b0 8e c8 5a 22 fe 47 62 04 25  | : ,,,: ,,,Z " ,G b ,% 
+8c 6b b4 8a 30 26 4e be 62 25 5d 00 e9 70 fe  | ,k ,,0 & N ,b % ] ,,p ,
+1e 0f 98 63 bd 1a 7e 20 60 f4 6a a1 3a b9 09  | ,,,c ,,~   ` ,j ,: ,,
+6b 74 df 3b 65 56 52 14 db 83 26 bb 38 71 2a  | k t ,; e V R ,,,& ,8 q * 
+e2 9b 02 a3 01 5a a4 af 9a d5 7e 08 df de d3  | ,,,,,Z ,,,,~ ,,,,
+49 df 6a 2f 7d 36 7f 63 32 d0 8e 8b 6b 51 d4  | I ,j / } 6 ,c 2 ,,,k Q ,
+f4 4f 67 4e af 29 d2 37 f6 ff 09 3d fa 64 73  | ,O g N ,) ,7 ,,,= ,d s 
+ec a6 64 4c fb e4 00 43 96 b7 0a 27 94 94 d6  | ,,d L ,,,C ,,,' ,,,
+5f d1 a6 8e 54 dd 33 e3 51 75 f5 08 13 39 8c  | _ ,,,T ,3 ,Q u ,,,9 ,
+3f 87 b3 00 c4 e7 b6 de d6 80 7e 25 7a df b1  | ? ,,,,,,,,,~ % z ,,
+4c 9d 2a 17 c5 fc 10 84 8e 24 51 af aa c2 79  | L ,* ,,,,,,$ Q ,,,y 
+c6 d4 4a d2 96 f8 93 30 f2 45 2d ff 0a d2 92  | ,,J ,,,,0 ,E - ,,,,
+f7 6c 77 a5 e1 f0 ac e6 d3 d8 1d 81 03 e9 0f  | ,l w ,,,,,,,,,,,,
+c5 f7 10 f8 d4 0d 17 7d fc a7 ce 6c 2a e3 51  | ,,,,,,,} ,,,l * ,Q 
+f2 f3 86 74 da ad 89 6a f6 d4 ee 7e f0 55 e0  | ,,,t ,,,j ,,,~ ,U ,
+18 fc 90 f9 a8 b6 0a 3f 99 85 0b 7d 76 9c 24  | ,,,,,,,? ,,,} v ,$ 
+ad 18 85 5f e3 d7 ee 9f a7 be 78 21 e6 75 04  | ,,,_ ,,,,,,x ! ,u ,
+80 56 42 c9 7c 48 e4 69 16 48 4a 99 24 f4 34  | ,V B ,| H ,i ,H J ,$ ,4 
+32 4e 55 2c 37 d5 be a2 02 fa 21 da d8 4b dc  | 2 N U , 7 ,,,,,! ,,K ,
+65 77 40 71 1f ab 35 d3 05 9c 49 63 bd 3a fd  | e w @ q ,,5 ,,,I c ,: ,
+43 94 a5 87 85 a5 85 ac da 2b 3e 7b e0 0e 95  | C ,,,,,,,,+ > { ,,,
+65 3b a7 e6 4a 77 62 f5 ca ce ff 2a b9 ca 54  | e ; ,,J w b ,,,,* ,,T 
+92 6c 8d 09 58 00                             | ,l ,,X ,
 
-==== Got a 60 byte packet ====
+==== Got a 1292 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
-[ Source: 70:5d:cc:51:20:38	Dest: 01:00:5e:00:00:01	Type: 8 ]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 192.168.0.1	Dest: 224.0.0.1 )
-	( Type: 2	ID: 52015	Length: 32 )
-unknown type
-==== Got a 46 byte packet ====
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 15841 }
+			1250 bytes of packet data
+5f 82 27 5c 2e 1f 88 cc 6c 53 f0 7c 91 79 b7  | _ ,' \ . ,,,l S ,| ,y ,
+7a 65 84 f6 df 8c 20 1b 37 1f af 73 cf f3 89  | z e ,,,,  ,7 ,,s ,,,
+30 29 f5 20 04 81 ba 47 7b a6 c8 8e 71 59 71  | 0 ) ,  ,,,G { ,,,q Y q 
+a6 67 65 47 25 23 82 b4 53 8e d7 58 32 16 63  | ,g e G % # ,,S ,,X 2 ,c 
+80 32 0a 92 23 97 a4 67 9a 1a e4 26 56 44 61  | ,2 ,,# ,,g ,,,& V D a 
+16 79 c2 44 d7 eb 76 ac 40 c1 9d af 37 bb 68  | ,y ,D ,,v ,@ ,,,7 ,h 
+90 07 fa c3 1c c5 c8 c3 95 8f 9d 31 ce 82 86  | ,,,,,,,,,,,1 ,,,
+13 51 49 49 c2 2f 14 9f e5 fc a0 b2 d7 1f d6  | ,Q I I ,/ ,,,,,,,,,
+ad 7b 46 ad 33 5c ea d6 e7 4d 3e 3c f1 66 33  | ,{ F ,3 \ ,,,M > < ,f 3 
+53 4f 8e a7 a6 e5 a1 08 58 04 c6 10 48 00 1e  | S O ,,,,,,X ,,,H ,,
+58 4a ea 52 6e d3 5b fe 34 d8 d0 04 e3 e0 32  | X J ,R n ,[ ,4 ,,,,,2 
+65 86 14 a5 f5 c4 b1 3d 71 6a 35 89 7f 7c 83  | e ,,,,,,= q j 5 ,,| ,
+dc 04 47 9b 1f b1 a3 23 e1 c8 18 5f 70 a2 ac  | ,,G ,,,,# ,,,_ p ,,
+eb b4 bf 78 3f 03 39 d8 ad 9d 34 86 d5 21 34  | ,,,x ? ,9 ,,,4 ,,! 4 
+71 f1 03 46 f6 7e 6d bb e4 dc da d5 cd 85 49  | q ,,F ,~ m ,,,,,,,I 
+bd b2 b9 ca 9d 44 60 e6 8e 89 72 da 96 8f c3  | ,,,,,D ` ,,,r ,,,,
+f9 65 6a 2f 30 20 c6 72 54 14 49 19 28 77 d5  | ,e j / 0   ,r T ,I ,( w ,
+8b 92 78 48 c7 ab 1e cc 89 5e 36 21 b7 81 b6  | ,,x H ,,,,,^ 6 ! ,,,
+5e d9 22 88 91 71 e8 bb f9 eb 2a bf d2 7c 96  | ^ ," ,,q ,,,,* ,,| ,
+e9 9d d5 d2 38 9c da 90 97 f4 83 69 1e e0 83  | ,,,,8 ,,,,,,i ,,,
+cd 98 6e e3 99 4f b2 d8 46 68 03 9e 34 ab 5c  | ,,n ,,O ,,F h ,,4 ,\ 
+e1 db da 83 69 92 86 8e ba ab ba 88 77 53 37  | ,,,,i ,,,,,,,w S 7 
+cb 09 f4 84 4d a6 5e 50 24 72 12 14 1e 01 9c  | ,,,,M ,^ P $ r ,,,,,
+94 4a 35 95 a2 b2 17 6c 6f dc 03 ff e9 21 c0  | ,J 5 ,,,,l o ,,,,! ,
+27 f3 12 e6 2d da 9c f5 9d 98 d8 92 81 fe a2  | ' ,,,- ,,,,,,,,,,
+63 a3 17 99 12 1d 96 55 29 38 90 28 57 08 55  | c ,,,,,,U ) 8 ,( W ,U 
+4f 93 ab e3 0e 1b d4 46 e0 1e 30 c9 cb 82 6c  | O ,,,,,,F ,,0 ,,,l 
+d9 90 7d 5d 39 cd 4d 35 33 fe ed ff 66 bb 21  | ,,} ] 9 ,M 5 3 ,,,f ,! 
+50 d0 de 9f f5 5d 1f 8a cf 82 63 9d d7 b4 c9  | P ,,,,] ,,,,c ,,,,
+a1 44 09 e1 71 93 8b c8 af 4f 26 49 95 69 5b  | ,D ,,q ,,,,O & I ,i [ 
+95 a5 18 9e f5 2b 79 ad e4 69 d7 77 f0 8f 32  | ,,,,,+ y ,,i ,w ,,2 
+1b 9f cb ee 94 d0 e1 18 d6 b4 37 84 86 ac ab  | ,,,,,,,,,,7 ,,,,
+3f 01 84 17 7d a6 4b c4 d8 d9 d1 27 bc f1 17  | ? ,,,} ,K ,,,,' ,,,
+75 e9 0f 54 d5 f6 69 d0 5b 73 b7 50 d8 00 b0  | u ,,T ,,i ,[ s ,P ,,,
+a9 ec c3 75 d0 71 60 a8 25 eb 85 cf 44 d0 3e  | ,,,u ,q ` ,% ,,,D ,> 
+40 40 fd 75 38 91 59 dd ed 01 77 76 69 94 4b  | @ @ ,u 8 ,Y ,,,w v i ,K 
+91 61 7b 3d cc 18 08 bc 22 13 fa 88 37 f9 70  | ,a { = ,,,," ,,,7 ,p 
+23 07 37 60 8e a1 a0 db e4 04 46 5a cf fe c2  | # ,7 ` ,,,,,,F Z ,,,
+c5 81 3d ef 08 13 2c b6 1e 71 5f d4 32 c2 d4  | ,,= ,,,, ,,q _ ,2 ,,
+2f 29 8b ed 38 e2 61 d2 60 8c 22 e1 93 dd 6e  | / ) ,,8 ,a ,` ," ,,,n 
+a7 38 17 a2 20 22 90 e0 57 a9 c0 54 75 eb 92  | ,8 ,,  " ,,W ,,T u ,,
+6d 56 3e 48 96 2f a3 b4 e4 e4 03 b2 4d dd e5  | m V > H ,/ ,,,,,,M ,,
+a3 f8 7c 01 73 02 8c 37 e8 28 62 0f 96 bd 4b  | ,,| ,s ,,7 ,( b ,,,K 
+d9 7e 5d fa 4a 0b 5e 25 46 9a e6 75 af 88 d9  | ,~ ] ,J ,^ % F ,,u ,,,
+0e c9 91 58 4f 30 e0 c7 00 a8 07 48 09 4d 55  | ,,,X O 0 ,,,,,H ,M U 
+9f 6a 79 76 79 7d 2f e4 8b 1f a7 34 ea 23 c5  | ,j y v y } / ,,,,4 ,# ,
+1f 4a 09 8a 2b 98 a0 e3 a3 31 3a 8e 82 54 e8  | ,J ,,+ ,,,,1 : ,,T ,
+d1 e2 3b c8 17 0d 40 ba 1f ad 9d 92 9f 2b 76  | ,,; ,,,@ ,,,,,,+ v 
+cb f0 d1 8b f6 bc 4c 3c 3e 1d 61 6b c5 c1 e6  | ,,,,,,L < > ,a k ,,,
+b9 fb 7a 3e 31 f9 db e2 3f 3e 85 ac 78 8b 8e  | ,,z > 1 ,,,? > ,,x ,,
+0c 4a 34 73 5f 90 10 f7 a3 43 a4 30 7b b3 51  | ,J 4 s _ ,,,,C ,0 { ,Q 
+3c 5e 15 bd d4 51 9b 3f 2d 2e 3a b1 ee 73 84  | < ^ ,,,Q ,? - . : ,,s ,
+47 bb 6d 05 17 8b c5 d8 ef e1 63 55 42 9a bd  | G ,m ,,,,,,,c U B ,,
+2d a7 60 b8 2b 4f 56 45 ac e2 84 39 10 ea eb  | - ,` ,+ O V E ,,,9 ,,,
+1f 4b d8 99 6c 53 cc 29 e5 d5 f2 b0 b2 ff 17  | ,K ,,l S ,) ,,,,,,,
+3f bb 4f d0 39 e7 48 10 ab 4c 1b ab c3 d6 5e  | ? ,O ,9 ,H ,,L ,,,,^ 
+0a c0 c0 08 98 4e 99 70 c8 5f c3 fb 7b 88 07  | ,,,,,N ,p ,_ ,,{ ,,
+68 f7 cb 27 f8 77 7c 73 88 29 e4 e1 e0 85 f6  | h ,,' ,w | s ,) ,,,,,
+c9 ea 9a 86 cf 34 f3 0f 1c cf 7d 2f 0e 88 23  | ,,,,,4 ,,,,} / ,,# 
+6b a3 c8 d8 72 8d 0c ae 99 84 dd 87 a9 e5 8a  | k ,,,r ,,,,,,,,,,
+c2 9a a6 21 2d 34 e9 dd 75 8a 39 81 c2 88 db  | ,,,! - 4 ,,u ,9 ,,,,
+fe 49 b7 18 82 7f 76 9b e3 81 48 7d aa 31 cf  | ,I ,,,,v ,,,H } ,1 ,
+9a 1f f3 af 1d d2 e1 aa 65 2e d0 cd 29 15 ac  | ,,,,,,,,e . ,,) ,,
+d9 54 35 0a 7c e2 f2 3c 3f 18 b0 f6 f0 3b 54  | ,T 5 ,| ,,< ? ,,,,; T 
+11 d6 dd df 74 11 61 f1 fa e9 6d 1a 82 9f f4  | ,,,,t ,a ,,,m ,,,,
+28 52 f1 af f5 73 27 ed a7 50 dd d0 d6 74 d7  | ( R ,,,s ' ,,P ,,,t ,
+0d 78 75 90 f7 8b b3 f4 c7 17 20 6f e3 a4 d3  | ,x u ,,,,,,,  o ,,,
+59 74 2e 77 7e 34 36 e7 7e 30 02 fa 7a 90 b8  | Y t . w ~ 4 6 ,~ 0 ,,z ,,
+7d 63 ba 69 38 f9 cf 62 ad 97 22 27 88 d7 c1  | } c ,i 8 ,,b ,," ' ,,,
+1e 13 70 81 b0 20 40 3a 5f 73 2d 66 00 a5 6c  | ,,p ,,  @ : _ s - f ,,l 
+c7 9c ed af 3d ea b2 f5 81 23 19 3d 71 85 50  | ,,,,= ,,,,# ,= q ,P 
+21 c2 31 96 f8 26 b8 cd 57 05 58 e2 b9 8b 66  | ! ,1 ,,& ,,W ,X ,,,f 
+9f 76 18 15 60 a7 03 9c 45 e1 3a 7a fd df d0  | ,v ,,` ,,,E ,: z ,,,
+fe 50 4e ec 25 8f 30 76 0d d3 70 d4 fb dc 79  | ,P N ,% ,0 v ,,p ,,,y 
+01 cf 6f 11 c9 83 9d 41 71 3a 60 3d 04 2f c3  | ,,o ,,,,A q : ` = ,/ ,
+80 b3 e5 d2 dc e2 1d 4e e4 99 5f c7 3a 97 cb  | ,,,,,,,N ,,_ ,: ,,
+ab 19 58 ad fc 03 dc cf c3 55 dc f5 01 05 e0  | ,,X ,,,,,,U ,,,,,
+77 59 a0 4e 1e 10 c3 ca b9 17 93 a4 a2 11 2d  | w Y ,N ,,,,,,,,,,- 
+29 43 a7 d0 39 b3 2c 08 73 fa 68 1f 1d 78 c4  | ) C ,,9 ,, ,s ,h ,,x ,
+9b 4a 84 f7 14 85 01 70 6a fb d0 ea cb 0f d8  | ,J ,,,,,p j ,,,,,,
+61 d6 16 77 d2 69 c9 87 02 c3 b5 0d c6 2b 7a  | a ,,w ,i ,,,,,,,+ z 
+b3 ec b7 09 b9 58 04 48 12 f4 e2 99 e7 59 48  | ,,,,,X ,H ,,,,,Y H 
+a8 4a a0 3f 57 e6 f7 14 f9 a7 54 a8 d2 1a aa  | ,J ,? W ,,,,,T ,,,,
+95 9d 9a 25 9a 00                             | ,,,% ,,
+
+==== Got a 74 byte packet ====
+checksum doesn't match
+UDP packet dropped.
+==== Got a 1292 byte packet ====
 [[  Layer 2 :: Ethernet Header  ]]
-[ Source: 2c:f0:5d:5b:ef:ed	Dest: 01:00:5e:00:00:fb	Type: 8 ]
+[ Source: 70:5d:cc:51:20:38	Dest: 2c:f0:5d:5b:ef:ed	Type: 8 ]
 	((  Layer 3 ::: IP Header  ))
-	( Source: 192.168.0.23	Dest: 224.0.0.251 )
-	( Type: 2	ID: 0	Length: 32 )
-unknown type
+	( Source: 142.250.206.194	Dest: 192.168.0.23 )
+	( Type: 17	ID: 0	Length: 1278 )
+		{{  Layer 4 :::: UDP Header  }}
+		{ Src Port: 443	Dest Port: 51730 }
+		{ Length: 1258	Checksum: 6785 }
+			1250 bytes of packet data
+4f 4f ea ad e5 d4 26 de d1 8d 6b 01 ab c5 2b  | O O ,,,,& ,,,k ,,,+ 
+da bb 8a 99 fc be e8 8c 8c fb f4 ed 00 6c bb  | ,,,,,,,,,,,,,l ,
+90 c6 06 89 bd 6e 81 52 1d 1a 27 ce c7 38 d4  | ,,,,,n ,R ,,' ,,8 ,
+a7 30 f6 1a 5c 04 49 83 ef a6 cb 71 e2 a1 b6  | ,0 ,,\ ,I ,,,,q ,,,
+16 6a 7e 54 c5 5e 2a a7 ba 8f d4 df 8d e5 d4  | ,j ~ T ,^ * ,,,,,,,,
+b4 86 e3 fd 9b 38 7a b4 40 b2 4c 1b c4 58 d0  | ,,,,,8 z ,@ ,L ,,X ,
+1d b1 56 90 09 06 1a 9e 3f e4 93 dd ef f9 9f  | ,,V ,,,,,? ,,,,,,
+9a 9d 19 76 96 75 30 a5 5b b2 d6 34 e2 91 0d  | ,,,v ,u 0 ,[ ,,4 ,,,
+75 a5 29 55 4e e4 73 97 86 c5 d0 fb 91 b6 06  | u ,) U N ,s ,,,,,,,,
+a4 c7 39 ef 72 ee c5 bf bf d7 40 38 ca 84 95  | ,,9 ,r ,,,,,@ 8 ,,,
+5f f9 e4 52 fd 7a 62 c2 c0 7d ea b2 a8 4d 8c  | _ ,,R ,z b ,,} ,,,M ,
+6b 19 95 13 17 97 0b 2a ee a5 77 e3 10 40 90  | k ,,,,,,* ,,w ,,@ ,
+d9 f1 45 a4 8f d0 12 b0 88 64 21 8e 32 4b 65  | ,,E ,,,,,,d ! ,2 K e 
+2e 04 40 cf cf 31 bd 1e b6 bc c1 f9 26 06 22  | . ,@ ,,1 ,,,,,,& ," 
+76 b9 d3 42 eb 53 e0 46 1a 43 0d 4a 61 60 75  | v ,,B ,S ,F ,C ,J a ` u 
+c5 13 75 19 70 c7 40 6f 08 7e 69 ba 7e 1d 76  | ,,u ,p ,@ o ,~ i ,~ ,v 
+61 44 f6 45 b2 08 b1 e1 3f 85 58 4f f0 53 1a  | a D ,E ,,,,? ,X O ,S ,
+f1 34 da 15 e5 17 5a 70 f9 82 21 1c 88 11 07  | ,4 ,,,,Z p ,,! ,,,,
+db 3f 23 dc c4 63 2a 55 63 e0 0d 16 09 a1 9d  | ,? # ,,c * U c ,,,,,,
+e0 f8 58 39 38 1f cb d4 c9 cf af 11 1f d9 f3  | ,,X 9 8 ,,,,,,,,,,
+42 ac 9c 5f 35 4d 08 ac 5c fb 4c e7 4d 77 27  | B ,,_ 5 M ,,\ ,L ,M w ' 
+6d 7e 71 23 bc 4d bd 04 8a 0a 73 21 14 83 19  | m ~ q # ,M ,,,,s ! ,,,
+dc 2f d8 e9 47 23 86 ec d5 33 a5 ed c1 56 c0  | ,/ ,,G # ,,,3 ,,,V ,
+e9 8e 63 97 e7 aa 0e 82 f9 a9 f1 3d 44 80 78  | ,,c ,,,,,,,,= D ,x 
+2f 23 c4 c7 f3 c0 ca 21 18 85 30 bd 06 c6 38  | / # ,,,,,! ,,0 ,,,8 
+0e 8b 7c 38 d4 b4 23 23 b8 98 45 1e e0 68 1d  | ,,| 8 ,,# # ,,E ,,h ,
+04 1d e0 76 b9 36 8b 69 72 1c d9 9b 9e 4b b1  | ,,,v ,6 ,i r ,,,,K ,
+1c 09 a6 de 83 35 3f 81 58 46 9c ee a9 be a1  | ,,,,,5 ? ,X F ,,,,,
+fb cb 29 5e ba 0c 8d 47 e2 59 bd 21 26 7c 85  | ,,) ^ ,,,G ,Y ,! & | ,
+4a 82 d7 b8 d8 ae ea 6f b7 5c 92 6d ba a5 cf  | J ,,,,,,o ,\ ,m ,,,
+d3 28 18 3d ec 7b c3 ab 88 f0 5b de c8 89 d8  | ,( ,= ,{ ,,,,[ ,,,,
+9a ed 6e 58 43 f6 b0 60 c4 e0 75 ef 0a e8 31  | ,,n X C ,,` ,,u ,,,1 
+11 62 d6 a2 c8 82 f8 73 7f 8a a1 ee f4 60 0a  | ,b ,,,,,s ,,,,,` ,
+05 9e 31 78 4b 5c fd 29 e1 cb 24 d2 ca 01 cb  | ,,1 x K \ ,) ,,$ ,,,,
+75 40 7d 37 70 bb bb c4 9e d0 92 1c d3 86 46  | u @ } 7 p ,,,,,,,,,F 
+a1 f9 a9 22 e9 37 bb 4a 9f 24 72 37 7f 2f 45  | ,,," ,7 ,J ,$ r 7 ,/ E 
+f7 a4 95 f5 19 e3 09 cf 3b 06 d5 da ca 22 24  | ,,,,,,,,; ,,,," $ 
+67 6e b8 ca 4a 73 b8 da 26 3e 64 16 94 71 17  | g n ,,J s ,,& > d ,,q ,
+c8 3f 79 9e dc e6 70 83 2a 25 f4 b4 09 61 09  | ,? y ,,,p ,* % ,,,a ,
+4b 5b 2d 55 7d f2 f4 4e ba 92 ed 64 f0 5d f9  | K [ - U } ,,N ,,,d ,] ,
+49 d0 36 57 f1 d5 32 3b 2f 88 e9 26 b1 59 ca  | I ,6 W ,,2 ; / ,,& ,Y ,
+71 05 1a fc 3a 2a 02 ca 2b 77 ed 71 10 fc f6  | q ,,,: * ,,+ w ,q ,,,
+79 18 50 07 12 f9 0b a1 3e 09 b2 e3 53 0e a4  | y ,P ,,,,,> ,,,S ,,
+a2 6f a9 6a e5 39 b6 e6 6d cb f1 e6 4c 75 a7  | ,o ,j ,9 ,,m ,,,L u ,
+8a 26 08 82 42 de f9 45 fe 5d db 21 9f af c6  | ,& ,,B ,,E ,] ,! ,,,
+88 d6 0b 72 73 7e c2 ac d5 7f 4b b9 98 e1 7b  | ,,,r s ~ ,,,,K ,,,{ 
+bf 71 f0 ba e8 7e 6e 61 7a 48 76 9a fa 07 b7  | ,q ,,,~ n a z H v ,,,,
+fd 12 8c b7 de f9 d9 9a de ae 81 65 f4 ee 5b  | ,,,,,,,,,,,e ,,[ 
+f2 d0 93 bf 31 37 58 ae 55 ba f0 9e d8 e5 93  | ,,,,1 7 X ,U ,,,,,,
+84 70 58 af 68 ca 69 0d 30 20 b7 e3 aa 9d d3  | ,p X ,h ,i ,0   ,,,,,
+37 c1 dd 9d 49 06 0d ba 21 a8 ee e2 24 2d 78  | 7 ,,,I ,,,! ,,,$ - x 
+19 77 72 1c 23 2c 76 f7 a8 d4 3e c6 88 ea aa  | ,w r ,# , v ,,,> ,,,,
+5c e7 c6 c7 2b fc 3d 7b 4f 02 31 f2 71 17 20  | \ ,,,+ ,= { O ,1 ,q ,  
+1e fb d0 a2 71 d5 02 33 89 65 10 e3 6e 83 b8  | ,,,,q ,,3 ,e ,,n ,,
+b8 14 51 ba 07 d6 34 96 4a 34 54 71 3a 26 63  | ,,Q ,,,4 ,J 4 T q : & c 
+05 06 9e fe 88 c9 9b 84 6f de f9 9e c3 26 71  | ,,,,,,,,o ,,,,& q 
+8f 52 db 05 f3 af d8 87 65 17 3b ae ed bf 45  | ,R ,,,,,,e ,; ,,,E 
+c5 4b 2f f9 6a 13 33 1f 8f 61 48 21 e9 7c ca  | ,K / ,j ,3 ,,a H ! ,| ,
+f5 f1 f4 1a 93 3c e2 e9 07 4d 81 4d b7 0e da  | ,,,,,< ,,,M ,M ,,,
+af 05 aa ec f2 cf 7f 47 da 8e ac 49 f1 c2 a3  | ,,,,,,,G ,,,I ,,,
+c7 68 e9 e3 b9 cd 4a f9 3f 5c de ea 68 29 eb  | ,h ,,,,J ,? \ ,,h ) ,
+2f 83 de ae 8e 48 96 6e b3 d6 e6 fe be 68 60  | / ,,,,H ,n ,,,,,h ` 
+0d 8a 72 8a bc 86 07 2e b7 4a f3 94 92 36 2a  | ,,r ,,,,. ,J ,,,6 * 
+70 e9 15 ff b1 13 40 5e a6 f1 72 cd 06 b9 99  | p ,,,,,@ ^ ,,r ,,,,
+d1 0d 60 21 73 f6 e1 b8 df d9 42 2a 68 52 6c  | ,,` ! s ,,,,,B * h R l 
+dc f7 33 61 7c f6 c6 19 52 72 44 91 0b a3 e8  | ,,3 a | ,,,R r D ,,,,
+b2 40 21 f9 4c a1 c2 50 cd a0 44 e4 c9 61 f2  | ,@ ! ,L ,,P ,,D ,,a ,
+a9 50 e9 56 56 bc e2 14 c7 a4 5c a8 b6 fb 26  | ,P ,V V ,,,,,\ ,,,& 
+97 12 3e 0a 17 65 f0 83 b9 46 85 3e 1e 9e 9e  | ,,> ,,e ,,,F ,> ,,,
+c1 87 98 f8 99 cf 34 7e df ba c3 11 34 07 70  | ,,,,,,4 ~ ,,,,4 ,p 
+99 60 fc 05 bc 80 f3 75 f0 be bc 91 89 49 e8  | ,` ,,,,,u ,,,,,I ,
+b1 1f 36 da 8e 09 6a 7a 44 68 5a 36 78 75 53  | ,,6 ,,,j z D h Z 6 x u S 
+05 9b c1 7e 90 70 f0 1f c0 67 a4 07 1a 33 e8  | ,,,~ ,p ,,,g ,,,3 ,
+15 95 9a c1 49 30 26 29 7e 02 65 6c 17 83 15  | ,,,,I 0 & ) ~ ,e l ,,,
+a3 67 9d 77 3c bd 75 d2 1a 4e 13 24 f9 e5 7c  | ,g ,w < ,u ,,N ,$ ,,| 
+30 8f f5 c2 27 04 94 77 55 72 62 08 01 cd 66  | 0 ,,,' ,,w U r b ,,,f 
+c0 15 da 88 99 54 f7 15 37 6d 0d b1 6f 4d c4  | ,,,,,T ,,7 m ,,o M ,
+c6 19 03 ed 97 c8 22 e6 13 55 bb dd be 4d 76  | ,,,,,," ,,U ,,,M v 
+5f 85 65 a9 73 88 22 7d d7 8c 6f 00 b1 a9 87  | _ ,e ,s ," } ,,o ,,,,
+59 6a d4 b3 87 64 3b 08 91 da b9 60 48 15 d3  | Y j ,,,d ; ,,,,` H ,,
+ab 9d 0c a4 0d da e2 e5 a6 74 6d e0 2f 95 1f  | ,,,,,,,,,t m ,/ ,,
+8d be 76 04 35 40 65 c8 41 87 64 82 8c 41 90  | ,,v ,5 @ e ,A ,d ,,A ,
+5a 15 dc 36 bd 92 34 17 d9 21 4e d6 97 57 48  | Z ,,6 ,,4 ,,! N ,,W H 
+ac a8 ea 4d 88 00                             | ,,,M ,,
+

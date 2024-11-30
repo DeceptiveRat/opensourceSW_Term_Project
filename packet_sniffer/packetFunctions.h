@@ -3,17 +3,11 @@
 #include <stdio.h>
 #include <sys/socket.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
-#define ERROR_MESSAGE_SIZE 100
+#define DNS_COMPRESSION_PTR 0xC0
 
 // ------------------------------------------------------ #structures -------------------------------------------------------------- //
-
-// linked list of allocated pointers for easy deallocation
-struct allocated_pointers
-{
-	void* pointer;
-	struct allocated_pointers* next_pointer;
-};
 
 #define ETHER_ADDR_LEN 6
 #define ETHER_HDR_LEN 14
@@ -100,6 +94,8 @@ struct dns_hdr
 // cast end of domain name
 struct dns_query_section
 {
+	unsigned char* dns_domain_name;
+
 	unsigned short dns_type;
 #define DNS_RECORD_A 1
 #define DNS_RECORD_NS 2
@@ -110,34 +106,29 @@ struct dns_query_section
 
 	unsigned short dns_class;
 #define DNS_CLASS_IN 1
-	unsigned char* dns_domain_name;
 };
 
 // cast end of domain name
 struct dns_response_section
 {
+	unsigned char* dns_domain_name;
+
 	unsigned short dns_type;
-#define DNS_RECORD_A 1
-#define DNS_RECORD_NS 2
-#define DNS_RECORD_CNAME 5
-#define DNS_RECORD_MX 15
-#define DNS_RECORD_PTR 12
-#define DNS_RECORD_HINFO 13
 
+	// UDP payload size of OPT records
 	unsigned short dns_class;
-#define DNS_CLASS_IN 1
 
+	// Extended RCODE and flags for OPT record
 	unsigned int dns_TTL;
 	unsigned short dns_data_length;
-	unsigned char* dns_domain_name;
 	unsigned char* dns_resource_data;
 };
 
 struct dns_query
 {
 	struct dns_hdr dns_query_header;
-	struct dns_query_section dns_query_queries;
-	struct dns_response_section dns_query_additional;
+	struct dns_query_section *dns_query_queries;
+	struct dns_response_section *dns_query_additional;
 };
 
 struct dns_response 
@@ -150,64 +141,36 @@ struct dns_response
 };
 
 // ------------------------------------------------------- #functions -------------------------------------------------------------- //
-/*
- * Accepts a socket FD and a ptr to a null terminated string to send.
- * It will make sure all byets are sent.
- * Returns 0 on error and 1 on success.
- */
-int sendString(int sockfd, unsigned char *buffer);
-
-/*
- * Accepts a socket FD and a ptr to a destination.
- * Receives from the socket until EOL byte sequence is detected.
- * Returns the size of the line read or 0 if not found.
- */
-int recvLine(int sockfd, unsigned char *destBuffer);
-
-/*
- * Dump dataBuffer to:
- * dump -> stdout
- * dump_to_file -> file 
- * hex_dump_only -> file
- */
-void dump(const unsigned char* dataBuffer, const unsigned int length);
-void dump_to_file(const unsigned char* dataBuffer, const unsigned int length, FILE* outputFilePtr);
-void hex_dump_only(const unsigned char* databuffer, const unsigned int length, FILE* outputFilePtr);
-
-void fatal(char* message);
 
 // pcap handler functions
-void print_caught_packet(unsigned char *user_args, const struct pcap_pkthdr *cap_header, const unsigned char *packet);
 void analyze_caught_packet(unsigned char *user_args, const struct pcap_pkthdr *cap_header, const unsigned char *packet);
 
 // decode various layers
-struct ether_hdr decode_ethernet(const unsigned char *header_startheader_start, FILE* outputFilePtr);
-struct ip_hdr decode_ip(const unsigned char *header_start, FILE* outputFilePtr);
-struct tcp_hdr decode_tcp(const unsigned char *header_start, FILE* outputFilePtr, int *tcp_header_size);
-struct udp_hdr decode_udp(const unsigned char *header_start, FILE* outputFilePtr);
+struct ether_hdr decode_ethernet(const unsigned char *ethernet_header_start, FILE* outputFilePtr);
+struct ip_hdr decode_ip(const unsigned char *ip_header_start, FILE* outputFilePtr);
+struct tcp_hdr decode_tcp(const unsigned char *tcp_header_start, FILE* outputFilePtr, int *tcp_header_size);
+struct udp_hdr decode_udp(const unsigned char *udp_header_start, FILE* outputFilePtr);
+
+// get headers
+bool get_ethernet_header(const unsigned char *ethernet_header_start, struct ether_hdr* ethernet_header);
+bool get_ip_header(const unsigned char *ip_header_start, struct ip_hdr* ip_header);
+bool get_tcp_header(const unsigned char *tcp_header_start, struct tcp_hdr* tcp_header, int *tcp_header_size);
+bool get_udp_header(const unsigned char *udp_header_start, struct udp_hdr* udp_header);
+bool get_dns_query(const unsigned char *udp_payload_start, struct dns_query* dns_query_pointer);
+bool get_dns_response(const unsigned char *udp_payload_start, struct dns_response* dns_response_pointer);
 
 /*
- * get headers
- * returns -1 if wrong structure
- * returns 1 and sets pointer passed to that structure
- * if pointer is NULL, just return 1
- * returns -2 if there was an error, e.g. while allocating memory
+ * return domain name as string
+ * change query offset so it points to the correct place
+ * returns NULL if domain name format is wrong
  */
-char get_ethernet_header(const unsigned char *header_start, struct ether_hdr* ethernet_header);
-char get_ip_header(const unsigned char *header_start, struct ip_hdr* ip_header);
-char get_tcp_header(const unsigned char *header_start, struct tcp_hdr* tcp_header, int *tcp_header_size);
-char get_udp_header(const unsigned char *header_start, struct udp_hdr* udp_header);
-// pass start of data as header_start
-char get_dns_query(const unsigned char *header_start, struct dns_query* dns_query_pointer, struct allocated_pointers* head, struct allocated_pointers* tail, FILE* outputFilePtr);
-char get_dns_response(const unsigned char *header_start, struct dns_response* dns_response_pointer, struct allocated_pointers* head, struct allocated_pointers* tail, FILE* outputFilePtr);
+unsigned char* get_domain_name(const unsigned char* query_start_pointer, int *query_offset);
 
 // checksum match functions
-char udp_checksum_matches(const unsigned char *header_start, FILE* outputFilePtr);
-char tcp_checksum_matches(const unsigned char *header_start, FILE* outputFilePtr);
+char udp_checksum_matches(const unsigned char *header_start);
+char tcp_checksum_matches(const unsigned char *header_start);
 
-// pointer functions
-void free_all_pointers(struct allocated_pointers* head, FILE* outputFilePtr);
-void add_new_pointer(struct allocated_pointers* head, struct allocated_pointers* tail, void* new_pointer, FILE* outputFilePtr);
+// print functions
 
 // ------------------------------------------------------- #variables -------------------------------------------------------------- //
 

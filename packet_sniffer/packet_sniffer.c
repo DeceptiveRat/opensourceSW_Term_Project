@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "hacking_my.h"
+#include "packetFunctions.h"
+#include "otherFunctions.h"
 
 #define CAPTURECOUNT 10
 
