@@ -14,14 +14,14 @@ sudo ./decode_sniff
 ```
 to start the program. 
 
-![Image display failed](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/chooseInterface.png?raw=true)
+![Image display failed](packet_sniffer/chooseInterface.png?raw=true)
 Choose the interface you want to use.
 
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/successMessage.png?raw=true)
+![Image display failed](packet_sniffer/successMessage.png?raw=true)
 If it worked properly, you should get the success message like the picture.
 
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/result.png?raw=true)
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/packet.png?raw=true)
+![Image display failed](packet_sniffer/result.png?raw=true)
+![Image display failed](packet_sniffer/packet.png?raw=true)
 If you open the new txt file, the packets that have been caught are displayed there.
 
 ## 1-4 License 
