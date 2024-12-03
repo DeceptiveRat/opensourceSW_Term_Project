@@ -5,22 +5,23 @@ Currently, it can capture packets, verify the checksum of UDP and TCP packets, a
 
 ## 1-2 Installation
 git clone the repository into your desktop environment and you are good to go!
+(Note: originally developed for Linux Operating Systems. Probably will not work in Windows environments)
 
 ## 1-3 Usage
-- navigate to the "packet_sniffer" directory
+navigate to the "packet_sniffer" directory and 
 ```bash 
 sudo ./decode_sniff
 ```
 to start the program. 
 
-![Image display failed](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/chooseInterface.png)
+![Image display failed](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/chooseInterface.png?raw=true)
 Choose the interface you want to use.
 
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/successMessage.png))
+![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/successMessage.png?raw=true)
 If it worked properly, you should get the success message like the picture.
 
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/result.png))
-![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/packet.png))
+![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/result.png?raw=true)
+![Image display failed]([http://url/to/img.png](https://github.com/DeceptiveRat/opensourceSW_Term_Project/edit/main/packet_sniffer/packet.png?raw=true)
 If you open the new txt file, the packets that have been caught are displayed there.
 
 ## 1-4 License 
