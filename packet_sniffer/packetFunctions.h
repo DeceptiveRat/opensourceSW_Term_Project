@@ -94,7 +94,7 @@ struct dns_hdr
 // cast end of domain name
 struct dns_query_section
 {
-	unsigned char* dns_domain_name;
+	char* dns_domain_name;
 
 	unsigned short dns_type;
 #define DNS_RECORD_A 1
@@ -111,7 +111,7 @@ struct dns_query_section
 // cast end of domain name
 struct dns_response_section
 {
-	unsigned char* dns_domain_name;
+	char* dns_domain_name;
 
 	unsigned short dns_type;
 
@@ -156,7 +156,7 @@ bool get_ethernet_header(const unsigned char *ethernet_header_start, struct ethe
 bool get_ip_header(const unsigned char *ip_header_start, struct ip_hdr* ip_header);
 bool get_tcp_header(const unsigned char *tcp_header_start, struct tcp_hdr* tcp_header, int *tcp_header_size);
 bool get_udp_header(const unsigned char *udp_header_start, struct udp_hdr* udp_header);
-bool get_dns_query(const unsigned char *udp_payload_start, struct dns_query* dns_query_pointer);
+bool get_dns_query(const unsigned char *udp_payload_start, struct dns_query** dns_query_pointer);
 bool get_dns_response(const unsigned char *udp_payload_start, struct dns_response* dns_response_pointer);
 
 /*
@@ -164,7 +164,7 @@ bool get_dns_response(const unsigned char *udp_payload_start, struct dns_respons
  * change query offset so it points to the correct place
  * returns NULL if domain name format is wrong
  */
-unsigned char* get_domain_name(const unsigned char* query_start_pointer, int *query_offset);
+char* get_domain_name(const unsigned char* query_start_pointer, int *query_offset);
 
 // checksum match functions
 char udp_checksum_matches(const unsigned char *header_start);

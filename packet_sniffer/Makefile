@@ -11,7 +11,7 @@ SOURCES = $(FILENAME).c
 OBJECTS = $(FILENAME).o
 
 # The fixed file that always stays the same
-FIXED_OBJECT = hacking_my.o
+FIXED_OBJECT = otherFunctions.o packetFunctions.o
 
 # The final executable name is based on the FILENAME
 EXECUTABLE = $(FILENAME)
@@ -30,10 +30,6 @@ debugNoOpt: $(EXECUTABLE)
 # The rule to link the objects into the final executable
 $(EXECUTABLE): $(OBJECTS) $(FIXED_OBJECT)
 	$(CC) $(LDFLAGS) $(OBJECTS) $(FIXED_OBJECT) -o $@ $(EXTRAFLAGS)
-
-# Rule to compile .c files into .o files
-%.o: %.c
-	$(CC) $(CFLAGS) $< -o $@
 
 # Clean up object files and executables
 clean:
