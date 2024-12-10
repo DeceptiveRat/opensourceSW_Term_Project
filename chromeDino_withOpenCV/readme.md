@@ -1,12 +1,13 @@
-# 4. Chrome Dino with Open CV
+# Chrome Dino with Open CV
+202135708 구준서
 
-## 4-1 Description
+## Description
 Simple bot that can automatically play the Chrome Dinosaur Game using OpenCV for computer vision. The bot will identify obstacles and control the game dynamically by simulating key presses.
 
-## 4-2 Installation
+## Installation
 
-## 4-3 Run
+## Run
 
-## 4-4 License 
+## License 
 
-## 4-5 Acknowledgements
+## Acknowledgements

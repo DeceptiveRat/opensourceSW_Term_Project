@@ -114,4 +114,16 @@ python base64_gui.py
 
 This project is licensed under MIT License.
 
-## 3. OTHER PROJECTS GO HERE
+
+# 3. Chrome Dino with Open CV
+
+## 3-1 Description
+Simple bot that can automatically play the Chrome Dinosaur Game using OpenCV for computer vision. The bot will identify obstacles and control the game dynamically by simulating key presses.
+
+## 3-2 Installation
+
+## 3-3 Run
+
+## 3-4 License 
+
+## 3-5 Acknowledgements
