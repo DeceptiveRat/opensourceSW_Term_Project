@@ -2,3 +2,5 @@
 *.txt
 *.o
 *.log
+makeDNSquery.py
+prepend0x.py
