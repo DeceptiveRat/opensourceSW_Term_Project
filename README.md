@@ -135,10 +135,10 @@ This is a web-based text analysis tool that crawls text from a webpage, extracts
 
 ## 4-2. Requirments
 The following Python packages are required to run the tool. They can be installed using pip:
-- transformers (for Hugging Face summarization)
-- requests (for making HTTP requests to fetch web pages)
-- beautifulsoup4 (for parsing HTML and extracting text)
-- scikit-learn (for TF-IDF-based keyword extraction)
+- transformers (for Hugging Face summarization)==4.33.3
+- requests (for making HTTP requests to fetch web pages)==2.31.0
+- beautifulsoup4 (for parsing HTML and extracting text)==4.12.2
+- scikit-learn (for TF-IDF-based keyword extraction)==1.3.0
   Run the following command to install the necessary packages: !pip install transformers requests beautifulsoup4 scikit-learn
 
 ## 4-3. Usage
