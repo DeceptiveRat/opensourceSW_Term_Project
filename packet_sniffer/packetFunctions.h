@@ -174,3 +174,5 @@ char tcp_checksum_matches(const unsigned char *header_start);
 
 // ------------------------------------------------------- #variables -------------------------------------------------------------- //
 
+// remove
+void print_caught_packet(unsigned char *user_args, const struct pcap_pkthdr *cap_header, const unsigned char *packet);

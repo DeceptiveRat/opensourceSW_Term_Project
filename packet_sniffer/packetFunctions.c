@@ -102,7 +102,10 @@ void analyze_caught_packet(unsigned char *user_args, const struct pcap_pkthdr *c
 	}
 
 	else
+	{
 		fprintf(outputFilePtr, "unknown type\n");
+		// dump_to_file(packet, cap_header->len, outputFilePtr);
+	}
 
 	pkt_data = (unsigned char *)(packet + total_header_size);
 	pkt_data_len = cap_header->len - total_header_size;
@@ -600,4 +603,127 @@ char* get_domain_name(const unsigned char* query_start_pointer, int *query_offse
 
 	strncpy(name_pointer, name, domain_name_length);
 	return name_pointer;
+}
+
+// ----------------------------------------- remove after project is graded ----------------------------------------------
+void print_caught_packet(unsigned char *user_args, const struct pcap_pkthdr *cap_header, const unsigned char *packet)
+{
+	FILE* outputFilePtr = (FILE*)user_args;
+	int tcp_header_length, total_header_size, pkt_data_len;
+	unsigned char *pkt_data;
+
+	fprintf(outputFilePtr, "==== Got a %d byte packet ====\n", cap_header->len);
+
+	char protocol = 0;
+	protocol = ((struct ip_hdr*)(packet + ETHER_HDR_LEN))->ip_type;
+
+	if(protocol == IP_TYPE_UDP)
+	{
+		if(udp_checksum_matches(packet) != 1)
+		{
+			fprintf(outputFilePtr, "checksum doesn't match\n");
+			fprintf(outputFilePtr, "UDP packet dropped.\n");
+			return;
+		}
+	}
+
+	else if(protocol == IP_TYPE_TCP)
+	{
+		if(tcp_checksum_matches(packet) != 1)
+		{
+			fprintf(outputFilePtr, "checksum doesn't match\n");
+			fprintf(outputFilePtr, "TCP packet dropped.\n");
+			return;
+		}
+	}
+
+	// --------------------------------------- initialize allocated pointer list ------------------------------------
+	struct allocated_pointers* head = NULL;
+	struct allocated_pointers* tail = NULL;
+	head = (struct allocated_pointers*)malloc(sizeof(struct allocated_pointers));
+
+	if(head == NULL)
+	{
+		printf("Error allocating memory: head\n");
+		return;
+	}
+
+	head->pointer = NULL;
+	head->next_pointer = NULL;
+	tail = head;
+	// ---------------------------------------------------------------------------------------------------------------
+
+	struct ether_hdr* ethernet_header = NULL;
+	ethernet_header = (struct ether_hdr*)malloc(ETHER_HDR_LEN);
+
+	if(ethernet_header == NULL)
+	{
+		printf("Error allocating memory: ethernet_header\n");
+		exit(-1);
+	}
+
+	*ethernet_header = decode_ethernet(packet, outputFilePtr);
+	total_header_size = ETHER_HDR_LEN;
+
+	struct ip_hdr* ip_header = NULL;
+	ip_header = (struct ip_hdr*)malloc(IP_HDR_LEN);
+
+	if(ip_header == NULL)
+	{
+		printf("Error allocating memory: ip_header\n");
+		exit(-1);
+	}
+
+	*ip_header = decode_ip(packet + total_header_size, outputFilePtr);
+	total_header_size += IP_HDR_LEN;
+
+	if(ip_header->ip_type == IP_TYPE_TCP)
+	{
+		struct tcp_hdr* tcp_header = NULL;
+		tcp_header = (struct tcp_hdr*)malloc(TCP_HDR_LEN);
+
+		if(tcp_header == NULL)
+		{
+			printf("Error allocating memory: tcp_header\n");
+			exit(-1);
+		}
+
+		*tcp_header = decode_tcp(packet + total_header_size, outputFilePtr, &tcp_header_length);
+		total_header_size += tcp_header_length;
+	}
+
+	else if(ip_header->ip_type == IP_TYPE_UDP)
+	{
+		struct udp_hdr* udp_header = NULL;
+		udp_header = (struct udp_hdr*)malloc(UDP_HDR_LEN);
+
+		if(udp_header == NULL)
+		{
+			printf("Error allocating memory: udp_header\n");
+			exit(-1);
+		}
+
+		*udp_header = decode_udp(packet + total_header_size, outputFilePtr);
+		total_header_size += UDP_HDR_LEN;
+	}
+
+	else
+	{
+		fprintf(outputFilePtr, "unknown type\n");
+	}
+
+	pkt_data = (unsigned char *)packet + total_header_size;
+	pkt_data_len = cap_header->len - total_header_size;
+
+	if(pkt_data_len > 0)
+	{
+		fprintf(outputFilePtr, "\t\t\t%u bytes of packet data\n", pkt_data_len);
+		dump_to_file(pkt_data, pkt_data_len, outputFilePtr);
+	}
+
+	else
+		fprintf(outputFilePtr, "\t\t\tNo Packet Data\n");
+
+	head = NULL;
+	tail = NULL;
 }

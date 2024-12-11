@@ -41,6 +41,11 @@ int main()
 	
 	printf("Sniffing on device %s (%s)\n", interface.name, interface.description);
 
+	FILE* outputFilePtr;
+	outputFilePtr = fopen("capture.log", "w");
+	if(outputFilePtr == NULL)
+		fatal("opening file", NULL, NULL);
+
 	pcap_handle = pcap_open_live(interface.name, 16384, 1, 100, errbuf);
 	if(pcap_handle == NULL)
 	{
@@ -48,7 +53,7 @@ int main()
 		pcap_fatal("At handle", errbuf);
 	}
 	
-	pcap_loop(pcap_handle, CAPTURECOUNT, analyze_caught_packet, NULL);
+	pcap_loop(pcap_handle, CAPTURECOUNT, analyze_caught_packet, (unsigned char*)outputFilePtr);
 
 	pcap_freealldevs(interface_list);
 	printf("Successfully caught all packets\n");
