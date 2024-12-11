@@ -127,3 +127,35 @@ Simple bot that can automatically play the Chrome Dinosaur Game using OpenCV for
 ## 3-4 License 
 
 ## 3-5 Acknowledgements
+
+# 4. WebTextAnalysis
+## 4-1. Description
+This is a web-based text analysis tool that crawls text from a webpage, extracts keywords using TF-IDF, summarizes the text using Hugging Face, and filters keywords based on user input. Additionally, it can extract sentences containing filtered keywords for further analysis.
+(Features: Web Crawling, Keyword Extraction, Text Summarization, Custom Keyword Filtering, Sentence Extraction)
+
+## 4-2. Requirments
+The following Python packages are required to run the tool. They can be installed using pip:
+- transformers (for Hugging Face summarization)
+- requests (for making HTTP requests to fetch web pages)
+- beautifulsoup4 (for parsing HTML and extracting text)
+- scikit-learn (for TF-IDF-based keyword extraction)
+  Run the following command to install the necessary packages: !pip install transformers requests beautifulsoup4 scikit-learn
+
+## 4-3. Usage
+1. Clone or Download the Repository (To use this tool, clone the repository to your local machine)
+2. Run the Script
+   RUN THE SCRIPT! The tool will prompt you to enter a URL of the webpage you want to analyze.
+3. The tool will:
+   Summarize the text on the webpage.
+   Extract the top 10 keywords from the content.
+   Allow you to enter custom keywords for filtering the results.
+   Display sentences containing the filtered keywords!
+   
+## 4-4. Reference 
+- **Hugging Face Transformers**: https://huggingface.co/transformers/
+- **BeautifulSoup Documentation**: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- **Scikit-learn Documentation**: https://scikit-learn.org/stable/
+- **TF-IDF Vectorization**: https://en.wikipedia.org/wiki/Tf%E2%80%93idf
+
+## 4-5. License
+This project is licensed under the MIT License - see the LICENSE file for details.
