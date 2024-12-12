@@ -137,6 +137,7 @@ use this command to install
 1. Open chrome://dino/ in your browser and run main.py.
 2. Define the obstacle detection area (ROI) by dragging on the screen, then press Space or Enter to proceed.  ![Image display failed](chromeDino_withOpenCV/setROI.png?raw=true)\
 3. Start the game and enjoy! ![Image display failed](chromeDino_withOpenCV/play_demo.gif?raw=true)\
+   
 ## 3-4 License 
 This project is licensed under the MIT License.
 Feel free to modify!
