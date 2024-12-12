@@ -10,7 +10,7 @@ def capture_screen():
     # Convert from RGB to BGR for OpenCV processing
     screenshot = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
     return screenshot
-
+         
 # ROI selection function
 def select_roi(image):
     # Use OpenCV's selectROI
@@ -63,7 +63,7 @@ def main():
             if detect_obstacle(screen, roi):
                 jump()
 
-            # Set delay
+            # Set delay    
             time.sleep(0.2)  # Wait for 200ms
     except KeyboardInterrupt:
         print("Exiting the game loop.")
